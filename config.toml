@@ -2,7 +2,7 @@
 baseURL = "https://exampleSite.com"
 languageCode = "en-us"
 title = "Agen | Bootstrap Agency Template"
-theme = "agen-hugo"
+
 
 #################################### Plugins ##########################################
 [params.plugins]
