@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseURL = "https://exampleSite.com"
+baseURL = "https://4vfilems.netlify.app/"
 languageCode = "en-us"
 title = "v Films"
 
