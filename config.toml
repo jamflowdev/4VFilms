@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseURL = "https://exampleSite.com"
 languageCode = "en-us"
-title = "Agen | Bootstrap Agency Template"
+title = "v Films"
 
 
 #################################### Plugins ##########################################
@@ -45,7 +45,7 @@ title = "Agen | Bootstrap Agency Template"
     
   [[menu.main]]
   name = "Our Vision"
-  URL = "our-vision"
+  URL = "#"
   weight = 2
   
   [[menu.main]]
@@ -56,26 +56,26 @@ title = "Agen | Bootstrap Agency Template"
     [[menu.main]]
     parent = "Services"
     name = "4V Plus+"
-    URL = "4v-plus"
+    URL = "#"
     
     [[menu.main]]
     parent = "Services"
     name = "4V Films"
-    URL = "4v-films"
+    URL = "#"
   
   [[menu.main]]
   name = "Projects"
-  URL = "projects"
+  URL = "#"
   weight = 4
   
   [[menu.main]]
   name = "Testimonials"
-  URL = "testimonials"
+  URL = "#"
   weight = 5
 
   [[menu.main]]
   name = "Blog"
-  URL = "blog"
+  URL = "#"
   weight = 6
 
   #[[menu.main]]
@@ -134,7 +134,7 @@ title = "Agen | Bootstrap Agency Template"
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/4V-FILMS-LOGO-BLUE.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
