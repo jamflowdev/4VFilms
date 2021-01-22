@@ -1,6 +1,13 @@
 /*  typography */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:300,400,500,600,700&display=swap');
-
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Gilroy-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Gilroy-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Gilroy-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Gilroy-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
 body {
   line-height: 1.2;
   font-family: $primary-font;
@@ -82,4 +89,40 @@ h6, .h6{
 
 .icon-xs{
   font-size: 20px;
+}
+
+.hero-title {
+  font-size: 75px;
+  line-height: 95px;
+}
+.page-subtitle {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.section-title {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 700;
+}
+.big-description {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: normal;
+}
+
+.services-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.services-subtitle {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 500;
+}
+.services-description {
+  font-size: 24px;
+  line-height: 32px;
+  color: $black;
 }
