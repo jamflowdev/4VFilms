@@ -3,18 +3,32 @@ banner:
   bgImage : "images/banner/banner2.jpg"
   title : "Creative Agency"
 
+########################### Vision ##################################
+vision:
+  enable : true
+  title : "Our Vision"
+  subtitle1 : "we are not a standard production company. We are dedicated to creating the greatest quality, creative and compelling video content with a commitment to adding the most value we can to growing brands in this city."
+  subtitle2 : "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
+  # service item comes from 'service.yml'
 ########################### services ##################################
 service:
   enable : true
-  title : "Our Services"
-  subtitle : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat."
+  title : "Services"
+  fourv_films:
+    title: "4V Films"
+    subtitle: "Our standard Video/ Photo Productions"
+    description: "Great for brands who need a high quality, professional Video/Photo Production."
+    link: "#"
+  fourv_plus:
+    title: "4V Plus+"
+    subtitle: "Our monthly Video/Photo content packages"
+    description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
+    link: "#"
   # service item comes from 'service.yml'
   
 ############################ features #################################
 feature:
-  enable : true
+  enable : false
   image : "images/feature.jpg"
   title : "We know What Bait to Use"
   featureItem:
@@ -41,7 +55,7 @@ feature:
 
 ############################# promo video #################################
 promo:
-  enable : true
+  enable : false
   bgImage : "images/backgrounds/about-bg.jpg"
   title : "Who We Are"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
@@ -54,13 +68,13 @@ promo:
 
 ############################## project ####################################
 project:
-  enable : true
+  enable : false
   title : "Our Feature Works"
   # project item comes from 'project.yml'
   
 ################################## call to action ###########################
 cta:
-  enable : true
+  enable : false
   title : "Let's Start With Us!"
   bgImage : "images/backgrounds/cta-bg.jpg"
   content : "Lorem ipsum dolor sit amet, magna habemus ius ad"
@@ -72,13 +86,13 @@ cta:
 
 ############################## pricing ######################################
 pricing:
-  enable : true
+  enable : false
   title : "Our Smart Pricing Table"
   # pricing table comes from 'pricing.yml'
 
 
 ############################## blog ######################################
 blog:
-  enable : true
+  enable : false
   title : "Latest News"
   # blog content comes from `content/blog` folder
