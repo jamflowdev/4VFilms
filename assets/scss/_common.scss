@@ -1,6 +1,7 @@
 body {
   background-color: $body-color;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 ::selection {
@@ -426,9 +427,6 @@ ol{
 .py-50 {
   padding: 50px 0;
 }
-.bg-blue {
-  background-color: $secondary-color;
-}
 .orange-line {
   height: 2px;
   width: 153px;
@@ -442,8 +440,53 @@ ol{
   color: $white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.btn-orange {
+  background-color: $primary-color;
+  border-radius: 0;
+  border: 0;
+  color: $white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  &:hover {
+    color: $black;
+  }
+}
 .navbar-brand {
   img {
     width: 150px;
+  }
+}
+.logo {
+  max-width: 150px;
+}
+
+// footer
+
+footer {
+  .list-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: $primary-color;
+  }
+
+  .list {
+    a {
+      color: $white;;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .social-item {
+    a {
+      font-size: 22px;
+
+      &:hover {
+        color: $white;
+      }
+    }
   }
 }
