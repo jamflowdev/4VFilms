@@ -1,3 +1,7 @@
+hero:
+  title: "Amjad"
+  description: "Amjad"
+  BGImage: "images/project/project-1.jpg"
 ########################### projects ############################
 projects:
   # project item
