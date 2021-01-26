@@ -6,8 +6,21 @@ image: images/blog/post-3.jpg
 bgImage: "images/backgrounds/page-title.jpg"
 description: "this is meta description"
 author: Themefisher
-type : post
 ---
+
+
+Markdown	HTML	Rendered Output
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+- First item
+- Second item
+- Third item
+- Fourth item
+
+My favorite search engine is [Google](https://google.com).
 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et

@@ -6,7 +6,6 @@ image: images/blog/post-1.jpg
 bgImage: "images/backgrounds/page-title.jpg"
 description: "this is meta description"
 author: Themefisher
-type : post
 ---
 
 
