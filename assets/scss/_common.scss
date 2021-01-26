@@ -564,3 +564,15 @@ transition: all .4s;
 .bg-video {
   background-color: #f6eeee;
 }
+.overlay::before {
+  background-color: rgba(0, 0, 0, 0.70);
+}
+
+.hero-description {
+  font-size: 30px;
+  font-weight: 40px;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
