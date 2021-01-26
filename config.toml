@@ -65,7 +65,7 @@ title = "4v Films"
   
   [[menu.main]]
   name = "Projects"
-  URL = "#"
+  URL = "/projects/"
   weight = 4
   
   [[menu.main]]
@@ -75,7 +75,7 @@ title = "4v Films"
 
   [[menu.main]]
   name = "Blog"
-  URL = "#"
+  URL = "/blog/"
   weight = 6
 
   #[[menu.main]]
@@ -140,7 +140,7 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # google map
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+#gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
 mapLongitude = "-0.1622023"
 mapMarker = "images/marker.png"
