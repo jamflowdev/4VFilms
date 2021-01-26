@@ -1,35 +1,16 @@
 {{ define "main" }}
-
-{{ partial "page-title.html" . }}
-
+{{ with .Site.Data.project.hero }}
+  {{ partial "hero.html" . }}
+{{ end }}
 <!-- project -->
-<section>
-  <div class="container-fluid px-0">
-    <div class="row no-gutters shuffle-wrapper">
-      {{ range .Site.Data.project.projects }}
-
-      {{ $column := .column }}
-      {{ if eq $column 1 }}
-      {{ $column = "col-lg-4 col-md-6" }}
-      {{ else if eq $column 2 }}
-      {{ $column = "col-lg-8" }}
-      {{ else }}
-      {{ $column = "col-lg-4 col-md-6" }}
-      {{ end }}
-      <div class="{{$column}} shuffle-item">
-        <div class="project-item">
-          <img src="{{ .image | absURL }}" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            {{ if and ( ne .link "" ) ( ne .link "#" ) }}
-            <a href="{{ .link | safeURL }}" target="_blank" class="text-white h4">{{ .title | markdownify}}</a>
-            <a href="{{ .link | safeURL }}"><i class="ti-link icon-xs text-white"></i></a>
-            {{ else }}
-            <h4 class="text-white">{{ .title | markdownify }}</h4>
-            {{ end }}
-          </div>
-        </div>
+<section class="section project-list bg-secondary">
+  <div class="container">
+    <div class="row">
+      {{ range (where  .Site.RegularPages "Section" "projects") }}
+      <div class="col-lg-6 col-sm-6 my-4 px-4">
+        {{- partial "card.html" . -}}
       </div>
-      {{ end }}
+    {{ end }}
     </div>
   </div>
 </section>
@@ -39,8 +20,8 @@
 {{ partial "cta.html" . }}
 {{ end }}
 
-{{ if .Site.Data.project.clientsLogo.enable }}
+<!-- {{ if .Site.Data.project.clientsLogo.enable }}
 {{ partial "clients-logo.html" . }}
-{{ end }}
+{{ end }} -->
 
 {{ end }}
