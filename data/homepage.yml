@@ -68,15 +68,15 @@ promo:
 
 ############################## project ####################################
 project:
-  enable : false
-  title : "Our Feature Works"
+  enable : true
+  title : "Recent Projects"
   # project item comes from 'project.yml'
   
 ################################## call to action ###########################
 cta:
-  enable : false
-  title : "Let's Start With Us!"
-  bgImage : "images/backgrounds/cta-bg.jpg"
+  enable : true
+  title : "If you’d like to talk to us about a project you can contact Abc on +1 1234-567-890"
+  bgImage : "images/avatar.jpg"
   content : "Lorem ipsum dolor sit amet, magna habemus ius ad"
   button : 
     enable : true

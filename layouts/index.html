@@ -12,7 +12,8 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-sm-8 text-center">
           <h1 class="text-white hero-title">Showreel</h1>
-          <h4 class="page-subtitle text-white">4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen.</h4>
+          <h4 class="page-subtitle text-white  mb-5">4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen.</h4>
+          <a class="nav-link btn btn-orange m-auto" href="#">LET'S TALK</a>
         </div>
       </div>
     </div>
@@ -31,7 +32,7 @@
 {{ end }}
 <!-- /banner -->
 {{ if .Site.Data.homepage.vision.enable }}
-<section class="py-50 bg-blue">
+<section class="py-50 bg-secondary">
   <div class="container">
     <div class="row align-items-center text-white justify-content-center">
       {{ with .Site.Data.homepage.vision }}
@@ -107,10 +108,6 @@
 </section>
 {{ end }}
 
-{{ if .Site.Data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
-
 {{ if .Site.Data.homepage.promo.enable }}
 <!-- promo video -->
 {{ with .Site.Data.homepage.promo }}
@@ -142,44 +139,27 @@
 
 {{ if .Site.Data.homepage.project.enable }}
 <!-- project -->
-<section class="section pb-0">
-  <div class="container-fluid px-0">
+<section class="section  bg-secondary">
+  <div class="container px-0">
     <div class="row">
       {{ with .Site.Data.homepage.project }}
       <div class="col-lg-10 mx-auto text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        {{ if ne .title "" }}
-        <div class="section-border"></div>
-        {{ end }}
+        <h2 class="text-white">{{ .title | markdownify }}</h2>
+        <hr class="orange-line mt-4">
       </div>
       {{ end }}
     </div>
-
-    <div class="row no-gutters shuffle-wrapper">
-      {{ range first 5 .Site.Data.project.projects }}
-
-      {{ $column := .column }}
-      {{ if eq $column 1 }}
-      {{ $column = "col-lg-4 col-md-6" }}
-      {{ else if eq $column 2 }}
-      {{ $column = "col-lg-8" }}
-      {{ else }}
-      {{ $column = "col-lg-4 col-md-6" }}
-      {{ end }}
-      <div class="{{$column}} shuffle-item">
-        <div class="project-item">
-          <img src="{{ .image | absURL }}" alt="project-image" class="img-fluid w-100">
-          <div class="project-hover bg-secondary px-4 py-3">
-            {{ if and ( ne .link "" ) ( ne .link "#" ) }}
-            <a href="{{ .link | safeURL }}" target="_blank" class="text-white h4">{{ .title | markdownify}}</a>
-            <a href="{{ .link | safeURL }}"><i class="ti-link icon-xs text-white"></i></a>
-            {{ else }}
-            <h4 class="text-white">{{ .title | markdownify }}</h4>
-            {{ end }}
-          </div>
+    <div class="row py-4">
+      {{ range (where  .Site.RegularPages "Section" "projects") }}
+        <div class="col-lg-4 col-sm-6 mt-5">
+          {{- partial "card.html" . -}}
         </div>
-      </div>
       {{ end }}
+    </div>
+    <div class="row py-3">
+      <div class="col-12">
+        <a class="d-block mx-auto btn btn-orange" href="#">VIEW MORE</a>
+      </div>
     </div>
   </div>
 </section>
@@ -225,40 +205,90 @@
 <!-- /pricing -->
 {{ end }}
 
-{{ if .Site.Data.homepage.blog.enable }}
-<!-- blog -->
-<section class="section">
+{{ if .Site.Data.homepage.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+
+
+<!-- testimonials -->
+<section class="client section">
   <div class="container">
     <div class="row">
-      {{ with .Site.Data.homepage.blog }}
-      <div class="col-lg-10 mx-auto text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        {{ if ne .title "" }}
-        <div class="section-border"></div>
-        {{ end }}
+      <div class="col-12 mx-auto mb-5 text-center">
+        <h2 class="section-title">Success Stories</h2>
+        <hr class="orange-line mt-4">
       </div>
-      {{ end }}
     </div>
     <div class="row">
-      {{ range $index, $element:= where .Data.Pages "Type" "post" }}
-      {{ if lt $index 3}}
-      <div class="col-lg-4 col-md-6 mb-4">
-        <article class="card">
-          <img src="{{ .Params.Image | absURL }}" alt="post-thumb" class="card-img-top mb-2">
-          <div class="card-body p-0">
-            <time>{{ .PublishDate.Format "January 02, 2006" }}</time>
-            <a href="{{ .Permalink }}"
-              class="h4 card-title d-block my-3 text-dark hover-text-underline">{{ .Title }}</a>
-            <a href="{{ .Permalink }}" class="btn btn-transparent">Read more</a>
-          </div>
-        </article>
+      <div class="col-6  mb-5 ">
+        <video controls width="100%" height="350">
+          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+        </video>
       </div>
-      {{ end }}
-      {{ end }}
+      <div class="col-6  mb-5 ">
+        <video controls width="100%" height="350">
+          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+        </video>
+      </div>
+      <div class="col-6  mb-5 ">
+        <video controls width="100% "height="350">
+          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+        </video>
+      </div>
+      <div class="col-6  mb-5 ">
+        <video controls width="100%"height="350">
+          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
+        </video>
+      </div>
     </div>
   </div>
 </section>
-<!-- /blog -->
-{{ end }}
+<!-- client -->
+<section class="client section bg-primary-light">
+  <div class="container">
+    <div class="col-12 mx-auto mb-5 text-center">
+      <h2 class="section-title">Our Client</h2>
+      <hr class="orange-line mt-4">
+    </div>
+    <div class="row my-5 justify-content-center">
+      <div class="col">
+        <img src="/images/clients/audi.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/live.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/bmw.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/female-leadership.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/bike-buddies.png" alt="">
+      </div>
+    </div>
+    <div class="row my-5 justify-content-center">
+      <div class="col">
+        <img src="/images/clients/glostrup-park-hotel.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/zealand.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/cbs.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/blue-lobster.png" alt="">
+      </div>
+      <div class="col">
+        <img src="/images/clients/carlsberg.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
 {{ end }}
