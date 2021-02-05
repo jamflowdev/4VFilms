@@ -4,7 +4,7 @@
 {{ with .Site.Data.homepage.banner }}
 <section class="banner bg-cover overlay position-relative h-100 d-flex justify-content-center align-items-center"
   data-background="{{ .bgImage | absURL }}">
-  <video playsinline="playsinline" autoplay="autoplay" loop="loop" class="w-100">
+  <video autoplay loop playsinline poster="{{ .bgImage | absURL }}">
     <source src="video/Showreel.mp4" type="video/mp4">
   </video>
   <div class="position-absolute">
@@ -222,25 +222,25 @@
     <div class="row">
       <div class="col-6  mb-5 ">
         <video controls width="100%" height="350">
-          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="http://techslides.com/demos/sample-videos/small.ogv" type=video/ogg>
           <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
         </video>
       </div>
       <div class="col-6  mb-5 ">
         <video controls width="100%" height="350">
-          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="http://techslides.com/demos/sample-videos/small.ogv" type=video/ogg>
           <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
         </video>
       </div>
       <div class="col-6  mb-5 ">
         <video controls width="100% "height="350">
-          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="http://techslides.com/demos/sample-videos/small.ogv" type=video/ogg>
           <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
         </video>
       </div>
       <div class="col-6  mb-5 ">
         <video controls width="100%"height="350">
-          <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+          <source src="http://techslides.com/demos/sample-videos/small.ogv" type=video/ogg>
           <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
         </video>
       </div>
