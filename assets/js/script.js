@@ -3,7 +3,7 @@
 
   // Preloader js    
   $(window).on('load', function () {
-    $('.preloader').fadeOut(100);
+    $('.preloader').delay(1500).fadeOut(100);
   });
 
   // Sticky Menu

@@ -18,7 +18,10 @@ body {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 999;
+  background-image: url("/loader.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1050;
   display: flex;
   align-items: center;
   justify-content: center;
