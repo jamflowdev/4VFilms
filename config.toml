@@ -18,6 +18,8 @@ title = "4v Films"
   URL = "plugins/venobox/venobox.css"
   [[params.plugins.css]]
   URL = "plugins/card-slider/css/style.css"
+  [[params.plugins.css]]
+  URL = "https://unpkg.com/aos@2.3.1/dist/aos.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -36,6 +38,8 @@ title = "4v Films"
   URL = "plugins/counto/counTo.js"
   [[params.plugins.js]]
   URL = "plugins/card-slider/js/card-slider-min.js"
+  [[params.plugins.js]]
+  URL = "https://unpkg.com/aos@2.3.1/dist/aos.js"
   [[params.plugins.js]]
   URL = "plugins/google-map/gmap.js"
 
