@@ -124,7 +124,12 @@
       }
     ]
   });
-
+  $('.slider').slick({
+    centerMode: true,
+    slidesToShow: 1,
+    dots: true,
+    autoplay: true,
+  });
   // testimonial slider
   var containerEl2 = document.querySelector('#slider');
   if (containerEl2) {
