@@ -1,0 +1,33 @@
+.sucess-stories {
+    min-height: 480px;
+    width: 100%;
+    .video {
+        img {
+            height: 480px;
+            width: 100%;
+        }
+    }
+    .queot {
+        background: $secondary-color;
+        height: 480px;
+        padding: 30px;
+        h3 {
+            font-size: 24px;
+            text-align: right;
+        }
+        .q-text {
+            width: 50%;
+            margin: 0 auto;
+            h3 {
+                text-align: center;
+            }
+        }
+    }
+    p {
+        font-weight: bold;
+        color: $primary-color;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}
