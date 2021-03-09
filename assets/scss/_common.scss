@@ -250,6 +250,9 @@ a:hover {
   margin-bottom: 100px !important;
 }
 
+.bg-services{
+  height: 490px;
+}
 .zindex-1 {
   z-index: 1;
 }
@@ -435,6 +438,26 @@ ol{
 .py-50 {
   padding: 50px 0;
 }
+.px-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.px-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.col-cta{
+  height: 600px;
+}
+
+.white-line {
+  display: inline-block;
+  height: 2px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: 50px;
+  background-color: $white;
+}
 .orange-line {
   height: 2px;
   width: 153px;
@@ -533,7 +556,7 @@ transition: all .4s;
   img {
     display: block;
     margin: 0 auto;
-    width: 190px;
+    height: 80px;
   }
 }
 
