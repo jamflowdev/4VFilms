@@ -7,8 +7,8 @@ banner:
 vision:
   enable : true
   title : "Our Vision"
-  subtitle1 : "we are not a standard production company. We are dedicated to creating the greatest quality, creative and compelling video content with a commitment to adding the most value we can to growing brands in this city."
-  subtitle2 : "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
+  subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality, creative and compelling video content with a commitment to adding the most value we can to growing brands in this city."
+  subtitle2 : "Our service transforms brands. 4V films has been built around the instinct to provide thegreatest possible value to our clients. We go the extra mile that most production companies wont."
   # service item comes from 'service.yml'
 ########################### services ##################################
 service:
@@ -18,11 +18,13 @@ service:
     title: "4V Films"
     subtitle: "Our standard Video/ Photo Productions"
     description: "Great for brands who need a high quality, professional Video/Photo Production."
+    imgURL: "/images/backgrounds/services-bg-1.jpg"
     link: "#"
   fourv_plus:
     title: "4V Plus+"
     subtitle: "Our monthly Video/Photo content packages"
     description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
+    imgURL: "/images/backgrounds/services-bg-2.jpg"
     link: "#"
   # service item comes from 'service.yml'
   
@@ -75,12 +77,19 @@ project:
 ################################## call to action ###########################
 cta:
   enable : true
-  title : "If you’d like to talk to us about a project you can contact Abc on +1 1234-567-890"
-  bgImage : "images/avatar.jpg"
-  content : "Lorem ipsum dolor sit amet, magna habemus ius ad"
+  title : "Discover your digital impact score"
+  content : "and build your brand image"
+  title2 : "DIGITAL IMPACT WORKSHOP"
+  content2 : "Secure your spot in our weekly workshop which is FREE for a limited time only."
+  bgImage : "images/project/project-1.jpg"
+  bgImage2 : "images/project/project-2.jpg"
   button : 
     enable : true
-    label : "Let’s talk"
+    label : "TAKE THE IMPACT TEST"
+    link : "contact"
+  button2 : 
+    enable : true
+    label : "SIGN ME UP"
     link : "contact"
 
 
