@@ -1,17 +1,25 @@
 <!-- call to action -->
 {{ with .Site.Data.homepage.cta }}
-<section class="cta section bg-primary-light">
-  <div class="container">
+<section class="cta">
     <div class="row justify-content-center">
-      <div class="col-sm-8">
+      <div class="col-sm-6 px-80 py-50 bg-cover" data-background="{{ .bgImage }}">
         <img src="/images/avatar.jpg" alt="">
-        <h2 class="mt-5">If you’d like to talk to us about a project you can contact Abc on <span><a href="#">+1 1234-567-890</a></span></h2>
+        <h3 class="mt-5 title text-white">{{ .title }}</h3>
+          <h4> {{ .content }} </h4>
         {{ with .button }}
-        <a href="#" class="d-block mt-5 mx-auto btn btn-orange">book your free, first meeting</a>
+        <a href="#" class="d-block mt-5 mx-auto btn btn-orange">TAKE THE IMPACT TEST</a>
+        {{ end }}
+      </div>
+      <div class="col-sm-6 px-80 py-50 bg-cover w-100 d-flex align-items-center" data-background="{{ .bgImage2 }}">
+        <div class="card">
+          <h3 class="mt-5 mb-3 px-3 title text-center">{{ .title2 }}</h3>
+          <h4 class="my-5 px-3 text-center"> {{ .content2 }} </h4>
+        </div>
+        {{ with .button2 }}
+        <a href="#" class="d-block mt-5 ml-auto btn btn-blue">SIGN ME UP</a>
         {{ end }}
       </div>
     </div>
-  </div>
 </section>
 {{ end }}
 <!-- /call to action -->
