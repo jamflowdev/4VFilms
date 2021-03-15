@@ -81,16 +81,14 @@ cta:
   content : "and build your brand image"
   title2 : "DIGITAL IMPACT WORKSHOP"
   content2 : "Secure your spot in our weekly workshop which is FREE for a limited time only."
-  bgImage : "images/project/project-1.jpg"
-  bgImage2 : "images/project/project-2.jpg"
-  button : 
-    enable : true
-    label : "TAKE THE IMPACT TEST"
-    link : "contact"
-  button2 : 
-    enable : true
-    label : "SIGN ME UP"
-    link : "contact"
+  bgImage : "images/backgrounds/cta-bg1.jpg"
+  bgImage2 : "images/backgrounds/cta-bg2.jpg"
+  button: 
+    label: "TAKE THE IMPACT TEST"
+    link: "contact"
+  sign:
+    label: "SIGN ME UP"
+    link: "contact"
 
 
 ############################## pricing ######################################
