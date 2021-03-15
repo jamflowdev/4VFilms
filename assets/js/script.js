@@ -87,13 +87,14 @@
   });
 
   // clients logo slider
-  $('.client-logo-slider').slick({
+  $('.slider').slick({
+    centerMode: true,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    dots: false,
-    arrows: false,
+    dots: true,
+    arrows: true,
     responsive: [{
         breakpoint: 1024,
         settings: {
@@ -124,18 +125,19 @@
       }
     ]
   });
-  $('.slider').slick({
-    centerMode: true,
-    slidesToShow: 1,
-    dots: true,
-    autoplay: true,
-  });
+  
+  // $('.slider').slick({
+  //   centerMode: true,
+  //   slidesToShow: 2,
+  //   dots: true,
+  //   autoplay: true,
+  // });
   // testimonial slider
   var containerEl2 = document.querySelector('#slider');
   if (containerEl2) {
     window.slider = $('#slider').cardSlider({
       slideClass: 'slide',
-      delay: 300,
+      delay: 400,
       transition: 'ease'
     });
   }
