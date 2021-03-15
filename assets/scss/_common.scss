@@ -60,6 +60,14 @@ a:hover {
   outline: 0;
 }
 
+.bg-blur{
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  .content,p,li,ul,h4,h5,h2{
+    color: $white;
+  }
+}
+
 .section {
   padding-top: 110px;
   padding-bottom: 100px;
@@ -100,6 +108,36 @@ a:hover {
 }
 
 /* overlay */
+.overlay2 {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(44, 51, 101, 0.7);
+  &-secondary{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(253, 107, 96, 0.4);
+  }
+  &-primary{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+.service-logo{
+  z-index: 1;
+}
 
 .overlay {
   position: relative;
@@ -187,7 +225,41 @@ a:hover {
 .bg-primary-light {
   background-color: #f6eeee;
 }
+.high-quality-content{
+  .label{
+    border: 2px solid $primary-color;
+    padding: 10px;
+    
+    &-white{
+      border: 2px solid $white;
+      padding: 10px;
+    }
+   }
+}
 
+.price{
+  text-align: center;
+  border-bottom: $secondary-color 1px solid;
+  .strike-through{
+    text-decoration: line-through;
+  }
+}
+/* Vector */
+.vector{
+  width: 200px;
+  height: 230px;
+  background: url(/images/backgrounds/4v-films-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+  background-color: #f6eeee;
+  border-radius: 24px;
+  transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
+  // transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
+}
+.ajayyyy{
+  fill: url("/images/backgrounds/4v-films-bg.jpg");
+}
 .text-primary {
   color: $primary-color !important;
 }
