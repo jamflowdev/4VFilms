@@ -1,4 +1,3 @@
 ---
 title: "Testimonials"
-layout: testimonials
 ---
