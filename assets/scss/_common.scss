@@ -260,6 +260,12 @@ a:hover {
 .ajayyyy{
   fill: url("/images/backgrounds/4v-films-bg.jpg");
 }
+.production-company{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .text-primary {
   color: $primary-color !important;
 }
