@@ -1,65 +1,59 @@
 ################# pricing ###################
 pricingTable:
   # pricing table
-  - title : "Basic"
-    subtitle : "Basic and simple website"
-    price : "30"
+  - title : "Bronze"
+    subtitle : "For brands needing a content boost."
+    regularPrice : "5.675 DKK"
+    discountPrice: "1.979 DKK"
     # service list
     serviceList:
-      - service : "Mobile-Optimized Website"
-      - service : "Powerful Website Metrics"
-      - service : "Free Custom Domain"
-      - service : "24/7 Customer Support"
-      - service : "Fully Integrated E-Cormmerce"
-      - service : "Sell unlimited Product"
-
-    button:
-      label : "Try it now"
-      link : "#"
-
-
+      - service : "Monthly Vision Session"
+      - service : "Up to 4 hours filming"
+      - service : "Videographer"
+      - service : "Cameraman"
+      - service : "Premium camera package"
+      - service : "Audio package"
+      - service : "Selects + Colour correction"
+      - service : "Raw files handed over/uploaded"
+  
   # pricing table
-  - title : "Regular"
-    subtitle : "Basic and simple website"
-    price : "60"
+  - title : "Silver"
+    subtitle : "For brands looking to outsource the complete production process."
+    regularPrice : "8.042 DKK"
+    discountPrice: "3.950 DKK"
     # service list
     serviceList:
-      - service : "Mobile-Optimized Website"
-      - service : "Powerful Website Metrics"
-      - service : "Free Custom Domain"
-      - service : "24/7 Customer Support"
-      - service : "Fully Integrated E-Cormmerce"
-      - service : "Sell unlimited Product"
-
-    button:
-      label : "Try it now"
-      link : "#"
-
+      - service : "Monthly Vision Session"
+      - service : "Up to 4 hours filming"
+      - service : "Videographer OR Photographer"
+      - service : "Production Assistant"
+      - service : "Premium camera package"
+      - service : "Premium Lights package"
+      - service : "Audio package"
+      - service : "Up to 8 hours editing"
+      - service : "Selects, Colour Correction, Music License, Graphics"
+      - service : "Raw files + Final Videos uploaded to online cloud"
+      - service : "Multiple Short Videos or Single Longer Form Video"
+  # pricing table
+  - title : "Golden"
+    subtitle : "For brands who want creative professionals on both the production side and the distribution/social media side"
+    regularPrice : "17.108 DKK"
+    discountPrice: "6.955 DKK"
+    # service list
+    serviceList:
+      - service : "Monthly Vision Session"
+      - service : "Up to 8 hours filming"
+      - service : "Up to 8 hours Photography "
+      - service : "Videographer"
+      - service : "Production Assistant"
+      - service : "Photographer"
+      - service : "Premium camera package"
+      - service : "Premium Lights package"
+      - service : "Audio package"
+      - service : "Up to 16 hours editing"
+      - service : "Selects, Colour Correction, Music License, Motion Graphics"
+      - service : "Raw files + Final Videos uploaded to online cloud"
+      - service : "Multiple Short Videos or Single Longer Form Video"
+      - service : "Social media management"
+      - service : "24/7 online support"
       
-  # pricing table
-  - title : "Gold"
-    subtitle : "Basic and simple website"
-    price : "90"
-    # service list
-    serviceList:
-      - service : "Mobile-Optimized Website"
-      - service : "Powerful Website Metrics"
-      - service : "Free Custom Domain"
-      - service : "24/7 Customer Support"
-      - service : "Fully Integrated E-Cormmerce"
-      - service : "Sell unlimited Product"
-
-    button:
-      label : "Try it now"
-      link : "#"
-
-
-############################## call to action ############################
-cta:
-  enable: true
-  # cta content comes from 'hompage.yml'
-
-#################### clients logo ###############################
-clientsLogo:
-  enable : true
-  # clints logo content comes from 'project.yml'
