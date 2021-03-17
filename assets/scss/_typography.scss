@@ -9,7 +9,7 @@
        url('/fonts/Gilroy-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 body {
-  line-height: 1.2;
+  line-height: 1.5;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
@@ -19,8 +19,8 @@ body {
 p {
   font-weight: 400;
   color: $text-color;
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 18px;
+  line-height: 1.5;
   font-family: $primary-font;
 }
 
@@ -110,7 +110,11 @@ h6, .h6{
   line-height: 46px;
   font-weight: normal;
 }
-
+.card-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
 .services-title {
   font-size: 40px;
   line-height: 50px;
@@ -125,4 +129,28 @@ h6, .h6{
   font-size: 24px;
   line-height: 32px;
   color: $black;
+}
+.cta {
+  .title {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: normal;
+  }
+  .subtitle {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: normal;
+  }
+  .cta-right {
+    .title {
+      font-size: 30px;
+      line-height: 50px;
+      font-weight: normal;
+    }
+    .subtitle {
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: normal;
+    } 
+  }
 }
