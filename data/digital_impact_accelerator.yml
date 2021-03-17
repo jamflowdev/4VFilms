@@ -1,96 +1,112 @@
 hero:
   title: "Amjad"
-  description: "Amjad"
-  BGImage: "images/project/project-1.jpg"
-############################## Banner ###################################
-banner:
-  bgImage : "images/banner/banner2.jpg"
-  title : "Creative Agency"
+  BGImage: "/images/banner/digital-impact-accelerator.jpg"
 
-########################### Vision ##################################
-vision:
-  enable : true
-  title : "Our Vision"
-  subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality, creative and compelling video content with a commitment to adding the most value we can to growing brands in this city."
-  subtitle2 : "Our service transforms brands. 4V films has been built around the instinct to provide thegreatest possible value to our clients. We go the extra mile that most production companies wont."
-  # service item comes from 'service.yml'
-########################### services ##################################
-service:
-  enable : true
-  title : "Services"
-  fourv_films:
-    title: "4V Films"
-    subtitle: "Our standard Video/ Photo Productions"
-    description: "Great for brands who need a high quality, professional Video/Photo Production."
-    imgURL: "/images/backgrounds/services-bg-1.jpg"
-    link: "#"
-  fourv_plus:
-    title: "4V Plus+"
-    subtitle: "Our monthly Video/Photo content packages"
-    description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
-    imgURL: "/images/backgrounds/services-bg-2.jpg"
-    link: "#"
-  # service item comes from 'service.yml'
+########################### Digital Impact ##################################
+DigitalImpact:
+  title: "DIGITAL IMPACT"
+  subtitle1: "Transform your brand, expand your digital assets and become a content leader in your industry."
+  content: "At the centre of every industry, you will find the brands that dominate social media and the online world. As a result, they are highly respected, highly valued and highly paid."
+  secondTitle: "When you have a Digital Impact, significant things happen:"
+  listItems:
+    - "Your brand comes up in conversations – for all the right reasons."
+    - "You attract a lot of opportunities – the right sort."
+    - "You earn more money than most – and it isn’t a struggle."
+    - "You scale rapidly - from small business, to beyond."
+  discription: "The Digital Impact Accelerator is designed around the 4 Pillars of content, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business."
   
-############################ features #################################
-feature:
-  enable : false
-  image : "images/feature.jpg"
-  title : "We know What Bait to Use"
-  featureItem:
-    # feature item
-    - title : "User Experience"
-      icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+############################ The 4 Pillars #################################
+pillars:
+  bgImage : "/images/backgrounds/pillars-bg.jpg"
+  title : "The 4 Pillars"
+  subtitle : "There are 4 Key areas of your business that need consistent content. We call them the 4 P’s…"
+  listItem:
+    - title : "People - This is your"
+      highlighted: "WHO?"
+      content : "Connect with your audience on a human level, creating a personal side to your business and forming deeper engagement."
+    - title : "Purpose - This is your"
+      highlighted: "WHY?"
+      content : "Your audience want to know what makes you different. They want something deeper than just high quality or convenience. You must put your brand values on the stage and leverage a deeper sense of purpose."
+    - title : ""
+      highlighted: ""
+      content : "You must create content around the complete customer journey, the details, the insights etc."
+    - title : "Proof - This is your"
+      highlighted: "HOW?"
+      content : "Your audience will need proof before buying. They may like you, but now they must be presented with facts. Position yourself as the expert, present industry statistics, show them client testimonials. The list goes on."
+  videoURL: ""
+  button:
+    label: "APPLY NOW"
+    url: "#"
       
-    # feature item
-    - title : "Responsive Layout"
-      icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Digital Solutions"
-      icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Bootstrap 4x"
-      icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
+############################## for small brands ####################################
+impactAccelerator:
+  title : "The Digital Impact Accelerator is perfect for small BRANDS who are:"
+  listItems:
+    - "Small, with a team of 8 or less."
+    - "Based in Copenhagen."
+    - "Missing consistent and high-quality content."
+    - "Missing at least 1 of the 4 key pillars mentioned above."
+    - "Ready to transform their online presence and scale rapidly."
 
+############################## WHAT DO I GET? ####################################
 
-############################## project ####################################
-project:
-  enable : true
-  title : "Recent Projects"
-  # project item comes from 'project.yml'
+whatDoIGet:
+  title : "WHAT DO I GET?"
+  subtitle : "Here’s a peak inside our accelerator package:"
+  bgImage: "/images/backgrounds/what-do-i-get-bg.png"
+  listItems:
+    - "Our globally experienced 4V crew, cinematic gear, lighting, and audio all at your disposal."
+    - "Multiple Vision Sessions that will establish direction and creativity of each Pillar."
+    - "Content planning support and script advice."
+    - "Up to 3 Days Filming at your location of choice."
+    - "Up to 7 Days Editing at our HQ."
+    - "20 Videos"
+    - "80 Photos"
+    - "25 Graphics"
+    - "4 Mins B-Roll"
+    - "2 revisions per content piece"
+    - "2–3-week complete turnaround"
+  button:
+    label: "FIND OUT MORE"
+    url: "#"
+
+############################## WHAT DOES IT MEAN? ####################################
+
+whatDoesItMean:
+  title : "WHAT DOES IT MEAN?"
+  listItems:
+    - "At a 4V Films level of quality and experience, you now have enough content to last 6-18 months."
+    - "Imagine a pool of up to 150 high quality, professional content pieces covering the 4 Pillars, ready to be published at your disposal."
+    - "Imagine this content could be produced and delivered to you within a matter of weeks..."
+    - "Imagine being able to dominate social media with your online presence, with valuable, thought provoking content that ticks all the boxes."
+    - "Imagine not having to think about creating amazing content and being able to focus on what you are good at."
   
-################################## call to action ###########################
-cta:
-  enable : true
-  title : "Discover your digital impact score"
-  content : "and build your brand image"
-  title2 : "DIGITAL IMPACT WORKSHOP"
-  content2 : "Secure your spot in our weekly workshop which is FREE for a limited time only."
-  bgImage : "images/backgrounds/cta-bg1.jpg"
-  bgImage2 : "images/backgrounds/cta-bg2.jpg"
-  button: 
-    label: "TAKE THE IMPACT TEST"
-    link: "contact"
-  sign:
-    label: "SIGN ME UP"
-    link: "contact"
+  subtitle:
+    text: "To put it into perspective,"
+    highlighted: "you could post a high-quality piece of content:"
+  
+  recommendedList:
+    title: "Recommended"
+    listItems:
+      - highlited: "14x per week"
+        text: ", for 2 months straight."
+      - highlited: "7x per week"
+        text: ", for 4 months straight."
+  
+  averageList:
+    title: "Average"
+    listItems:
+      - highlited: "4x per week"
+        text: ", for 8 months straight."
 
-
-############################## pricing ######################################
-pricing:
-  enable : false
-  title : "Our Smart Pricing Table"
-  # pricing table comes from 'pricing.yml'
-
-
-############################## blog ######################################
-blog:
-  enable : false
-  title : "Latest News"
-  # blog content comes from `content/blog` folder
+  weakList:
+    title: "Weak"
+    listItems:
+      - highlited: "2x per week"
+        text: ", for 15 months straight."
+      - highlited: "1x per week"
+        text: ", for 35 months straight."
+    
+  button:
+    label: "Transform your online presence <br> Apply Now"
+    url: "#"
