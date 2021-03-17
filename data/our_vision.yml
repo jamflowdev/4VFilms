@@ -1,96 +1,68 @@
 hero:
-  title: "Amjad"
-  description: "Amjad"
-  BGImage: "images/backgrounds/our-vision-bg.jpg"
-############################## Banner ###################################
-banner:
-  bgImage : "images/banner/banner2.jpg"
-  title : "Creative Agency"
+  title: "Our Vision"
+  description: ""
+  BGImage: "/images/backgrounds/our-vision-bg.jpg"
 
 ########################### Vision ##################################
-vision:
-  enable : true
-  title : "Our Vision"
-  subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality, creative and compelling video content with a commitment to adding the most value we can to growing brands in this city."
-  subtitle2 : "Our service transforms brands. 4V films has been built around the instinct to provide thegreatest possible value to our clients. We go the extra mile that most production companies wont."
-  # service item comes from 'service.yml'
-########################### services ##################################
-service:
-  enable : true
-  title : "Services"
-  fourv_films:
-    title: "4V Films"
-    subtitle: "Our standard Video/ Photo Productions"
-    description: "Great for brands who need a high quality, professional Video/Photo Production."
-    imgURL: "/images/backgrounds/services-bg-1.jpg"
-    link: "#"
-  fourv_plus:
-    title: "4V Plus+"
-    subtitle: "Our monthly Video/Photo content packages"
-    description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
-    imgURL: "/images/backgrounds/services-bg-2.jpg"
-    link: "#"
-  # service item comes from 'service.yml'
+History:
+  title: "History"
+  content:
+    - "4V Films was founded in 2019 by Head videographer, Patrick Bates. Patrick's vision for developing the digital assets of small businesses stems from his own experiences within video production."
+    - "After being invited to the Middle East to learn more about how Dubai's leading production house operates, Patrick quickly learnt what it takes to work on a commercial level and to transform brands. Having taken sole responsibility for numerous projects, big and small, with clients such as Audi, Emirates and BMW, Patrick discovered a burning passion that changed his world."
+    - "He moved to Copenhagen in 2018 when offered a spot at Copenhagen Business School. During his bachelor, he was surrounded by many small businesses who all shared one thing in common, they lacked high quality consistent content."
+    - "Realising his unique skillset and passion for creating, 4V Films was born with the sole aim to completely transform small businesses, supply them with a wealth of digital assets, help them grow and provide value to others."
+  imageURL: "/images/team/patrick.jpg"
+  quote: "We want to unlock small businesses potential by creating digital assets so that they can transform, grow and contribute to society with their unique product or service."
+  author: "Patrick Bates"
+
+########################### Vision and Mission ##################################
+VisionAndMission:
+  title: "WE ARE NOT A STANDARD PRODUCTION COMPANY"
+  bgImage: "/images/backgrounds/our-vision-bg-2.jpg"
+  vision:
+    title: "Vision"
+    description:
+    - "To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers."
+    - "We are dedicated to creating the highest quality and compelling video content that will change the way your brand is seen, heard, and consumed."
+    imgURL: "/images/icons/vision-icon.svg"
+  mission:
+    title: "Mission"
+    description:
+    - "People are at the heart of all business. Your employees, your customers, It all comes down to people. Once that simple fact is understood, the key to growing a business and getting your value out there is simple."
+    - "At 4V Films, we pride ourselves on our ability to connect brands to their audience. We want to use our skill and passion to bring real change to brands that need it. Our aim is to transform 150 small businesses by 2022 through the Digital Asset Accelerator."
+    imgURL: "/images/icons/mission-icon.svg"
   
 ############################ features #################################
-feature:
-  enable : false
-  image : "images/feature.jpg"
-  title : "We know What Bait to Use"
-  featureItem:
-    # feature item
-    - title : "User Experience"
-      icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Responsive Layout"
-      icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Digital Solutions"
-      icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Bootstrap 4x"
-      icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-
-
-############################## project ####################################
-project:
-  enable : true
-  title : "Recent Projects"
-  # project item comes from 'project.yml'
+features:
+  title : "WHAT MAKES US"
+  highlighted: "DIFFERENT?"
+  subtitle: "4V films has been built around the instinct to provide the greatest possible value to our clients. We go the extra mile that most production companies wont."
+  insight:
+    title: "Heres a brief insight how:"
+    items:
+      - title: "Free consultation"
+        content: "We will learn about your vision and your values and help guide you in the right direction, no commitment necessary."
+      - title: "Booking system"
+        content: "Smooth and easy, choose your meeting or event that fits your schedule."
+      - title: "4V Model"
+        content: "Our unique model describing the 4V Films process, that relaxes our clients, builds trust and ensures we are always on the same page."
+      - title: "Globally experienced crew"
+        content: "We have worked with over 15+ industries, in the UAE, U.K. and Denmark."
+      - title: "4V Plus"
+        content: "Our exclusive monthly production and SoMe management service. Made highly affordable and convenient for our clients."
+      - title: "Digital Impact Accelerator"
+        content: "Our highly affordable, complete solution for small businesses to transform their online presence, following the 4 Pillars of content."
+      - title: "Delighted Clients"
+        content: "We are rated 5 stars across all our platforms, including Facebook and Google. Our clients experiences words speak for themselves."
+      - title: "Our values"
+        content: "We are extremely passionate about what we do and we apply our values such as Honesty, Trust, Reliability and Quality in every action we take."
   
-################################## call to action ###########################
-cta:
-  enable : true
-  title : "Discover your digital impact score"
-  content : "and build your brand image"
-  title2 : "DIGITAL IMPACT WORKSHOP"
-  content2 : "Secure your spot in our weekly workshop which is FREE for a limited time only."
-  bgImage : "images/backgrounds/cta-bg1.jpg"
-  bgImage2 : "images/backgrounds/cta-bg2.jpg"
-  button: 
-    label: "TAKE THE IMPACT TEST"
-    link: "contact"
-  sign:
-    label: "SIGN ME UP"
-    link: "contact"
+the4VModel:
+  title : "THE 4V MODEL"
+  subtitle: "Based on both our clients feedback and global experience, we developed a model to ensure the highest quality for our clients. It ensures we are both on the same page, creating honesty, trust and reliability."
+  videoURL: ""
 
-
-############################## pricing ######################################
-pricing:
-  enable : false
-  title : "Our Smart Pricing Table"
-  # pricing table comes from 'pricing.yml'
-
-
-############################## blog ######################################
-blog:
-  enable : false
-  title : "Latest News"
-  # blog content comes from `content/blog` folder
+ModelKeys:
+  title : "Our 4V model consists of 4 V’s"
+  diagramURL: "/images/icons/4v-keys.svg"
+  modelURL: "/images/4vmodel.png"
