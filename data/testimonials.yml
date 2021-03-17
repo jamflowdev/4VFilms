@@ -4,3 +4,16 @@ banner:
   bgImage : "images/backgrounds/pillars-bg.jpg"
   title : "Testimonials"
   content: "We believe our results speak for themselves. But don’t just take our word for it, listen to what some of our clients have to say about their experience working with us."
+
+queots:
+  items:
+    - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
+      video: "/video/Showreel.mp4"
+      author:
+        name: "Kamil Makowski"
+        image: "/images/backgrounds/pillars-bg.jpg"
+    - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
+      video: "/video/Showreel.mp4"
+      author:
+        name: "Kamil Makowski"
+        image: "/images/backgrounds/pillars-bg.jpg"

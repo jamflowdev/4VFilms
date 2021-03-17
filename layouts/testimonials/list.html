@@ -14,20 +14,65 @@
   </div>
 </section>
 {{ end }}
+{{ with .Site.Data.testimonials.queots }}
+
 <section>
   <div class="container-fluid">
+    {{ $.Scratch.Set "counter" 0 }}
+
+    {{ range .items }}
+    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+    {{ $counter := $.Scratch.Get `counter`}}
+    {{ $c := mod $counter 2}}
+    {{ if eq $c 1 }}
     <div class="row">
-      <div class="col-sm-6">
-        <div class="testimonials-Blok">
-          
+      <div class="col-sm-6 p-0">
+        <div class="testimonialsBlok">
+          <video controls width="100%">
+            <source src="{{ .video | absURL }}" type=video/mp4>
+          </video>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="testimonials-Blok">
-
+      <div class="col-sm-6 p-0">
+        <div class="testimonialsBlok bgSecondary ">
+          <div class="content">
+            <h3>{{.text}}</h3>
+            <div class="author">
+              <div class="image"> <img src="{{ .author.image| absURL }}" alt="{{.author.name}}"> </div>
+              <div class="name">{{ .author.name }}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    {{ else }}
+    <div class="row">
+      <div class="col-sm-6 p-0">
+        <div class="testimonialsBlok bgPrimary">
+          <div class="content">
+            <h3>{{.text}}</h3>
+            <div class="author">
+              <div class="image"> <img src="{{ .author.image | absURL }}" alt="{{.author.name}}"> </div>
+              <div class="name">{{ .author.name }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 p-0">
+        <div class="testimonialsBlok">
+          <video controls width="100%" >
+            <source src="{{ .video | absURL }}" type=video/mp4>
+          </video>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
   </div>
 </section>
+{{ end }}
+
+{{- partial "book-my-spot.html" . -}}
+
 {{ end }}
