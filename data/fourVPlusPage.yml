@@ -3,6 +3,34 @@ banner:
   video: ''
   URL: ""
   BgImage: "/images/banner/4v-plus-hero-bg.jpg"
+
+###########################  Right Place Section ##################################
+RightPlace:
+  title: "YOU’RE IN THE RIGHT PLACE <br> IF YOU’VE EVER SAID…"
+  icons:
+    - content: "I don't have time to create consistent content"
+      url: "/images/icons/No-Time-Icon.svg"
+    - content: "I don't see a return on investment"
+      url: "/images/icons/ROI.svg"
+    - content: "Video production is expensive"
+      url: "/images/icons/camera-usd.svg"
+
+###########################  Features Section ##################################
+Features:
+  title: "SO, CAN YOU IMAGINE HAVING…"
+  icons:
+    - content: "CONSISTENT CONTENT"
+      url: "/images/icons/CONSISTENT-CONTENT.svg"
+    - content: "A STRUCTURED CONTENT PLAN FOR INCREASING ROI"
+      url: "/images/icons/Calender.svg"
+    - content: "Affordable rates and a variety of packages"
+      url: "/images/icons/Hand-Holding-USD.svg"
+    - content: "An experienced crew with top grade equipment"
+      url: "/images/icons/camera-man.svg"
+  button:
+    label: "GET MORE INFO"
+    url: "#"
+
 ########################### How does it work ##################################
 HowDoesItWork:
   title: "How does it work?"
@@ -20,3 +48,11 @@ HowDoesItWork:
 seeItToBeliveIt:
   title: "SEE IT TO BELIEVE IT"
   subtitle: "A quick idea of the many different types of content these packages can make for you, to elevate your online presence."
+
+WhyFourVPlus:
+  subtitle: "We work with your team to create a customised content plan based around your business, maximising your return on investment goals and deliver as many content pieces from one shoot per month as possible!"
+  showreelTitle: "For a taste of the 4V Films quality, watch our showreel below!"
+  videoURL: "#"
+  button:
+    label: "get more info"
+    url: "#"
