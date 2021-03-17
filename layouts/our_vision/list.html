@@ -10,10 +10,11 @@
   </div>
 </section>
 
+{{ with .Site.Data.our_vision.History }}
 <section class="bg-white py-50">
   <div class="row mb-5">
     <div class="col-12 mx-auto text-center">
-      <h2 class="section-title">HISTORY</h2>
+      <h2 class="section-title">{{ .title }}</h2>
       <hr class="orange-line mt-4">
     </div>
   </div>
@@ -22,112 +23,121 @@
       <div class="row">
         <div class="col-6">
           <div class="text-justify">
-            <p>4V Films was founded in 2019 by Head videographer, Patrick Bates. Patrick's vision for developing the digital assets of small businesses stems from his own experiences within video production.</p>
-            <p>After being invited to the Middle East to learn more about how Dubai's leading production house operates, Patrick quickly learnt what it takes to work on a commercial level and to transform brands. Having taken sole responsibility for numerous projects, big and small, with clients such as Audi, Emirates and BMW, Patrick discovered a burning passion that changed his world.</p>
-            <p>He moved to Copenhagen in 2018 when offered a spot at Copenhagen Business School. During his bachelor, he was surrounded by many small businesses who all shared one thing in common, they lacked high quality consistent content.</p>
-            <p>Realising his unique skillset and passion for creating, 4V Films was born with the sole aim to completely transform small businesses, supply them with a wealth of digital assets, help them grow and provide value to others.</p>
+            {{ range .content }}
+            <p>{{ . }}</p>
+            {{ end }}
           </div>
         </div>
         <div class="col-6">
           <div>
-            <img class="w-100" src="/images/team/patriek.jpg" alt="">
-            <p class="font-weight-bold">"We want to unlock small businesses potential by creating digital assets so that they can transform, grow and contribute to society with their unique product or service" – Patrick Bates</p>
+            <img class="w-100" src="{{ .imageURL | absURL }}" alt="{{ .author }}">
+            <p class="font-weight-bold">"{{ .quote }}" – {{ .author }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="py-50 overlay bg-cover" data-background="/images/backgrounds/our-vision-bg-2.jpg">
+{{ end }}
+
+{{ with .Site.Data.our_vision.VisionAndMission }}
+<section class="py-50 overlay bg-cover" data-background="{{ .bgImage | absURL }}">
   <div class="row mb-5">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">WE ARE NOT A STANDARD PRODUCTION COMPANY</h2>
+      <h2 class="section-title text-white">{{ .title }}</h2>
     </div>
   </div>
   <div class="container">
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="col-sm-8">
-        <h5 class="text-white mb-5">To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers.</h5>
-        <h5 class="text-white">We are dedicated to creating the highest quality and compelling video content that will change the way your brand is seen, heard, and consumed.</h5>
+    <div class="row d-flex mb-5 justify-content-center align-items-center">
+      <div class="col-sm-8 content">
+        {{ $.Scratch.Set "counter" 0 }}
+        {{ range .vision.description }}
+        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+        {{ $counter := $.Scratch.Get `counter`}}
+        <h5 class="text-white {{ if eq $counter 1 }} mb-5 {{ end }}">{{ . }}</h5>
+        {{ end }}
       </div>
       <div class="col-sm-4 text-center">
-        <h1 class="text-white production-company">Vision</h1>
-        <svg width="240" height="340" viewBox="0 0 240 340" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 340H121.684L240 170.2V169.8L121.684 0H0L125.053 170L0 340Z" fill="#FD6B60"/>
-          </svg>
+        <h1 class="text-white production-company">{{ .vision.title }}</h1>
+        <img src="{{ .vision.imgURL | absURL }}" alt="{{ .vision.title }}">
       </div>
     </div>
     <div class="row d-flex justify-content-center align-items-center">
       <div class="col-sm-4 text-center">
-        <h1 class="text-white production-company">Mission</h1>
-        <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M300 98.75H201.25V0H98.75V98.75H0V201.429H98.75V300H201.429V201.25H300V98.75Z" fill="#FD6B60"/>
-        </svg>          
+        <h1 class="text-white production-company">{{ .mission.title }}</h1>
+        <img src="{{ .mission.imgURL | absURL }}" alt="{{ .mission.title }}">
       </div>
-      <div class="col-sm-8">
-        <h5 class="text-white mb-5">To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers.</h5>
-        <h5 class="text-white">We are dedicated to creating the highest quality and compelling video content that will change the way your brand is seen, heard, and consumed.</h5>
+      <div class="col-sm-8 content">
+        {{ $.Scratch.Set "counter" 0 }}
+        {{ range .mission.description }}
+        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+        {{ $counter := $.Scratch.Get `counter`}}
+        <h5 class="text-white {{ if eq $counter 1 }} mb-5 {{ end }}">{{ . }}</h5>
+        {{ end }}
       </div>
     </div>
   </div>
 </section>
+{{ end }}
 
+{{ with .Site.Data.our_vision.features }}
 <section class="content py-50 bg-secondary">
   <div class="container">
-    <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">What makes us <span class="text-primary"> different?</span></h2>
+    <div class="col-lg-12 mx-auto my-0 text-center">
+      <h2 class="section-title text-white">{{ .title }} <span class="text-primary"> {{ .highlighted }}</span></h2>
       <hr class="orange-line mt-4">
-      <h4 class="mt-5 mb-3 text-white text-center">4V films has been built around the instinct to provide the greatest possible value to our clients. We go the extra mile that most production companies wont.</h4>
+      <h4 class="mt-5 mb-3 text-white text-center">{{ .subtitle }}</h4>
       <hr class="white-line mt-4">
     </div>
-    <div class="container">
-      
+    <div class="row my-0 py-0">
+      <div class="col-lg-12 my-0 py-0">
+        <h4 class="mt-5 mb-3 text-white text-center">{{ .insight.title }}</h4>
+        <ul class="list mt-5 mb-5">
+          {{ range .insight.items }}
+          <li class="list-item mb-3 text-white"><span class="text-primary">{{ .title }}</span> – {{ .content }}</li>
+          {{ end }}
+        </ul>
+      </div>
     </div>
-    <ul class="list mt-5 mb-5">
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-      <li class="list-item text-white"><span class="text-primary">Free consultation</span>– We will learn about your vision and your values and help guide you in the right direction, no commitment necessary.</li>
-    </ul>
   </div>
 </section>
+{{ end }}
 
+{{ with .Site.Data.our_vision.the4VModel }}
 <section class="content 4v-model py-50 bg-white">
-  <div class="container">
+  <div class="container my-0 p-0">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title">the 4v model</h2>
+      <h2 class="section-title">{{ .title }}</h2>
         <hr class="orange-line mt-4">
     </div>
-    <div class="row">
+    <div class="row my-0 p-0">
       <div class="col-lg-12 text-center">
-        <h5 class="my-5">Based on both our clients feedback and global experience, we developed a model to ensure the highest quality for our clients. It ensures we are both on the same page, creating honesty, trust and reliability.</p>
+        <h5 class="mt-5">{{ .subtitle }}</h5>
       </div>
-      <div class="col-lg-12">
-        <div class="video bg-cover py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column">
-          <svg class="my-5" width="196" height="130" viewBox="0 0 196 130" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M141.895 46.5637V83.5091L195.434 126.927V3.5091L141.895 46.5637ZM111.174 0.381836H16.3744C7.67959 0.381836 0.565674 10.2 0.565674 22.2V107.8C0.565674 119.8 7.67959 129.618 16.3744 129.618H111.174C119.869 129.618 126.983 119.8 126.983 107.8V22.2C126.983 10.2 119.869 0.381836 111.174 0.381836Z" fill="#EB5757"/>
-          </svg>
+      <div class="col-lg-12 my-0 p-0">
+        <div class="video justify-content-bottom align-items-center text-center d-flex flex-column">
+          <video controls="" width="100%" height="350">
+            <source src="{{ .videoURL | absURL }}" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
 
+{{ with .Site.Data.our_vision.ModelKeys }}
 <section class="content py-50 bg-secondary">
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">How does it work?</h2>
+      <h2 class="section-title text-white">{{ .title }}</h2>
       <hr class="orange-line mt-4">
     </div>
     <div class="row">
       <div class="col-lg-12 header-image text-center mt-5">
-        <img class="" src="/images/4v-keys.png" alt="">
+        <img class="" src="{{ .diagramURL | absURL }}" alt="">
       </div>
-      <div class="col-7 w-100 bg-cover" data-background="/images/4vmodel.png">
+      <div class="col-7 w-100 bg-cover" data-background="{{ .modelURL | absURL }}">
         
       </div>
       <div class="col-5 py-50">
@@ -141,6 +151,10 @@
     </div>
   </div>
 </section>
+{{ end }}
+
+
+{{- partial "cta.html" . -}}
 
 <!-- testimonials -->
 <section class="client section">
@@ -223,20 +237,8 @@
     </div>
   </div>
 </section>
-<section class="content py-50 bg-white">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-9 mx-auto my-0 p-0">
-        <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column">
-          <h4 class="text-white">Secure my spot for a <span class="text-primary"> FREE</span> consultation</h4>
-          <h5 class="text-white">(Valued at 750 DKK)</h5>
-          <h5 class="text-white">Click below - limited spaces available</h5>
-          <a href="#" class="btn mt-5 mb-0 btn-orange text-center">BOOK MY SPOT</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+{{- partial "book-my-spot.html" . -}}
 
 
 {{ end }}
