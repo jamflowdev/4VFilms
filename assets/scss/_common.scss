@@ -807,3 +807,33 @@ main .list {
     }
   }
 }
+
+.rightPlace {
+  img {
+    width: 150px;
+    height: 130px;
+  }
+  h4 {
+    margin-top: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    @include tablet {
+      font-size: 20px;
+    }
+  }
+}
+.features {
+  h4 {
+    margin-top: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    @include tablet {
+      font-size: 20px;
+    }
+  }
+}
+.howDoesItWork {
+  img {
+    max-width: unset !important;
+  }
+}
