@@ -245,10 +245,12 @@ svg {
   .label{
     border: 2px solid $primary-color;
     padding: 10px;
+    margin-left: 20px;
     
     &-white{
       border: 2px solid $white;
       padding: 10px;
+      margin-left: 20px;
     }
    }
 }
