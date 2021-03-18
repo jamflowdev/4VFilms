@@ -1,5 +1,5 @@
 {{ define "main" }}
-<!-- digital_impact -->
+<!-- Hero -->
 <section class="page-title overlay bg-cover" data-background="{{ .Params.BgImage | absURL}}">
   <div class="container">
     <div class="row">
@@ -9,173 +9,173 @@
     </div>
   </div>
 </section>
+
+<!-- digital_impact -->
+{{ with .Site.Data.digital_impact_accelerator.DigitalImpact }}
 <section class="content digital-impact py-50 bg-secondary">
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">DIGITAL IMPACT</h2>
+      <h2 class="section-title text-white">{{ .title }}</h2>
       <hr class="orange-line mt-4">
     </div>
     <div class="col-lg-12 p-0 mt-5">
-      <h5 class="mb-3 text-white">Transform your brand, expand your digital assets and become a content leader in your industry.</h5>
-      <p class="text-white">At the centre of every industry, you will find the brands that dominate social media and the online world. As a result, they are highly respected, highly valued and highly paid.</p>
+      <h5 class="mb-3 text-white">{{ .subtitle }}</h5>
+      <p class="text-white">{{ .content }}</p>
     </div>
     
-    <h4 class="mt-5 mb-3 text-white">When you have a Digital Impact, significant things happen:</h4>
+    <h4 class="mt-5 mb-3 text-white">{{ .secondTitle }}</h4>
     <ul class="list text-white">
-      <li class="list-item text-white">Your brand comes up in conversations – for all the right reasons.</li>
-      <li class="list-item text-white">You attract a lot of opportunities – the right sort.</li>
-      <li class="list-item text-white">You earn more money than most – and it isn’t a struggle.</li>
-      <li class="list-item text-white">You scale rapidly - from small business, to beyond.</li>
+      {{ range .listItems }}
+      <li class="list-item text-white">{{ . }}</li>
+      {{ end }}
     </ul>
-    <p class="mt-5 text-white">The Digital Impact Accelerator is designed around the 4 Pillars of content, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business.</p>
+    <p class="mt-5 text-white">{{ .discription }}</p>
   </div>
 </section>
-<section class="pillars py-50 overlay bg-cover" data-background="/images/backgrounds/pillars-bg.jpg">
+{{ end }}
+
+<!-- 4 Pillars -->
+{{ with .Site.Data.digital_impact_accelerator.pillars }}
+<section class="pillars py-50 overlay bg-cover" data-background="{{ .bgImage | absURL }}">
   <div class="row">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">The 4 Pillars</h2>
+      <h2 class="section-title text-white">{{ .title }}</h2>
       <hr class="orange-line mt-4">
-      <h4 class="mt-5 mb-3 text-white">There are 4 Key areas of your business that need consistent content. We call them the 4 P’s…</h4>
+      <h4 class="mt-5 mb-3 text-white">{{ .subtitle }}</h4>
     </div>
   </div>
   <div class="row">
     <div class="container">
       <div class="row">
         <div class="col-sm-7">
+          {{ range .listItem }}
           <div class="pillar-keys content">
-            <h5 class="text-white pillar-title">People - This is your <span class="text-primary"> 'WHO?'</span>.</h5>
+            <h5 class="text-white pillar-title">{{ .title }} <span class="text-primary"> '{{ .highlighted }}'</span>.</h5>
             <ul class="list">
-              <li class="text-white">Connect with your audience on a human level, creating a personal side to your business and forming deeper engagement.</li>
+              <li class="text-white">{{ .content }}</li>
             </ul>
           </div>
-          <div class="pillar-keys content">
-            <h5 class="text-white pillar-title">People - This is your <span class="text-primary"> 'WHO?'</span>.</h5>
-            <ul class="list">
-              <li class="text-white">Your audience want to know what makes you different. They want something deeper than just high quality or convenience. You must put your brand values on the stage and leverage a deeper sense of purpose.</li>
-            </ul>
-          </div>
-          <div class="pillar-keys content">
-            <h5 class="text-white pillar-title">People - This is your <span class="text-primary"> 'WHO?'</span>.</h5>
-            <ul class="list">
-              <li class="text-white">Your brand comes up in conversations – for all the right reasons.</li>
-            </ul>
-          </div>
-          <div class="pillar-keys content">
-            <h5 class="text-white pillar-title">People - This is your <span class="text-primary"> 'WHO?'</span>.</h5>
-            <ul class="list">
-              <li class="text-white">Your brand comes up in conversations – for all the right reasons.</li>
-            </ul>
-          </div>
+          {{ end }}
         </div>
         <div class="col-sm-5 p-0 text-center">
-          <div class="video">
-            <img class="w-100" src="/images/backgrounds/Background-Video.png" alt="" >
-          </div>
-          <a href="#" class="mt-4 d-block mx-auto btn btn-orange">APPLY NOW</a>
+          <video controls="" width="100%">
+            <source src="{{ .videoURL | absURL }}" type="video/mp4">
+          </video>
+          <a href="{{ .button.url }}" class="mt-4 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
+
+<!-- for small brands -->
+{{ with .Site.Data.digital_impact_accelerator.impactAccelerator }}
 <section class="bg-white py-50">
   <div class="container">
     <div class="content">
-      <h4 class="text-center mb-5">THE DIGITAL IMPACT ACCELERATOR IS PERFECT FOR SMALL BRANDS WHO ARE:</h4>
+      <h4 class="text-center mb-5">{{ .title }}</h4>
       <ul class="list">
-        <li class="list-item mb-4">Your brand comes up in conversations – for all the right reasons.</li>
-        <li class="list-item mb-4">You attract a lot of opportunities – the right sort.</li>
-        <li class="list-item mb-4">You earn more money than most – and it isn’t a struggle.</li>
-        <li class="list-item mb-4">You scale rapidly - from small business, to beyond.</li>
+        {{ range .listItems }}
+        <li class="list-item mb-4">{{ . }}</li>
+        {{ end }}
       </ul>
     </div>
   </div>
 </section>
-<section class="overlay bg-cover" data-background="/images/backgrounds/what-do-i-get-bg.png">
+{{ end }}
+
+<!-- WHAT DO I GET? -->
+{{ with .Site.Data.digital_impact_accelerator.whatDoIGet }}
+<section class="overlay bg-cover" data-background="{{ .bgImage | absURL }}">
   <div class="bg-blur py-50">
     <div class="row m-5">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title text-white">WHAT DO I GET?</h2>
+        <h2 class="section-title text-white">{{ .title }}</h2>
         <hr class="orange-line mt-4">
       </div>
     </div>
     <div class="container">
       <div class="col-lg-12 content">
-        <h5 class="title mb-5">Here’s a peak inside our accelerator package:</h5>
+        <h5 class="title mb-5">{{ .subtitle }}</h5>
         <ul class="list ml-5">
-          <li class="list-item mb-4">Your brand comes up in conversations – for all the right reasons.</li>
-          <li class="list-item mb-4">You attract a lot of opportunities – the right sort.</li>
-          <li class="list-item mb-4">You earn more money than most – and it isn’t a struggle.</li>
-          <li class="list-item mb-4">You scale rapidly - from small business, to beyond.</li>
-          <li class="list-item mb-4">Your brand comes up in conversations – for all the right reasons.</li>
-          <li class="list-item mb-4">You attract a lot of opportunities – the right sort.</li>
-          <li class="list-item mb-4">You earn more money than most – and it isn’t a struggle.</li>
-          <li class="list-item mb-4">You scale rapidly - from small business, to beyond.</li>
+          {{ range .listItems }}
+          <li class="list-item mb-4">{{ . }}</li>
+          {{ end }}
         </ul>
+        <div class="text-center">
+          <a href="{{ .button.url }}" class="mt-5 di mx-auto btn btn-orange">{{ .button.label }}</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
 
+<!-- WHAT DOES IT MEAN? -->
+{{ with .Site.Data.digital_impact_accelerator.whatDoesItMean }}
 <section class="content py-50 bg-secondary">
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">WHAT DOES IT MEAN?</h2>
+      <h2 class="section-title text-white">{{ .title }}</h2>
       <hr class="orange-line mt-4">
     </div>
     <ul class="list mt-5 mb-5">
-      <li class="list-item text-white">At a 4V Films level of quality and experience, you now have enough content to last 6-18 months.</li>
-      <li class="list-item text-white">Imagine a pool of up to 150 high quality, professional content pieces covering the 4 Pillars, ready to be published at your disposal</li>
-      <li class="list-item text-white">Imagine this content could be produced and delivered to you within a matter of weeks...</li>
-      <li class="list-item text-white">You scale rapidly - from small business, to beyond.</li>
-      <li class="list-item text-white">Imagine being able to dominate social media with your online presence, with valuable, thought provoking content that ticks all the boxes.</li>
-      <li class="list-item text-white">Imagine not having to think about creating amazing content and being able to focus on what you are good at.</li>
+      {{ range .listItems }}
+      <li class="list-item text-white">{{ . }}</li>
+      {{ end }}
     </ul>
     <div class="high-quality-content">
-      <h4 class="mt-5 mb-3 text-white">To put it into perspective, you could post a high-quality piece of content:</h4>
+      <h4 class="mt-5 mb-3 text-white font-weight-normal">{{ .subtitle.text }} <span class="text-white">{{ .subtitle.highlighted }}</span></h4>
       <ul class="list mt-5 mb-5">
         <div class="col-lg-12 d-flex flex-row justify-content-left align-items-center">
           <div class="col-4 mb-0">
-            <li class="list-item mb-4 text-white"> <strong class="text-primary">14x per week</strong>, for 2 months straight.</li>
-            <li class="list-item mb-4 text-white"> <strong class="text-primary">7x per week</strong>, for 4 months straight.</li>
+            {{ range .recommendedList.listItems }}
+            <li class="list-item mb-4 text-white"> <strong class="text-primary">{{ .highlited }}</strong>{{ .text }}</li>
+            {{ end }}
           </div>
           <div class="col-3 d-flex m-0 p-0 justify-content-left align-items-center">
             <svg width="20" height="70" viewBox="0 0 20 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 69.9207L0 60.4765C1.93772 60.7303 3.34487 60.5272 4.22145 59.8672C5.14418 59.2071 5.60554 57.8362 5.60554 55.7544L5.60554 44.4823C5.60554 39.8617 6.98962 36.6883 9.75779 34.9619C6.98962 33.2863 5.60554 30.1383 5.60554 25.5177L5.60554 14.2456C5.60554 12.1638 5.14418 10.7929 4.22145 10.1328C3.34487 9.47275 1.93772 9.26965 0 9.52353L0 0.0793361C9.68858 -0.682292 14.5329 4.03981 14.5329 14.2456V25.5177C14.5329 27.5995 14.9712 28.9451 15.8478 29.5544C16.7243 30.1637 18.1084 30.3921 20 30.2398V39.7602C18.1084 39.6078 16.7243 39.8363 15.8478 40.4456C14.9712 41.0549 14.5329 42.4005 14.5329 44.4823L14.5329 55.7544C14.5329 65.9602 9.68858 70.6823 0 69.9207Z" fill="white"/>
             </svg>
-            <strong class="label text-primary ml-5">Recommended</strong>
+            <strong class="label text-primary ml-5">{{ .recommendedList.title }}</strong>
           </div>
         </div>
         <div class="col-lg-12 d-flex flex-row justify-content-left align-items-center">
           <div class="col-4">
-            <li class="list-item text-white m-0 pb-0"> <strong class="text-white">4x per week</strong>, for 8 months straight.</li>
+            {{ range .averageList.listItems }}
+            <li class="list-item m-0 pb-0 text-white"> <strong class="text-primary">{{ .highlited }}</strong>{{ .text }}</li>
+            {{ end }}
           </div>
           <div class="col-3 d-flex m-0 p-0 justify-content-left align-items-center">
             <svg width="20" height="70" viewBox="0 0 20 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 69.9207L0 60.4765C1.93772 60.7303 3.34487 60.5272 4.22145 59.8672C5.14418 59.2071 5.60554 57.8362 5.60554 55.7544L5.60554 44.4823C5.60554 39.8617 6.98962 36.6883 9.75779 34.9619C6.98962 33.2863 5.60554 30.1383 5.60554 25.5177L5.60554 14.2456C5.60554 12.1638 5.14418 10.7929 4.22145 10.1328C3.34487 9.47275 1.93772 9.26965 0 9.52353L0 0.0793361C9.68858 -0.682292 14.5329 4.03981 14.5329 14.2456V25.5177C14.5329 27.5995 14.9712 28.9451 15.8478 29.5544C16.7243 30.1637 18.1084 30.3921 20 30.2398V39.7602C18.1084 39.6078 16.7243 39.8363 15.8478 40.4456C14.9712 41.0549 14.5329 42.4005 14.5329 44.4823L14.5329 55.7544C14.5329 65.9602 9.68858 70.6823 0 69.9207Z" fill="white"/>
             </svg>
-            <strong class="label-white text-white ml-5">Average</strong>
+            <strong class="label-white text-white ml-5">{{ .averageList.title }}</strong>
           </div>
         </div>
         <div class="col-lg-12 d-flex flex-row justify-content-left align-items-center">
           <div class="col-4 mb-0">
-            <li class="list-item text-white"> <strong class="text-white">2x per week</strong>, for 15 months straight.</li>
-            <li class="list-item text-white"> <strong class="text-white">1x per week</strong>, for 35 months straight.</li>
+            {{ range .weakList.listItems }}
+            <li class="list-item mb-4 text-white"> <strong class="text-primary">{{ .highlited }}</strong>{{ .text }}</li>
+            {{ end }}
           </div>
           <div class="col-3 d-flex m-0 p-0 justify-content-left align-items-center">
             <svg width="20" height="70" viewBox="0 0 20 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 69.9207L0 60.4765C1.93772 60.7303 3.34487 60.5272 4.22145 59.8672C5.14418 59.2071 5.60554 57.8362 5.60554 55.7544L5.60554 44.4823C5.60554 39.8617 6.98962 36.6883 9.75779 34.9619C6.98962 33.2863 5.60554 30.1383 5.60554 25.5177L5.60554 14.2456C5.60554 12.1638 5.14418 10.7929 4.22145 10.1328C3.34487 9.47275 1.93772 9.26965 0 9.52353L0 0.0793361C9.68858 -0.682292 14.5329 4.03981 14.5329 14.2456V25.5177C14.5329 27.5995 14.9712 28.9451 15.8478 29.5544C16.7243 30.1637 18.1084 30.3921 20 30.2398V39.7602C18.1084 39.6078 16.7243 39.8363 15.8478 40.4456C14.9712 41.0549 14.5329 42.4005 14.5329 44.4823L14.5329 55.7544C14.5329 65.9602 9.68858 70.6823 0 69.9207Z" fill="white"/>
             </svg>
-            <strong class="label-white text-white ml-5">Weak</strong>
+            <strong class="label-white text-white ml-5">{{ .weakList.title }}</strong>
           </div>
         </div>
       </ul>
-      <h4 class="mt-5 mb-3 text-white">Once you are In this position, you will have a Digital Impact.</h4>
+      <h4 class="mt-5 mb-3 text-white">{{ .bottomDiscription }}</h4>
     </div>
     <center>
-      <a href="#" class="mt-5 btn btn-orange">Transform your online presence <br> Apply Now</a>
+      <a href="{{ .button.url }}" class="mt-5 btn btn-orange">{{ .button.label | safeHTML }}</a>
     </center>
   </div>
 </section>
+{{ end }}
 
 <!-- testimonials -->
 <section class="client section">
@@ -258,6 +258,5 @@
     </div>
   </div>
 </section>
-
 
 {{ end }}

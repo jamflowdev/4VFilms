@@ -5,7 +5,7 @@ hero:
 ########################### Digital Impact ##################################
 DigitalImpact:
   title: "DIGITAL IMPACT"
-  subtitle1: "Transform your brand, expand your digital assets and become a content leader in your industry."
+  subtitle: "Transform your brand, expand your digital assets and become a content leader in your industry."
   content: "At the centre of every industry, you will find the brands that dominate social media and the online world. As a result, they are highly respected, highly valued and highly paid."
   secondTitle: "When you have a Digital Impact, significant things happen:"
   listItems:
@@ -27,13 +27,13 @@ pillars:
     - title : "Purpose - This is your"
       highlighted: "WHY?"
       content : "Your audience want to know what makes you different. They want something deeper than just high quality or convenience. You must put your brand values on the stage and leverage a deeper sense of purpose."
-    - title : ""
-      highlighted: ""
+    - title : "Product - This is your"
+      highlighted: "WHAT?"
       content : "You must create content around the complete customer journey, the details, the insights etc."
     - title : "Proof - This is your"
       highlighted: "HOW?"
       content : "Your audience will need proof before buying. They may like you, but now they must be presented with facts. Position yourself as the expert, present industry statistics, show them client testimonials. The list goes on."
-  videoURL: ""
+  videoURL: "http://localhost:1313/video/Showreel.mp4"
   button:
     label: "APPLY NOW"
     url: "#"
@@ -106,7 +106,7 @@ whatDoesItMean:
         text: ", for 15 months straight."
       - highlited: "1x per week"
         text: ", for 35 months straight."
-    
+  bottomDiscription: "Once you are In this position, you will have a Digital Impact."
   button:
     label: "Transform your online presence <br> Apply Now"
     url: "#"
