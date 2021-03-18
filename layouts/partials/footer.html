@@ -4,20 +4,20 @@
       <div class="row justify-content-center py-5">
           <div class="col-12">
               <div class="row ">
-                  <div class="col-xl-6 col-md-4 col-sm-4 col-12 mx-auto a">
+                  <div class="col-xl-6 col-md-5 col-sm-8 col-12 mx-auto a">
                     <img class="logo" src="{{ .Site.Params.logo | absURL }}" alt="{{.Site.Title}}">
                     <div>
                       <p class="mt-4 text-white">Frederiksberg Bredegade 13B,<br>København 2000,<br>Danmark</p>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                  <div class="col-xl-2 col-md-2 col-sm-4 col-12">
                       <h6 class="mb-3 mb-lg-4 list-title">Services</h6>
                       <ul class="list-unstyled list">
                           <li class="mb-4"><a href="#">4V Films</a></li>
                           <li class="mb-4"><a href="#">4V Plus+</a></li>
                       </ul>
                   </div>
-                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                  <div class="col-xl-2 col-md-2 col-sm-8 col-12">
                       <h6 class="mb-3 mb-lg-4 list-title mt-sm-0 mt-5">About</h6>
                       <ul class="list-unstyled list">
                         <li class="mb-4"><a href="#">Our vision</a></li>
@@ -26,7 +26,7 @@
                         <li class="mb-4"><a href="#">Clients</a></li>
                       </ul>
                   </div>
-                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                  <div class="col-xl-2 col-md-3 col-sm-4 col-12">
                       <h6 class="mb-3 mb-lg-4 mt-sm-0 list-title mt-5">Contact Us</h6>
                       <ul class="list-unstyled list">
                         <li class="mb-4"><a href="#">+45 20 66 69 15</a></li>
@@ -34,13 +34,13 @@
                       </ul>
                   </div>
               </div>
-              <div class="row mt-5">
-                  <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
-                    <p>
+              <div class="row mt-5 mt-sm-0">
+                  <div class="col-xl-8 col-md-6 col-sm-5 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end mt-sm-0">
+                    <p class="copy-right">
                       <span>&#174;</span> Copyright {{ dateFormat "2006" now }} 4V Films All rights reserved.
                     </p>
                   </div>
-                  <div class="col-xl-4 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                  <div class="col-xl-4 col-md-6 col-sm-7 col-auto order-2 align-self-end mt-3 mt-sm-0">
                       <!-- <h6 class="text-muted bold-text"><b>RISHABH SHEKHAR</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> rishab@gmail.com</small> -->
                       <ul class="list-inline text-md-right text-center social-item">
                         {{ range .Site.Params.social }}
