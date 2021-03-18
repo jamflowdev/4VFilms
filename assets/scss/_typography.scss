@@ -30,6 +30,12 @@ p {
 
 .display-1{
   font-size: 100px;
+  @include desktop {
+    font-size: 70px;
+  }
+  @include tablet {
+    font-size: 60px;
+  }
   @include mobile {
     font-size: 50px;
   }
@@ -39,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $secondary-font;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 h1, .h1{
@@ -94,52 +100,103 @@ h6, .h6{
 .hero-title {
   font-size: 75px;
   line-height: 95px;
+  @include mobile {
+    font-size: 50px;
+    line-height: 65px;
+  }
 }
 .page-subtitle {
   font-size: 40px;
   line-height: 50px;
   font-weight: 500;
+  @include mobile {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
 .section-title {
   font-size: 50px;
   line-height: 65px;
   font-weight: 700;
+  @include desktop {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @include desktop {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  @include mobile {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }
 .big-description {
   font-size: 32px;
-  line-height: 46px;
+  line-height: 1.5;
   font-weight: normal;
+  @include tablet {
+    font-size: 24px;
+    text-align: left;
+  }
 }
 .card-title {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-weight: 700;
+  @include tablet {
+    font-size: 22px;
+  }
 }
 .services-title {
   font-size: 40px;
-  line-height: 50px;
+  line-height: 1.5;
   font-weight: 700;
+  @include tablet {
+    font-size: 30px;
+  }
 }
 .services-subtitle {
   font-size: 30px;
-  line-height: 48px;
+  line-height: 1.5;
   font-weight: 500;
+  @include tablet {
+    font-size: 24px;
+  }
 }
 .services-description {
   font-size: 24px;
-  line-height: 32px;
+  line-height: 1.5;
   color: $black;
+  @include tablet {
+    font-size: 20px;
+  }
 }
 .cta {
   .title {
     font-size: 50px;
-    line-height: 70px;
+    line-height: 1.5;
     font-weight: normal;
+    @include desktop {
+      font-size: 42px;
+    }
+    @include tablet {
+      font-size: 36px;
+    }
+    @include mobile {
+      font-size: 36px;
+    }
   }
   .subtitle {
     font-size: 40px;
-    line-height: 55px;
+    line-height: 1.5;
     font-weight: normal;
+    @include desktop {
+      font-size: 30px;
+    }
+    @include tablet {
+      font-size: 26px;
+    }
   }
   .cta-right {
     .title {
@@ -153,4 +210,7 @@ h6, .h6{
       font-weight: normal;
     } 
   }
+}
+.copy-right {
+  font-size: 16px
 }

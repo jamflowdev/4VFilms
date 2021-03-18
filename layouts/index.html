@@ -9,7 +9,7 @@
   <div class="position-absolute">
     <div class="container">
       <div class="row align-items-center justify-content-center">
-        <div class="col-sm-8 text-center">
+        <div class="col-md-8 col-sm-12 text-center">
           <h1 class="text-white hero-title">Showreel</h1>
           <h4 class="page-subtitle text-white  mb-5">4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen.</h4>
           <a class="nav-link btn btn-orange m-auto" href="#">LET'S TALK</a>
@@ -82,7 +82,7 @@
           
       </div>
           
-        <div class="col-sm-6 px-50">
+        <div class="col-sm-6 pt-sm-50 px-50">
           <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
           <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
           <p class="services-description mb-4">{{ .description | markdownify }}</p>
@@ -128,24 +128,6 @@
 <!-- /service -->
 {{ end }}
 
-{{ if .Site.Data.homepage.feature.enable }}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title">Recent Projects</h2>
-        <hr class="orange-line mt-4">
-      </div>
-    </div>
-    <div class="row">
-        {{range first 3 (where .Data.Pages "Section" "projects") }}
-        {{- partial "card.html" . -}} 
-        {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
 {{ if .Site.Data.homepage.promo.enable }}
 <!-- promo video -->
 {{ with .Site.Data.homepage.promo }}
@@ -178,7 +160,7 @@
 {{ if .Site.Data.homepage.project.enable }}
 <!-- project -->
 <section class="section  bg-secondary">
-  <div class="container px-0">
+  <div class="container">
     <div class="row">
       {{ with .Site.Data.homepage.project }}
       <div class="col-lg-10 mx-auto text-center">
@@ -204,48 +186,10 @@
 <!-- /project -->
 {{ end }}
 
-{{ if .Site.Data.homepage.pricing.enable }}
-<!-- pricing -->
-<section class="section pb-0">
-  <div class="container">
-    <div class="row">
-      {{ with .Site.Data.homepage.pricing }}
-      <div class="col-lg-10 mx-auto text-center">
-        <h2>{{ .title | markdownify }}</h2>
-        <div class="section-border"></div>
-      </div>
-      {{ end }}
-    </div>
-    <div class="row">
-      {{ range .Site.Data.pricing.pricingTable }}
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <div class="card bottom-shape bg-secondary pt-4 pb-5">
-          <div class="card-body text-center">
-            <h4 class="text-white">{{ .title }}</h4>
-            <p class="text-light mb-4">{{ .subtitle | markdownify }}</p>
-            <p class="text-white mb-4">$ <span
-                class="display-3 font-weight-bold vertical-align-middle">{{ .price }}</span></p>
-            <ul class="list-unstyled mb-5">
-              {{ range .serviceList }}
-              <li class="text-white mb-3">{{ .service | markdownify }}</li>
-              {{ end }}
-            </ul>
-            {{ with .button }}
-            <a href="{{ .link | safeURL }}" class="btn btn-outline-light">{{ .label }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-<!-- /pricing -->
-{{ end }}
 
 
 <!-- testimonials -->
-<section class="client section">
+<!-- <section class="client section">
   <div class="container-fluid p-0 d-flex flex-column text-center align-items-center">
     <div class="row">
       <div class="col-12 mx-auto mb-5 text-center">
@@ -324,7 +268,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- client -->
 <section class="client section">
   <div class="container">
@@ -333,36 +277,34 @@
       <hr class="orange-line mt-4">
     </div>
     <div class="row my-5 justify-content-center">
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/audi.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/live.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/bmw.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/female-leadership.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/bike-buddies.png" alt="">
       </div>
-    </div>
-    <div class="row my-5 justify-content-center">
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/glostrup-park-hotel.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/zealand.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/cbs.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/blue-lobster.png" alt="">
       </div>
-      <div class="col">
+      <div class="my-col">
         <img src="/images/clients/carlsberg.png" alt="">
       </div>
     </div>
