@@ -126,12 +126,40 @@
     ]
   });
   
-  // $('.slider').slick({
-  //   centerMode: true,
-  //   slidesToShow: 2,
-  //   dots: true,
-  //   autoplay: true,
-  // });
+  $('.slider-test').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    arrows: true,
+    prevArrow: '<span class="slick-prev"><svg width="26" height="48" viewBox="0 0 26 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.2681 2.05566L2.28333 24.0629L24.2681 46.5334" stroke="#FD6B60" stroke-width="3"/></svg></span>',
+    nextArrow: '<span class="slick-next"><svg width="26" height="48" viewBox="0 0 26 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.38525 2.05566L23.37 24.0629L1.38525 46.5334" stroke="#FD6B60" stroke-width="3"/></svg></span>',
+    responsive: [{
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },   
+  ],
+  });
+  
+  
   // testimonial slider
   var containerEl2 = document.querySelector('#slider');
   if (containerEl2) {
