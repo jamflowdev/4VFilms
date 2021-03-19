@@ -1,8 +1,14 @@
 ############################## Banner ###################################
 banner:
-  video: ''
-  URL: ""
   BgImage: "/images/banner/4v-plus-hero-bg.jpg"
+  title: "MONTHLY PHOTO AND VIDEO CONTENT PACKAGES"
+  subtitle:
+      whiteText: "STARTING FROM"
+      highlighted: "DKK 1.950"
+  videoURL: "video/Showreel.mp4"
+  button:
+    url: "#"
+    label: "GET MORE INFO"
 
 ###########################  Right Place Section ##################################
 RightPlace:
