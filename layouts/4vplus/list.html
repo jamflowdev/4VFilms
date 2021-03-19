@@ -1,19 +1,21 @@
 {{ define "main" }}
-{{ with .Site.Data.fourVPlusPage.banner }}
 
+{{ with .Site.Data.fourVPlusPage.banner }}
 <section class="page-title overlay bg-cover" data-background="{{ .BgImage | absURL}}">
   <div class="container">
     <div class="row">
-        <div class="col-sm-6   content">
-          <h3 class="text-white font-weight-bold mb-5">MONTHLY PHOTO AND VIDEO CONTENT PACKAGES</h3> 
-          <h3 class="text-white">STARTING FROM <span class="text-primary">DKK 1.950</span></h3>
+        <div class="col-md-6 col-sm-12">
+          <h3 class="text-white font-weight-bold mb-5">{{ .title | upper }}</h3> 
+          <h3 class="text-white">{{ .subtitle.whiteText }} <span class="text-primary">{{ .subtitle.highlighted }}</span></h3>
           <h5 class="text-white my-5">Get up to <span class="text-primary"> 40 high-quality content pieces</span> per month, for less than what you’d pay a freelancer!</h5>
           <h5 class="text-white mb-5">It’s the same <span class="text-primary"> 4V Films quality </span> + More.</h5>
-          <a href="#" class="btn btn-orange">get more info</a>
+          <a href="{{ .button.url | absURL }}" class="btn btn-orange">{{ .button.label }}</a>
         </div>
-        <div class="col-sm-6  ">
+        <div class="col-md-6 col-sm-12 mt-sm-5">
           <div class="video">
-            <img class="w-100" src="/images/backgrounds/Background-Video.png" alt="">
+            <video controls width="100%">
+              <source src="{{ .videoURL | absURL }}" type="video/mp4">
+            </video>
           </div>
         </div>
     </div>
