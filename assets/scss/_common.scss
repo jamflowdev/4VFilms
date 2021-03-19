@@ -76,6 +76,11 @@ svg {
     margin-top: 10px !important;
   }
 }
+.mt-sm-5 {
+  @include tablet {
+    margin-top: 50px !important;
+  }
+}
 .mb-sm-0 {
   @include mobile {
     margin-bottom: 10px !important;
@@ -318,6 +323,7 @@ svg {
 
 .text-gradient-primary {
   background: $primary-gradient;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -853,5 +859,59 @@ main .list {
 .howDoesItWork {
   img {
     max-width: unset !important;
+  }
+}
+
+.slider-test{
+  .clipped{
+    margin: 0 auto;
+    @include desktop-lg{
+      width: 200px;
+      height: 220px;
+    }
+    @include tablet{
+      width: 239px;
+      height: 256px;
+    }
+  }
+}
+
+.slick-prev{
+  margin-left: -100px;
+  top: 40%;
+  transform: translateX(50%);
+  position: absolute;
+  cursor: pointer;
+  @include desktop-el{
+    margin-left: -70px;
+  }
+  @include desktop-lg{
+    margin-left: -50px;
+  }
+  @include tablet{
+    margin-left: -70px;
+  }
+  @include mobile{
+    margin-left: 30px;
+  }
+}
+.slick-next{
+  margin-right: -100px;
+  top: 40%;
+  right: 0;
+  transform: translateX(50%);
+  position: absolute;
+  cursor: pointer;
+  @include desktop-el{
+    margin-right: -50px;
+  }
+  @include desktop-lg{
+    margin-right: -20px;
+  }
+  @include tablet{
+    margin-right: -50px;
+  }
+  @include mobile{
+    margin-right: 50px;
   }
 }
