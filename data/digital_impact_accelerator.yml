@@ -33,7 +33,7 @@ pillars:
     - title : "Proof - This is your"
       highlighted: "HOW?"
       content : "Your audience will need proof before buying. They may like you, but now they must be presented with facts. Position yourself as the expert, present industry statistics, show them client testimonials. The list goes on."
-  videoURL: "http://localhost:1313/video/Showreel.mp4"
+  videoURL: "video/Showreel.mp4"
   button:
     label: "APPLY NOW"
     url: "#"
