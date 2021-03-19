@@ -2,6 +2,7 @@
 pricingTable:
   # pricing table
   - title : "Bronze"
+    icon : "/images/icons/bronze-play-icon.png"
     subtitle : "For brands needing a content boost."
     regularPrice : "5.675 DKK"
     discountPrice: "1.979 DKK"
@@ -18,6 +19,7 @@ pricingTable:
   
   # pricing table
   - title : "Silver"
+    icon : "/images/icons/silver-play-icon.png"
     subtitle : "For brands looking to outsource the complete production process."
     regularPrice : "8.042 DKK"
     discountPrice: "3.950 DKK"
@@ -36,6 +38,7 @@ pricingTable:
       - service : "Multiple Short Videos or Single Longer Form Video"
   # pricing table
   - title : "Golden"
+    icon : "/images/icons/golden-play-icon.png"
     subtitle : "For brands who want creative professionals on both the production side and the distribution/social media side"
     regularPrice : "17.108 DKK"
     discountPrice: "6.955 DKK"

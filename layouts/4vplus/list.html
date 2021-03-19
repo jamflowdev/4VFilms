@@ -107,15 +107,15 @@
       <!-- <div class="row justify-content-center"> -->
         {{ range .pricingTable }}
         <div class="col-md-4 col-sm-9 mt-3 plan-bronze pb-0">
-          <div class="pricing-header bg-secondary p-3 pb-0">
+          <div class="pricing-header bg-{{ .title | lower }} p-3 pb-0">
             <div class="bg-white p-4 text-center">
-              <img src="#" alt="{{.title}}">
-              <h5 class="plan-title text-primary font-weight-bold">{{ .title }}</h5>
+              <img src="{{ .icon }}" alt="{{ .title }}">
+              <h5 class="plan-title text-{{ .title | lower }} font-weight-bold">{{ .title }}</h5>
               <p>{{ .subtitle }}</p>
             </div>
           </div>
           <div class="pricing-body pt-0">
-            <div class="pricing-header bg-secondary pt-0 px-3 pb-3">
+            <div class="pricing-header bg-{{ .title | lower }} pt-0 px-3 pb-3">
               <div class="bg-white p-5">
                 <div class="price">
                   <div class="strike-through">
