@@ -9,11 +9,13 @@ queots:
   items:
     - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
       video: "/video/Showreel.mp4"
+      companyName: "Ajay"
       author:
         name: "Kamil Makowski"
         image: "/images/backgrounds/pillars-bg.jpg"
     - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
       video: "/video/Showreel.mp4"
+      companyName: "Amjad"
       author:
         name: "Kamil Makowski"
         image: "/images/backgrounds/pillars-bg.jpg"
