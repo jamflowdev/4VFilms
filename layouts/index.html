@@ -4,15 +4,15 @@
 {{ with .Site.Data.homepage.banner }}
 <section class="banner bg-cover overlay position-relative h-100 d-flex justify-content-center align-items-center">
   <video class="hero-bg" autoplay loop playsinline muted poster="{{ .bgImage | absURL }}">
-    <source src="video/Showreel.mp4" type="video/mp4">
+    <source src="{{ .videoURL | absURL }}" type="video/mp4">
   </video>
   <div class="position-absolute">
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-8 col-sm-12 text-center">
-          <h1 class="text-white hero-title">Showreel</h1>
-          <h4 class="page-subtitle text-white  mb-5">4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen.</h4>
-          <a class="nav-link btn btn-orange m-auto" href="#">LET'S TALK</a>
+          <!-- <h1 class="text-white hero-title">{{ .title }}</h1> -->
+          <h4 class="page-subtitle text-white  mb-5">{{ .title }}</h4>
+          <a class="nav-link btn btn-orange m-auto" href="{{ .button.url }}">{{ .button.label }}</a>
         </div>
       </div>
     </div>
@@ -43,9 +43,8 @@
       <div class="col-sm-5">
         <h1 class="section-title text-primary">{{ .title | markdownify }} <span class="white-line"></span></h1>
       </div>
-      <div class="col-sm-7 px-50 text-center">
+      <div class="col-sm-7 px-50">
         <h4 class="big-description mt-5 text-white">{{ .subtitle1 | markdownify}}</h4>
-        <h4 class="big-description text-white mt-5">{{ .subtitle2 | markdownify}}</h4>
       </div>
       {{ end }}
     </div>

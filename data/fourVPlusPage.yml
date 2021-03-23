@@ -8,7 +8,7 @@ banner:
   videoURL: "video/Showreel.mp4"
   button:
     url: "#"
-    label: "GET MORE INFO"
+    label: "LEARN MORE"
 
 ###########################  Right Place Section ##################################
 RightPlace:
@@ -34,7 +34,7 @@ Features:
     - content: "An experienced crew with top grade equipment"
       url: "/images/icons/camera-man.svg"
   button:
-    label: "GET MORE INFO"
+    label: "LEARN MORE"
     url: "#"
 
 ########################### How does it work ##################################
@@ -44,7 +44,7 @@ HowDoesItWork:
   steps:
     - title: "STEP 1: Book your free consultation with us, and we will discuss which subscription fits your budget, brand and resources."
       icon: "/images/icons/call-icon.svg"
-    - title: "STEP 2: If after your free consultation you’re interested in working with us, it is time to book a one-to-one strategy session. This consists of a detailed content plan, Return on Investment guide for your content, as well as assessing which 4V Plus package will suit you best."
+    - title: "STEP 2: If after your free consultation you’re interested in working with us, it is time to book a one-to-one strategy session. This consists of a detailed content plan, return on investment guide for your content, as well as assessing which 4V Plus package will suit you best."
       icon: "/images/icons/person-talking.svg"
     - title: "STEP 3: If we both feel 4V Plus would be a great fit for your brand, you will choose your package and you will be offered an exclusive spot in the 4V Family."
       icon: "/images/icons/product-icon.svg"
@@ -57,8 +57,8 @@ seeItToBeliveIt:
 
 WhyFourVPlus:
   subtitle: "We work with your team to create a customised content plan based around your business, maximising your return on investment goals and deliver as many content pieces from one shoot per month as possible!"
-  showreelTitle: "For a taste of the 4V Films quality, watch our showreel below!"
+  showreelTitle: "For a taste of the 4V quality, watch our showreel below!"
   videoURL: "#"
   button:
-    label: "get more info"
+    label: "APPLY NOW"
     url: "#"

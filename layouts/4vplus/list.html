@@ -8,7 +8,7 @@
           <h3 class="text-white font-weight-bold mb-5">{{ .title | upper }}</h3> 
           <h3 class="text-white">{{ .subtitle.whiteText }} <span class="text-primary">{{ .subtitle.highlighted }}</span></h3>
           <h5 class="text-white my-5">Get up to <span class="text-primary"> 40 high-quality content pieces</span> per month, for less than what you’d pay a freelancer!</h5>
-          <h5 class="text-white mb-5">It’s the same <span class="text-primary"> 4V Films quality </span> + More.</h5>
+          <h5 class="text-white mb-5">It’s the same <span class="text-primary"> 4V quality </span> + More.</h5>
           <a href="{{ .button.url | absURL }}" class="btn btn-orange">{{ .button.label }}</a>
         </div>
         <div class="col-md-6 col-sm-12 mt-sm-5">
@@ -35,7 +35,7 @@
       {{ range .icons }}
       <div class="col-sm-4 text-center">
         <img src="{{ .url | absURL }}" alt="">
-        <h4 class="mb-3 text-white text-center">{{ .content }}</h4>
+        <h4 class="mb-3 text-white text-center">{{ .content | upper }}</h4>
       </div>
       {{ end }}
     </div>
@@ -123,8 +123,8 @@
           </div>
           <div class="pricing-body pt-0">
             <div class="pricing-header bg-{{ .title | lower }} pt-0 px-3 pb-3">
-              <div class="bg-white p-5">
-                <div class="price">
+              <div class="bg-white p-4">
+                <div class="price pb-2">
                   <div class="strike-through">
                     <h5 class="text-primary">{{ .regularPrice }}</h5>
                   </div>
@@ -132,7 +132,7 @@
                     <h5 class="text-primary">{{ .discountPrice }}</h5>
                   </div>
                 </div>
-                <ul class="list p-2">
+                <ul class="list px-2 pt-4">
                   {{ range .serviceList }}
                   <li class="">{{ .service }}</li>
                   {{ end }}
@@ -145,13 +145,13 @@
       </div>
       <div class="row my-5 high-quality-content">
         <div class="col-sm-8 text-center mt-3">
-          <div class="label text-center">
-            <strong class="text-primary">Minimum 3 months commitment</strong>
+          <div class="label ml-0 text-center">
+            <p class="text-primary m-0">Minimum 3 months commitment</p>
           </div>
         </div>
         <div class="col-sm-4 text-center mt-3">
-          <div class="label text-center">
-            <strong class="text-primary">No minimum commitment</strong>
+          <div class="label ml-0 text-center">
+            <p class="text-primary m-0">No minimum commitment</p>
           </div>
         </div>
       </div>
@@ -169,7 +169,7 @@
               <li class="mb-2 text-white">You lack digital assets for marketing and product or service promotion on a regular basis.</li>
             </ul>
           </div>
-          <a href="#" class="btn mb-0 btn-orange text-center">get more info</a>
+          <a href="#" class="btn mb-0 btn-orange text-center">LEARN MORE</a>
         </div>
       </div>
     <!-- </div> -->
@@ -221,12 +221,14 @@
       <div class="col-12">
         <h5 class="mt-5 mb-3 text-white">{{ .subtitle }}</h5>
       </div>
+    </div>
+    <div class="row high-quality-content">
       {{ range .steps }}  
         <!-- <div class="col-12 d-flex flex-row justify-content-left align-items-center"> -->
-          <div class="col-md-1 col-sm-2 col-2">
+          <div class="col-md-1 col-sm-2 col-2  d-flex align-items-center">
             <img src="{{ .icon | absURL }}" alt="icon">
           </div>
-          <div class="col-md-11 col-sm-10 col-10">
+          <div class="col-md-11 col-sm-10 col-10  d-flex align-items-center">
             <p class="text-white">{{ .title }}</p>
           </div>
         <!-- </div> -->
@@ -269,14 +271,15 @@
 <section class="py-5 bg-secondary">
   <div class="container">
     <div class="col-lg-12 mx-auto text-justify">
-      <p class="text-white">All production will be at your location of choice. Studio Locations like studios are charged extra. Packages include travel if within 30 Minutes of Copenhagen – If outside of 30 minutes, standard mileage & reducehourly rate will be billed for the difference. Download more information about our <span class="text-primary">Video Production Subscriptions.</span></p>
+      <p class="text-white">All production will be at your location of choice. Studio Locations like studios are charged extra. Packages include travel if within 30 minutes of Copenhagen – If outside of 30 minutes, standard mileage & reduced hourly rate will be billed for the difference. Download more information about our <span class="text-primary">Video Production Subscriptions.</span></p>
     </div>
   </div>
 </section>
 <section class="digital-impact py-50 bg-white">
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title">SCHEDULE A <span class="text-primary"> FREE</span> CONTENT CONSULTATION</h2>
+      {{ $t := "Apply your interest " }}
+      <h2 class="section-title">{{ $t | upper }}</h2>
     </div>
     <div class="row">
       <div class="col-lg-12 text-left">
@@ -284,11 +287,11 @@
         <h5 class="">This session will include an breakdown of your current content, key insights and strategic advice that you can implement right away to your content plan, with no obligation to sign up.</h5>
       </div>
       <div class="col-lg-9 mx-auto mt-5">
-        <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column">
-          <h4 class="text-white">Secure my spot for a <span class="text-primary"> FREE</span> consultation</h4>
+        <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-primary text-center d-flex flex-column">
+          <h4 class="text-white">Secure my spot for a <span class="text-secondary"> FREE</span> consultation</h4>
           <h5 class="text-white">(Valued at 750 DKK)</h5>
           <h5 class="text-white">Click below - limited spaces available</h5>
-          <a href="#" class="btn mt-5 mb-0 btn-orange text-center">BOOK MY SPOT</a>
+          <a href="#" class="btn mt-5 mb-0 btn-blue text-center">BOOK MY SPOT</a>
         </div>
       </div>
     </div>

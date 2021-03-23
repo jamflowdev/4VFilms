@@ -23,13 +23,12 @@ VisionAndMission:
     title: "Vision"
     description:
     - "To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers."
-    - "We are dedicated to creating the highest quality and compelling video content that will change the way your brand is seen, heard, and consumed."
+    - "Our aim is to transform 50 small businesses online presence by the end of 2022, through the Digital Impact Accelerator"
     imgURL: "/images/icons/vision-icon.svg"
   mission:
     title: "Mission"
     description:
-    - "People are at the heart of all business. Your employees, your customers, It all comes down to people. Once that simple fact is understood, the key to growing a business and getting your value out there is simple."
-    - "At 4V Films, we pride ourselves on our ability to connect brands to their audience. We want to use our skill and passion to bring real change to brands that need it. Our aim is to transform 150 small businesses by 2022 through the Digital Asset Accelerator."
+    - "To combine our wealth of global experience and knowledge with our skill and passion for creating, so we can rapidly scale small businesses, give them a strong digital impact and allow them to change more lives with their product or service. "
     imgURL: "/images/icons/mission-icon.svg"
   
 ############################ features #################################
@@ -40,22 +39,26 @@ features:
   insight:
     title: "Heres a brief insight how:"
     items:
-      - title: "Free consultation"
-        content: "We will learn about your vision and your values and help guide you in the right direction, no commitment necessary."
-      - title: "Booking system"
-        content: "Smooth and easy, choose your meeting or event that fits your schedule."
-      - title: "4V Model"
-        content: "Our unique model describing the 4V Films process, that relaxes our clients, builds trust and ensures we are always on the same page."
-      - title: "Globally experienced crew"
+      - title: "Globally Experienced Crew"
         content: "We have worked with over 15+ industries, in the UAE, U.K. and Denmark."
+      - title: "Our Values"
+        content: "We are extremely passionate about what we do and we apply our values such as Honesty, Trust, Reliability and Quality in every action we take."
+      - title: "Free tools and Resources"
+        content: "We provide our audience with many free tools that help them scale online and create content, such as the Digital Impact assessment or our Digital Impact Workshop."
+      - title: "Content Strategy Session"
+        content: "We help small businesses strategise and create a plan to dominate online."
+      - title: "Digital Impact Accelerator"
+        content: "Our affordable solution for small businesses to transform their online presence, following our 4 Pillar methodology."
+      - title: "Limited Spaces"
+        content: "Each year, we have a maximum capacity of 24 clients. This is so we can comfortably ensure the highest value and results for our clients."
       - title: "4V Plus"
         content: "Our exclusive monthly production and SoMe management service. Made highly affordable and convenient for our clients."
-      - title: "Digital Impact Accelerator"
-        content: "Our highly affordable, complete solution for small businesses to transform their online presence, following the 4 Pillars of content."
+      - title: "4V Model"
+        content: "For our productions outside the accelerator, we follow our unique 4V model that creates transparency and trust."
+      - title: "Booking System"
+        content: "Smooth and easy, choose your meeting or event that fits your schedule."
       - title: "Delighted Clients"
         content: "We are rated 5 stars across all our platforms, including Facebook and Google. Our clients experiences words speak for themselves."
-      - title: "Our values"
-        content: "We are extremely passionate about what we do and we apply our values such as Honesty, Trust, Reliability and Quality in every action we take."
   
 the4VModel:
   title : "THE 4V MODEL"

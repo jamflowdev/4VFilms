@@ -4,7 +4,7 @@ hero:
 
 ########################### Digital Impact ##################################
 DigitalImpact:
-  title: "DIGITAL IMPACT"
+  title: "A DIGITAL IMPACT"
   subtitle: "Transform your brand, expand your digital assets and become a content leader in your industry."
   content: "At the centre of every industry, you will find the brands that dominate social media and the online world. As a result, they are highly respected, highly valued and highly paid."
   secondTitle: "When you have a Digital Impact, significant things happen:"
@@ -13,26 +13,26 @@ DigitalImpact:
     - "You attract a lot of opportunities – the right sort."
     - "You earn more money than most – and it isn’t a struggle."
     - "You scale rapidly - from small business, to beyond."
-  discription: "The Digital Impact Accelerator is designed around the 4 Pillars of content, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business."
+  discription: "The Digital Impact Accelerator is designed around the 4 Pillars of digital assets, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business."
   
 ############################ The 4 Pillars #################################
 pillars:
   bgImage : "/images/backgrounds/pillars-bg.jpg"
-  title : "The 4 Pillars"
-  subtitle : "There are 4 Key areas of your business that need consistent content. We call them the 4 P’s…"
+  title : "The 4 Pillars Methodology"
+  subtitle : "There are 4 Key areas of your business that need consistent content."
   listItem:
     - title : "People - This is your"
       highlighted: "WHO?"
-      content : "Connect with your audience on a human level, creating a personal side to your business and forming deeper engagement."
+      content : "Connecting with your audience on a human level and creating a personal side to your business."
     - title : "Purpose - This is your"
       highlighted: "WHY?"
-      content : "Your audience want to know what makes you different. They want something deeper than just high quality or convenience. You must put your brand values on the stage and leverage a deeper sense of purpose."
+      content : "Your audience want to know what makes you different. They want something deeper than just high quality or convenience for example. You must put your brand values on the stage and leverage a deeper sense of purpose."
     - title : "Product - This is your"
       highlighted: "WHAT?"
-      content : "You must create content around the complete customer journey, the details, the insights etc."
+      content : "Creating content around what you offer and the solution you provide. Take your customer on a journey and excite them."
     - title : "Proof - This is your"
       highlighted: "HOW?"
-      content : "Your audience will need proof before buying. They may like you, but now they must be presented with facts. Position yourself as the expert, present industry statistics, show them client testimonials. The list goes on."
+      content : "Your audience need final proof before buying. You must position yourself as the expert and convince them of your value."
   videoURL: "video/Showreel.mp4"
   button:
     label: "APPLY NOW"
@@ -40,12 +40,13 @@ pillars:
       
 ############################## for small brands ####################################
 impactAccelerator:
-  title : "The Digital Impact Accelerator is perfect for small BRANDS who are:"
+  title : "The Digital Impact Accelerator is perfect for small brands who are:"
   listItems:
     - "Small, with a team of 8 or less."
     - "Based in Copenhagen."
+    - "Finds creating content and a digital impact either expensive, time consuming or overwhelming."
     - "Missing consistent and high-quality content."
-    - "Missing at least 1 of the 4 key pillars mentioned above."
+    - "Missing focus on at-least 1 of the 4 pillars."
     - "Ready to transform their online presence and scale rapidly."
 
 ############################## WHAT DO I GET? ####################################
@@ -73,39 +74,38 @@ whatDoIGet:
 ############################## WHAT DOES IT MEAN? ####################################
 
 whatDoesItMean:
-  title : "WHAT DOES IT MEAN?"
+  title : "In a nutshell"
   listItems:
-    - "At a 4V Films level of quality and experience, you now have enough content to last 6-18 months."
-    - "Imagine a pool of up to 150 high quality, professional content pieces covering the 4 Pillars, ready to be published at your disposal."
+    - "Up to 150 professional, creative and value adding content pieces covering each of the 4 Pillars."
     - "Imagine this content could be produced and delivered to you within a matter of weeks..."
     - "Imagine being able to dominate social media with your online presence, with valuable, thought provoking content that ticks all the boxes."
     - "Imagine not having to think about creating amazing content and being able to focus on what you are good at."
   
   subtitle:
     text: "To put it into perspective,"
-    highlighted: "you could post a high-quality piece of content:"
+    highlighted: "you could publish one piece of content every day, for 4 months straight."
   
-  recommendedList:
-    title: "Recommended"
-    listItems:
-      - highlited: "14x per week"
-        text: ", for 2 months straight."
-      - highlited: "7x per week"
-        text: ", for 4 months straight."
+  # recommendedList:
+  #   title: "Recommended"
+  #   listItems:
+  #     - highlited: "14x per week"
+  #       text: ", for 2 months straight."
+  #     - highlited: "7x per week"
+  #       text: ", for 4 months straight."
   
-  averageList:
-    title: "Average"
-    listItems:
-      - highlited: "4x per week"
-        text: ", for 8 months straight."
+  # averageList:
+  #   title: "Average"
+  #   listItems:
+  #     - highlited: "4x per week"
+  #       text: ", for 8 months straight."
 
-  weakList:
-    title: "Weak"
-    listItems:
-      - highlited: "2x per week"
-        text: ", for 15 months straight."
-      - highlited: "1x per week"
-        text: ", for 35 months straight."
+  # weakList:
+    # title: "Weak"
+    # listItems:
+    #   - highlited: "2x per week"
+    #     text: ", for 15 months straight."
+    #   - highlited: "1x per week"
+    #     text: ", for 35 months straight."
   bottomDiscription: "Once you are In this position, you will have a Digital Impact."
   button:
     label: "Transform your online presence <br> Apply Now"
