@@ -157,19 +157,19 @@
       </div>
       <div class="row"> 
         <div class="col-sm-12 text-center">
-          <div class="">
-            <h4 class="text-white title">Our monthly content packages make a great fit for you if :</h4>
+          <div class="text-left">
+            <h4 class="text-white title">{{ .contentPackages.title | upper }}</h4>
           </div>
         </div>
         <div class="col-sm-12 text-center">
           <div class="my-5 text-left">
             <ul class="list">
-              <li class="mb-2 text-white">You’re an influencer or coach who needs fresh, engaging content every month.</li>
-              <li class="mb-2 text-white">You’re a business that wants to create highly engaging social media content.</li>
-              <li class="mb-2 text-white">You lack digital assets for marketing and product or service promotion on a regular basis.</li>
+              {{ range .contentPackages.list }}
+              <li class="mb-2 text-white">{{ . }}</li>
+              {{ end }}
             </ul>
           </div>
-          <a href="#" class="btn mb-0 btn-orange text-center">LEARN MORE</a>
+          <a href="{{ .contentPackages.button.url | absURL }}" class="btn mb-0 btn-orange text-center">{{ .contentPackages.button.label }}</a>
         </div>
       </div>
     <!-- </div> -->

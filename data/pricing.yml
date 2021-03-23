@@ -58,4 +58,13 @@ pricingTable:
       - service : "Multiple short videos or single longer form video"
       - service : "Social media management"
       - service : "24/7 online support"
-      
+
+contentPackages:
+  title: "Our monthly content packages make a great fit for you if :"
+  list:
+    - "You’re an influencer or coach who needs fresh, engaging content every month."
+    - "You’re a business that wants to create highly engaging social media content."
+    - "You lack digital assets for marketing and product or service promotion on a regular basis."
+  button:
+    url: "#"
+    label: "LEARN MORE"
