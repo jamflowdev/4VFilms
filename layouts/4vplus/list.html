@@ -59,7 +59,7 @@
       </div>
       {{ end }}
       <div class="col-12 mt-5 mb-0 text-center">
-        <a href="{{ .button.url }}" class="btn mb-0 btn-orange text-center"> {{ .button.label }} </a>
+        <a href="{{ .button.url | absURL }}" class="btn mb-0 btn-orange text-center"> {{ .button.label }} </a>
       </div>
     </div>
   </div>
@@ -199,7 +199,7 @@
             <source src="{{ .videoURL | absURL }}" type="video/mp4">
           </video>
 
-          <a href="{{ .button.url }}" class="btn mt-5 btn-orange text-center">{{ .button.label }}</a>
+          <a href="{{ .button.url | absURL }}" class="btn mt-5 btn-orange text-center">{{ .button.label }}</a>
         </div>
       </div>
     </div>

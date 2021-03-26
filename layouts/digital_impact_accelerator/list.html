@@ -60,7 +60,7 @@
         <video controls width="100%">
           <source src="{{ .videoURL | absURL }}" type="video/mp4">
         </video>
-        <a href="{{ .button.url }}" class="mt-4 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
+        <a href="{{ .button.url | absURL }}" class="mt-4 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
           {{ end }}
         </ul>
         <div class="text-center">
-          <a href="{{ .button.url }}" class="mt-5 di mx-auto btn btn-orange">{{ .button.label }}</a>
+          <a href="{{ .button.url | absURL }}" class="mt-5 di mx-auto btn btn-orange">{{ .button.label }}</a>
         </div>
       </div>
     </div>
@@ -181,7 +181,7 @@
         <div class="col-12">
           <h4 class="mt-5 mb-3 text-white">{{ .bottomDiscription }}</h4>
           <div class="text-center">
-            <a href="{{ .button.url }}" class="mt-5 btn btn-orange">{{ .button.label | safeHTML }}</a>
+            <a href="{{ .button.url | absURL }}" class="mt-5 btn btn-orange">{{ .button.label | safeHTML }}</a>
           </div>
         </div>
     </div>
