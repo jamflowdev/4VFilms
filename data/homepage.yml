@@ -13,8 +13,8 @@ vision:
   enable : true
   title : "Our Vision"
   subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality and compelling video content for small businesses so they can transform and scale rapidly"
-  # service item comes from 'service.yml'
-########################### services ##################################
+
+  ########################### services ##################################
 service:
   enable : true
   title : "Services"
@@ -23,14 +23,25 @@ service:
     subtitle: "Our standard Video/ Photo Productions"
     description: "Great for brands who need a high quality, professional Video/Photo Production."
     imgURL: "/images/backgrounds/services-bg-1.jpg"
-    link: "#"
+    button:
+     url: "#"
+     label: "Read More"
   fourv_plus:
     title: "4V Plus+"
     subtitle: "Our monthly Video/Photo content packages"
     description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
     imgURL: "/images/backgrounds/services-bg-2.jpg"
-    link: "#"
-  # service item comes from 'service.yml'
+    button:
+     url: "#"
+     label: "Read More"
+  perfect_solution:
+    title: "Digital Impact Accelerator"
+    subtitle: "Our monthly Video/Photo content packages"
+    description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
+    imgURL: "/images/backgrounds/services-bg-2.jpg"
+    button:
+     url: "#"
+     label: "Read More"
   
 ############################ features #################################
 feature:

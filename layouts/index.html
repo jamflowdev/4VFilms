@@ -85,7 +85,7 @@
           <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
           <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
           <p class="services-description mb-4">{{ .description | markdownify }}</p>
-          <a href="#" class="btn btn-orange mb-4">Read more</a>
+          <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
         </div>
         {{ end }}
     </div>
@@ -95,7 +95,7 @@
           <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
           <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
           <p class="services-description mb-4">{{ .description | markdownify }}</p>
-          <a href="#" class="btn btn-orange mb-4">Read more</a>
+          <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
         </div>
         <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
           <!-- <img src="" alt=""> -->
@@ -121,6 +121,21 @@
             </svg>
         </div>
       {{ end }}
+    </div>
+    <div class="row py-50">
+      {{ with .Site.Data.homepage.service.perfect_solution }}
+      <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
+        <div class="overlay2-primary">
+        </div>
+        <img src="" alt="">
+      </div>
+        <div class="col-sm-6 pt-sm-50 px-50">
+          <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
+          <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
+          <p class="services-description mb-4">{{ .description | markdownify }}</p>
+          <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
+        </div>
+        {{ end }}
     </div>
   </div>
 </section>
