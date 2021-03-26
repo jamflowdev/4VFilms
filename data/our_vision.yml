@@ -59,13 +59,3 @@ features:
         content: "Smooth and easy, choose your meeting or event that fits your schedule."
       - title: "Delighted Clients"
         content: "We are rated 5 stars across all our platforms, including Facebook and Google. Our clients experiences words speak for themselves."
-  
-the4VModel:
-  title : "THE 4V MODEL"
-  subtitle: "Based on both our clients feedback and global experience, we developed a model to ensure the highest quality for our clients. It ensures we are both on the same page, creating honesty, trust and reliability."
-  videoURL: ""
-
-ModelKeys:
-  title : "Our 4V model consists of 4 V’s"
-  diagramURL: "/images/icons/4v-keys.svg"
-  modelURL: "/images/4vmodel.png"
