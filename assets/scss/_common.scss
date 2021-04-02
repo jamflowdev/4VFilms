@@ -158,6 +158,11 @@ svg {
 }
 .service-logo{
   z-index: 1;
+  &-small{
+    margin: 0 auto;
+    z-index: 1;
+    width: 80%;
+  }
 }
 
 .overlay {
