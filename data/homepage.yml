@@ -23,6 +23,7 @@ service:
     subtitle: "Our standard Video/ Photo Productions"
     description: "Great for brands who need a high quality, professional Video/Photo Production."
     imgURL: "/images/backgrounds/services-bg-1.jpg"
+    logoURL: "/images/four-v-films-service.svg"
     button:
      url: "#"
      label: "Read More"
@@ -31,14 +32,20 @@ service:
     subtitle: "Our monthly Video/Photo content packages"
     description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
     imgURL: "/images/backgrounds/services-bg-2.jpg"
+    logoURL: "/images/four-v-films-service.svg"
     button:
      url: "#"
      label: "Read More"
   perfect_solution:
     title: "Digital Impact Accelerator"
-    subtitle: "Our monthly Video/Photo content packages"
-    description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
+    subtitle: "3 Ingredients of a Digital Impact"
+    description: "For a small business to create a digital impact and dominate online, their content must combine all 3 ingredients."
+    list:
+      - "Quality"
+      - "Value"
+      - "Consistency"
     imgURL: "/images/backgrounds/services-bg-2.jpg"
+    logoURL: "/images/digital-impact-service.png"
     button:
      url: "#"
      label: "Read More"
