@@ -12,7 +12,7 @@ banner:
 vision:
   enable : true
   title : "Our Vision"
-  subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality and compelling video content for small businesses so they can transform and scale rapidly"
+  subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality and compelling video content for small businesses so they can transform and scale rapidly."
 
   ########################### services ##################################
 service:
@@ -38,12 +38,8 @@ service:
      label: "Read More"
   perfect_solution:
     title: "Digital Impact Accelerator"
-    subtitle: "3 Ingredients of a Digital Impact"
-    description: "For a small business to create a digital impact and dominate online, their content must combine all 3 ingredients."
-    list:
-      - "Quality"
-      - "Value"
-      - "Consistency"
+    subtitle: "A complete digital transformation for small businesses following our 4 Pillar methodology."
+    description: "Great for small businesses that need to boost their online presence rapidly and make a digital impact."
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     logoURL: "/images/digital-impact-service.png"
     button:
@@ -109,7 +105,7 @@ cta:
     label: "TAKE THE IMPACT TEST"
     link: "contact"
   button2:
-    label: "SIGN ME UP"
+    label: "Watch Me Now"
     link: "contact"
 
 

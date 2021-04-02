@@ -9,7 +9,7 @@ History:
   content:
     - "4V Films was founded in 2019 by Head videographer, Patrick Bates. Patrick's vision for developing the digital assets of small businesses stems from his own experiences within video production."
     - "After being invited to the Middle East to learn more about how Dubai's leading production house operates, Patrick quickly learnt what it takes to work on a commercial level and to transform brands. Having taken sole responsibility for numerous projects, big and small, with clients such as Audi, Emirates and BMW, Patrick discovered a burning passion that changed his world."
-    - "He moved to Copenhagen in 2018 when offered a spot at Copenhagen Business School. During his bachelor, he was surrounded by many small businesses who all shared one thing in common, they lacked high quality consistent content."
+    - "He moved to Copenhagen in 2018 when offered a spot at Copenhagen Business School. During his bachelor, he was surrounded by many small businesses who all shared one thing in common, they lacked high quality, consistent content."
     - "Realising his unique skillset and passion for creating, 4V Films was born with the sole aim to completely transform small businesses, supply them with a wealth of digital assets, help them grow and provide value to others."
   imageURL: "/images/team/patrick.jpg"
   quote: "We want to unlock small businesses potential by creating digital assets so that they can transform, grow and contribute to society with their unique product or service."
@@ -22,13 +22,13 @@ VisionAndMission:
   vision:
     title: "Vision"
     description:
-    - "To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers."
-    - "Our aim is to transform 50 small businesses online presence by the end of 2022, through the Digital Impact Accelerator"
+    # - "To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers."
+    - "Our aim is to transform 50 small businesses online presence by the end of 2022, through the Digital Impact Accelerator."
     imgURL: "/images/icons/vision-icon.svg"
   mission:
     title: "Mission"
     description:
-    - "To combine our wealth of global experience and knowledge with our skill and passion for creating, so we can rapidly scale small businesses, give them a strong digital impact and allow them to change more lives with their product or service. "
+    - "To combine our wealth of global experience and knowledge with our passion for creating to rapidly transform small businesses, give them a strong digital impact that allows them to reach more people with their product or service."
     imgURL: "/images/icons/mission-icon.svg"
   
 ############################ features #################################
@@ -58,4 +58,4 @@ features:
       - title: "Booking System"
         content: "Smooth and easy, choose your meeting or event that fits your schedule."
       - title: "Delighted Clients"
-        content: "We are rated 5 stars across all our platforms, including Facebook and Google. Our clients experiences words speak for themselves."
+        content: "We are rated 5 stars across all our platforms, including Facebook and Google. Our clients success speaks for themselves."

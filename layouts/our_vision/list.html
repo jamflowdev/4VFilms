@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-left">
-        <h1 class="display-1 text-white font-weight-bold font-primary">{{ .Title | upper | markdownify }}</h1>
+        <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .Title | upper | markdownify }}</h1>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
     <div>
       <div class="row">
         <div class="col-sm-6">
-          <div class="text-justify">
+          <div class="">
             {{ range .content }}
             <p>{{ . }}</p>
             {{ end }}
@@ -111,7 +111,7 @@
 
 {{- partial "testimonials-slider.html" . -}}
 
-{{- partial "book-my-spot.html" . -}}
+<!-- {{- partial "book-my-spot.html" . -}} -->
 
 
 {{ end }}

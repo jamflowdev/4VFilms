@@ -106,11 +106,6 @@
           <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
           <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
           <p class="services-description mb-4">{{ .description | markdownify }}</p>
-          <ol>
-            {{ range .list }}
-            <li class="list-item">{{ . }}</li>
-            {{ end }}
-          </ol>
           <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
         </div>
         {{ end }}

@@ -398,6 +398,9 @@ svg {
 
 .font-primary {
   font-family: $primary-font !important;
+  &-bold{
+    font-family: $primary-font-bold !important;
+  }
 }
 
 .font-secondary {
