@@ -18,15 +18,15 @@ DigitalImpact:
 ############################ The 4 Pillars #################################
 pillars:
   bgImage : "/images/backgrounds/pillars-bg.jpg"
-  title : "The 4 Pillars Methodology"
+  title : "4 Pillars Methodology"
   subtitle : "There are 4 Key areas of your business that need consistent content."
   listItem:
     - title : "People - This is your"
       highlighted: "WHO?"
-      content : "Connecting with your audience on a human level and creating a personal side to your business."
+      content : "The humanisation of your brand. Connecting with your audience on a human level and creating a personal side to your business."
     - title : "Purpose - This is your"
       highlighted: "WHY?"
-      content : "Your audience want to know what makes you different. They want something deeper than just high quality or convenience for example. You must put your brand values on the stage and leverage a deeper sense of purpose."
+      content : "You must put your brand values on the stage, display what makes you different and leverage a deeper sense of purpose"
     - title : "Product - This is your"
       highlighted: "WHAT?"
       content : "Creating content around what you offer and the solution you provide. Take your customer on a journey and excite them."
