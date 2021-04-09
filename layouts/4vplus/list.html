@@ -1,50 +1,58 @@
-{{ define "main" }}
-
-{{ with .Site.Data.fourVPlusPage.banner }}
-<section class="page-title overlay bg-cover" data-background="{{ .BgImage | absURL}}">
+{{ define "main" }} {{ with .Site.Data.fourVPlusPage.banner }}
+<section
+  class="page-title overlay bg-cover"
+  data-background="{{ .BgImage | absURL}}"
+>
   <div class="container">
     <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <h3 class="text-white font-weight-bold mb-5">{{ .title | upper }}</h3> 
-          <h3 class="text-white">{{ .subtitle.whiteText }} <span class="text-primary">{{ .subtitle.highlighted }}</span></h3>
-          <h5 class="text-white my-5">Get up to <span class="text-primary"> 40 high-quality content pieces</span> per month, for less than what you’d pay a freelancer!</h5>
-          <h5 class="text-white mb-5">It’s the same <span class="text-primary"> 4V quality </span> + More.</h5>
-          <a href="{{ .button.url | absURL }}" class="btn btn-orange">{{ .button.label }}</a>
+      <div class="col-md-6 col-sm-12">
+        <h3 class="text-white font-primary-bold mb-5">{{ .title | upper }}</h3>
+        <h3 class="text-white">
+          {{ .subtitle.whiteText }}
+          <span class="text-primary">{{ .subtitle.highlighted }}</span>
+        </h3>
+        <h5 class="text-white my-5">
+          Get up to
+          <span class="text-primary"> 40 high-quality content pieces</span> per
+          month, for less than what you’d pay a freelancer!
+        </h5>
+        <h5 class="text-white mb-5">
+          It’s the same <span class="text-primary"> 4V quality </span> + More.
+        </h5>
+        <a href="{{ .button.url | absURL }}" class="btn btn-orange"
+          >{{ .button.label }}</a
+        >
+      </div>
+      <div class="col-md-6 col-sm-12 mt-sm-5">
+        <div class="video">
+          <video controls width="100%">
+            <source src="{{ .videoURL | absURL }}" type="video/mp4" />
+          </video>
         </div>
-        <div class="col-md-6 col-sm-12 mt-sm-5">
-          <div class="video">
-            <video controls width="100%">
-              <source src="{{ .videoURL | absURL }}" type="video/mp4">
-            </video>
-          </div>
-        </div>
+      </div>
     </div>
   </div>
 </section>
-{{ end }}
-
-{{ with .Site.Data.fourVPlusPage.RightPlace }}
+{{ end }} {{ with .Site.Data.fourVPlusPage.RightPlace }}
 <section class="py-50 bg-secondary rightPlace">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title text-white"> {{ .title | safeHTML }} </h2>
+        <h2 class="section-title text-white">{{ .title | safeHTML }}</h2>
       </div>
     </div>
     <div class="row mt-5">
       {{ range .icons }}
       <div class="col-sm-4 text-center">
-        <img src="{{ .url | absURL }}" alt="">
+        <img src="{{ .url | absURL }}" alt="" />
         <h4 class="mb-3 text-white text-center">{{ .content | upper }}</h4>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
-{{ end }}
-
-{{ with .Site.Data.fourVPlusPage.Features }}
-<section class=" py-50 bg-white features">
+{{ end }} {{ with .Site.Data.fourVPlusPage.Features }}
+<section class="py-50 bg-white features">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
@@ -54,12 +62,17 @@
     <div class="row mt-5 mb-0">
       {{ range .icons }}
       <div class="col-md-3 col-sm-6 col-12 text-center">
-        <img src="{{ .url | absURL }}" alt="">          
+        <img src="{{ .url | absURL }}" alt="" />
         <h4 class="mb-3 text-center">{{ .content | upper }}</h4>
       </div>
       {{ end }}
       <div class="col-12 mt-5 mb-0 text-center">
-        <a href="{{ .button.url | absURL }}" class="btn mb-0 btn-orange text-center"> {{ .button.label }} </a>
+        <a
+          href="{{ .button.url | absURL }}"
+          class="btn mb-0 btn-orange text-center"
+        >
+          {{ .button.label }}
+        </a>
       </div>
     </div>
   </div>
@@ -73,7 +86,7 @@
       <div class="col-12 mx-auto text-center">
         {{ with .Site.Data.fourVPlusPage.seeItToBeliveIt }}
         <h2 class="section-title text-white">{{ .title }}</h2>
-        <hr class="orange-line mt-4">
+        <hr class="orange-line mt-4" />
         <h4 class="mt-5 mb-3 px-5 text-white">{{ .subtitle }}</h4>
         {{ end }}
       </div>
@@ -82,11 +95,14 @@
   <div class="container">
     <div class="">
       <div class="row text-center d-flex slider-test">
-        {{ with .Site.Data.project }}
-        {{ range .projects }}
+        {{ with .Site.Data.project }} {{ range .projects }}
         <div class="col-md-3 col-sm-6">
           <svg class="svg">
-            <clipPath id="my-clip-path" clipPathUnits="objectBoundingBox"><path d="M0.817,0.135 C0.927,0.223,1,0.353,1,0.494 C0.995,0.62,0.872,0.702,0.785,0.797 C0.709,0.879,0.646,0.992,0.535,1 C0.426,1,0.363,0.897,0.274,0.838 C0.178,0.774,0.024,0.758,0.004,0.646 C-0.017,0.533,0.122,0.459,0.186,0.36 C0.261,0.241,0.271,0.065,0.405,0.017 C0.547,-0.033,0.703,0.043,0.817,0.135"></path></clipPath>
+            <clipPath id="my-clip-path" clipPathUnits="objectBoundingBox">
+              <path
+                d="M0.817,0.135 C0.927,0.223,1,0.353,1,0.494 C0.995,0.62,0.872,0.702,0.785,0.797 C0.709,0.879,0.646,0.992,0.535,1 C0.426,1,0.363,0.897,0.274,0.838 C0.178,0.774,0.024,0.758,0.004,0.646 C-0.017,0.533,0.122,0.459,0.186,0.36 C0.261,0.241,0.271,0.065,0.405,0.017 C0.547,-0.033,0.703,0.043,0.817,0.135"
+              ></path>
+            </clipPath>
           </svg>
           <div class="clipped" data-background="{{ .image | absURL }}"></div>
           <div class="mt-3">
@@ -94,98 +110,110 @@
             <p class="projectTitle">{{ .title }}</p>
           </div>
         </div>
-        {{ end }}
-        {{ end }}
+        {{ end }} {{ end }}
       </div>
     </div>
   </div>
 </section>
 {{ with .Site.Data.pricing }}
 
-<section class="pricing py-50 overlay bg-cover" data-background="/images/backgrounds/pillars-bg.jpg">
+<section
+  class="pricing py-50 overlay bg-cover"
+  data-background="/images/backgrounds/pillars-bg.jpg"
+>
   <div class="container">
     <div class="row mb-5">
       <div class="col-lg-12 mx-auto text-center">
         <h2 class="section-title text-white">MONTHLY PACKAGES</h2>
-        <hr class="orange-line mt-4">
+        <hr class="orange-line mt-4" />
       </div>
     </div>
     <!-- <div class="row"> -->
-      <div class="row justify-content-center">
-        {{ range .pricingTable }}
-        <div class="col-md-4 col-sm-9 mt-3 plan-bronze pb-0">
-          <div class="pricing-header bg-{{ .title | lower }} p-3 pb-0">
-            <div class="bg-white p-4 text-center">
-              <img src="{{ .icon }}" alt="{{ .title }}">
-              <h5 class="plan-title text-{{ .title | lower }} font-weight-bold">{{ .title }}</h5>
-              <p>{{ .subtitle }}</p>
-            </div>
+    <div class="row justify-content-center">
+      {{ range .pricingTable }}
+      <div class="col-md-4 col-sm-9 mt-3 plan-bronze pb-0">
+        <div class="pricing-header bg-{{ .title | lower }} p-3 pb-0">
+          <div class="bg-white p-4 text-center">
+            <img src="{{ .icon }}" alt="{{ .title }}" />
+            <h5 class="plan-title text-{{ .title | lower }} font-weight-bold">
+              {{ .title }}
+            </h5>
+            <p>{{ .subtitle }}</p>
           </div>
-          <div class="pricing-body pt-0">
-            <div class="pricing-header bg-{{ .title | lower }} pt-0 px-3 pb-3">
-              <div class="bg-white p-4">
-                <div class="price pb-2">
-                  <div class="strike-through">
-                    <h5 class="text-primary">{{ .regularPrice }}</h5>
-                  </div>
-                  <div class="">
-                    <h5 class="text-primary">{{ .discountPrice }}</h5>
-                  </div>
+        </div>
+        <div class="pricing-body pt-0">
+          <div class="pricing-header bg-{{ .title | lower }} pt-0 px-3 pb-3">
+            <div class="bg-white p-4">
+              <div class="price pb-2">
+                <div class="strike-through">
+                  <h5 class="text-primary">{{ .regularPrice }}</h5>
                 </div>
-                <ul class="list px-2 pt-4">
-                  {{ range .serviceList }}
-                  <li class="">{{ .service }}</li>
-                  {{ end }}
-                </ul>
+                <div class="">
+                  <h5 class="text-primary">{{ .discountPrice }}</h5>
+                </div>
               </div>
+              <ul class="list px-2 pt-4">
+                {{ range .serviceList }}
+                <li class="">{{ .service }}</li>
+                {{ end }}
+              </ul>
             </div>
           </div>
         </div>
-        {{ end }}
       </div>
-      <div class="row my-5 high-quality-content">
-        <div class="col-sm-8 text-center mt-3">
-          <div class="label ml-0 text-center">
-            <p class="text-primary m-0">Minimum 3 months commitment</p>
-          </div>
-        </div>
-        <div class="col-sm-4 text-center mt-3">
-          <div class="label ml-0 text-center">
-            <p class="text-primary m-0">No minimum commitment</p>
-          </div>
+      {{ end }}
+    </div>
+    <div class="row my-5 high-quality-content">
+      <div class="col-sm-8 text-center mt-3">
+        <div class="label ml-0 text-center">
+          <p class="text-primary m-0">Minimum 3 months commitment</p>
         </div>
       </div>
-      <div class="row"> 
-        <div class="col-sm-12 text-center">
-          <div class="text-left">
-            <h4 class="text-white title">{{ .contentPackages.title | upper }}</h4>
-          </div>
-        </div>
-        <div class="col-sm-12 text-center">
-          <div class="my-5 text-left">
-            <ul class="list">
-              {{ range .contentPackages.list }}
-              <li class="mb-2 text-white">{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
-          <a href="{{ .contentPackages.button.url | absURL }}" class="btn mb-0 btn-orange text-center">{{ .contentPackages.button.label }}</a>
+      <div class="col-sm-4 text-center mt-3">
+        <div class="label ml-0 text-center">
+          <p class="text-primary label-bold font-primary-bold m-0">
+            No minimum commitment
+          </p>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="text-center">
+          <h3 class="text-white content-package-title">
+            {{ .contentPackages.title | upper }}
+          </h3>
+        </div>
+      </div>
+      <div class="col-sm-12 text-center">
+        <div class="my-5 text-left">
+          <ul class="list">
+            {{ range .contentPackages.list }}
+            <li class="mb-2 text-white">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        <a
+          href="{{ .contentPackages.button.url | absURL }}"
+          class="btn mb-0 btn-orange text-center"
+          >{{ .contentPackages.button.label }}</a
+        >
+      </div>
+    </div>
     <!-- </div> -->
   </div>
 </section>
-{{ end }}
-
-{{ with .Site.Data.fourVPlusPage.WhyFourVPlus }}
+{{ end }} {{ with .Site.Data.fourVPlusPage.WhyFourVPlus }}
 <section class="py-50 bg-white">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title">WHY 
-            <img src="/images/4vplus-title-logo.svg " alt="">
-           ?</h2>
-          <hr class="orange-line mt-4">
+        <h2 class="section-title">
+          WHY
+          <img src="/images/4vplus-title-logo.svg " alt="" />
+          ?
+        </h2>
+        <hr class="orange-line mt-4" />
       </div>
     </div>
     <div class="row">
@@ -194,12 +222,18 @@
         <p>{{ .showreelTitle }}</p>
       </div>
       <div class="col-lg-12">
-        <div class="video justify-content-bottom align-items-center text-center d-flex flex-column">
+        <div
+          class="video justify-content-bottom align-items-center text-center d-flex flex-column"
+        >
           <video controls="" width="100%" height="350">
-            <source src="{{ .videoURL | absURL }}" type="video/mp4">
+            <source src="{{ .videoURL | absURL }}" type="video/mp4" />
           </video>
 
-          <a href="{{ .button.url | absURL }}" class="btn mt-5 btn-orange text-center">{{ .button.label }}</a>
+          <a
+            href="{{ .button.url | absURL }}"
+            class="btn mt-5 btn-orange text-center"
+            >{{ .button.label }}</a
+          >
         </div>
       </div>
     </div>
@@ -214,7 +248,7 @@
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
         <h2 class="section-title text-white">{{ .title | upper }}</h2>
-        <hr class="orange-line mt-4">
+        <hr class="orange-line mt-4" />
       </div>
     </div>
     <div class="row high-quality-content">
@@ -223,46 +257,52 @@
       </div>
     </div>
     <div class="row high-quality-content">
-      {{ range .steps }}  
-        <!-- <div class="col-12 d-flex flex-row justify-content-left align-items-center"> -->
-          <div class="col-md-1 col-sm-2 col-2  d-flex align-items-center">
-            <img src="{{ .icon | absURL }}" alt="icon">
-          </div>
-          <div class="col-md-11 col-sm-10 col-10  d-flex align-items-center">
-            <p class="text-white">{{ .title }}</p>
-          </div>
-        <!-- </div> -->
-        {{ end }}
+      {{ range .steps }}
+      <!-- <div class="col-12 d-flex flex-row justify-content-left align-items-center"> -->
+      <div class="col-md-1 mb-3 col-sm-2 col-2 d-flex align-items-start">
+        <img src="{{ .icon | absURL }}" alt="icon" />
+      </div>
+      <div class="col-md-11 mb-3 col-sm-10 col-10 d-flex align-items-start">
+        <p class="text-white mb-0">{{ .title | safeHTML }}</p>
+      </div>
+      <!-- </div> -->
+      {{ end }}
     </div>
   </div>
 </section>
-{{ end }}
-{{ with .Site.Data.faq }}
+{{ end }} {{ with .Site.Data.faq }}
 
-<section class="faqs py-50 overlay bg-cover" data-background="/images/backgrounds/faq-bg.png">
+<section
+  class="faqs py-50 overlay bg-cover"
+  data-background="/images/backgrounds/faq-bg.png"
+>
   <div class="container">
     <div class="row mb-5">
       <div class="col-lg-12 mx-auto text-center">
         <h2 class="section-title text-white">{{ .title | upper }}</h2>
-        <hr class="orange-line mt-4">
+        <hr class="orange-line mt-4" />
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <!-- <div class="row"> -->
-        {{ range .faqItem }}
-        <div class="col-sm-6">
-          <div class="question-wrapper my-3">
-            <div class="question  ">
-              <p class="text-white mb-2"><span class="text-primary">Q: </span>{{ .title }}</p>
-            </div>
-            <div class="answer  ">
-              <p class="text-white mb-0"><span class="text-primary">A: </span>{{ .content }}</p>
-            </div>
+      {{ range .faqItem }}
+      <div class="col-sm-6">
+        <div class="question-wrapper my-3">
+          <div class="question">
+            <p class="text-white mb-2">
+              <span class="text-primary">Q: </span>{{ .title }}
+            </p>
+          </div>
+          <div class="answer">
+            <p class="text-white mb-0">
+              <span class="text-primary">A: </span>{{ .content | safeHTML }}
+            </p>
           </div>
         </div>
-        {{ end }}
+      </div>
+      {{ end }}
       <!-- </div> -->
     </div>
   </div>
@@ -271,11 +311,18 @@
 <section class="py-5 bg-secondary">
   <div class="container">
     <div class="col-lg-12 mx-auto text-justify">
-      <p class="text-white">All production will be at your location of choice. Studio Locations like studios are charged extra. Packages include travel if within 30 minutes of Copenhagen – If outside of 30 minutes, standard mileage & reduced hourly rate will be billed for the difference. Download more information about our <span class="text-primary">Video Production Subscriptions.</span></p>
+      <p class="text-white">
+        All production will be at your location of choice. Studio Locations like
+        studios are charged extra. Packages include travel if within 30 minutes
+        of Copenhagen – If outside of 30 minutes, standard mileage & reduced
+        hourly rate will be billed for the difference. Download more information
+        about our
+        <span class="text-primary">Video Production Subscriptions.</span>
+      </p>
     </div>
   </div>
 </section>
-<section class="digital-impact py-50 bg-white">
+<section class="py-50 bg-white">
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
       {{ $t := "Apply your interest " }}
@@ -283,15 +330,29 @@
     </div>
     <div class="row">
       <div class="col-lg-12 text-left">
-        <h5 class="my-5">Simply book below and fill out our quick and easy form, choose a time that suits you and we will send you the online meeting link.</h5>
-        <h5 class="">This session will include an breakdown of your current content, key insights and strategic advice that you can implement right away to your content plan, with no obligation to sign up.</h5>
+        <h5 class="my-5">
+          Simply book below and fill out our quick and easy form, choose a time
+          that suits you and we will send you the online meeting link.
+        </h5>
+        <h5 class="">
+          This session will include an breakdown of your current content, key
+          insights and strategic advice that you can implement right away to
+          your content plan, with no obligation to sign up.
+        </h5>
       </div>
       <div class="col-lg-9 mx-auto mt-5">
-        <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-primary text-center d-flex flex-column">
-          <h4 class="text-white">Secure my spot for a <span class="text-secondary"> FREE</span> consultation</h4>
+        <div
+          class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column"
+        >
+          <h4 class="text-white">
+            Secure my spot for a
+            <span class="text-primary"> FREE</span> consultation
+          </h4>
           <h5 class="text-white">(Valued at 750 DKK)</h5>
           <h5 class="text-white">Click below - limited spaces available</h5>
-          <a href="#" class="btn mt-5 mb-0 btn-blue text-center">BOOK MY SPOT</a>
+          <a href="#" class="btn mt-5 mb-0 btn-orange text-center"
+            >BOOK MY SPOT</a
+          >
         </div>
       </div>
     </div>

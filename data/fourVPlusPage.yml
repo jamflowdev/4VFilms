@@ -42,13 +42,13 @@ HowDoesItWork:
   title: "How does it work?"
   subtitle: "Now you have been introduced to our packages, here is what you should do next..."
   steps:
-    - title: "STEP 1: Book your free consultation with us, and we will discuss which subscription fits your budget, brand and resources."
+    - title: "STEP 1: <br> Book your free consultation with us, and we will discuss which subscription fits your budget, brand and resources."
       icon: "/images/icons/call-icon.svg"
-    - title: "STEP 2: If after your free consultation you’re interested in working with us, it is time to book a one-to-one strategy session. This consists of a detailed content plan, return on investment guide for your content, as well as assessing which 4V Plus package will suit you best."
+    - title: "STEP 2: <br> If after your free consultation you’re interested in working with us, it is time to book a one-to-one strategy session. This consists of a detailed content plan, return on investment guide for your content, as well as assessing which 4V Plus package will suit you best."
       icon: "/images/icons/person-talking.svg"
-    - title: "STEP 3: If we both feel 4V Plus would be a great fit for your brand, you will choose your package and you will be offered an exclusive spot in the 4V Family."
+    - title: "STEP 3: <br> If we both feel 4V Plus would be a great fit for your brand, you will choose your package and you will be offered an exclusive spot in the 4V Family."
       icon: "/images/icons/product-icon.svg"
-    - title: "STEP 4: We arrange a monthly vision session + payment deadline that fits your schedule – and your digital asset building journey continues."
+    - title: "STEP 4: <br> We arrange a monthly vision session + payment deadline that fits your schedule – and your digital asset building journey continues."
       icon: "/images/icons/file-edit.svg"
 
 seeItToBeliveIt:

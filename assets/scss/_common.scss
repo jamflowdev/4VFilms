@@ -47,7 +47,7 @@ a,
 button,
 select {
   cursor: pointer;
-  transition: .2s ease;
+  transition: 0.2s ease;
 
   &:focus {
     outline: 0;
@@ -64,10 +64,16 @@ svg {
   outline: 0;
 }
 
-.bg-blur{
+.bg-blur {
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
-  .content,p,li,ul,h4,h5,h2{
+  .content,
+  p,
+  li,
+  ul,
+  h4,
+  h5,
+  h2 {
     color: $white;
   }
 }
@@ -131,24 +137,24 @@ svg {
 /* overlay */
 .overlay2 {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   background: rgba(44, 51, 101, 0.7);
-  &-secondary{
+  &-secondary {
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     background: rgba(253, 107, 96, 0.4);
   }
-  &-primary{
+  &-primary {
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     width: 100%;
     top: 0;
@@ -156,9 +162,9 @@ svg {
     background: rgba(0, 0, 0, 0.4);
   }
 }
-.service-logo{
+.service-logo {
   z-index: 1;
-  &-small{
+  &-small {
     margin: 0 auto;
     z-index: 1;
     width: 80%;
@@ -170,13 +176,13 @@ svg {
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     background: $black;
-    opacity: .8;
+    opacity: 0.8;
   }
 
   &-primary {
@@ -184,13 +190,13 @@ svg {
 
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       height: 100%;
       width: 100%;
       top: 0;
       left: 0;
       background: $primary-color;
-      opacity: .8;
+      opacity: 0.8;
     }
   }
 
@@ -199,13 +205,13 @@ svg {
 
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       height: 100%;
       width: 100%;
       top: 0;
       left: 0;
       background: $secondary-color;
-      opacity: .8;
+      opacity: 0.8;
     }
   }
 
@@ -214,7 +220,7 @@ svg {
 
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       height: 100%;
       width: 100%;
       top: 0;
@@ -251,29 +257,29 @@ svg {
 .bg-primary-light {
   background-color: #f6eeee;
 }
-.high-quality-content{
-  .label{
+.high-quality-content {
+  .label {
     border: 2px solid $primary-color;
     padding: 10px;
     margin-left: 20px;
-    
-    &-white{
+
+    &-white {
       border: 2px solid $white;
       padding: 10px;
       margin-left: 20px;
     }
-   }
+  }
 }
 
-.price{
+.price {
   text-align: center;
   border-bottom: $secondary-color 1px solid;
-  .strike-through{
+  .strike-through {
     text-decoration: line-through;
   }
 }
 /* Vector */
-.vector{
+.vector {
   width: 200px;
   height: 230px;
   background: url(/images/backgrounds/4v-films-bg.jpg);
@@ -285,10 +291,10 @@ svg {
   transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
   // transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
 }
-.ajayyyy{
+.ajayyyy {
   fill: url("/images/backgrounds/4v-films-bg.jpg");
 }
-.production-company{
+.production-company {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -381,7 +387,7 @@ svg {
   margin-bottom: 100px !important;
 }
 
-.bg-services{
+.bg-services {
   height: 490px;
 }
 .zindex-1 {
@@ -398,7 +404,7 @@ svg {
 
 .font-primary {
   font-family: $primary-font !important;
-  &-bold{
+  &-bold {
     font-family: $primary-font-bold !important;
   }
 }
@@ -416,7 +422,7 @@ svg {
 }
 
 .transition {
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .vertical-align-middle {
@@ -449,7 +455,6 @@ textarea.form-control {
 
 /* /page-title */
 
-
 /* list style */
 .list-styled {
   padding-left: 0;
@@ -467,7 +472,7 @@ textarea.form-control {
       left: 0;
       top: 0px;
       color: $secondary-color;
-      transition: .3s ease;
+      transition: 0.3s ease;
     }
   }
 }
@@ -502,9 +507,9 @@ textarea.form-control {
   h6 {
     margin-bottom: 10px;
   }
-ol{
-  padding-left: 20px;
-}
+  ol {
+    padding-left: 20px;
+  }
   ul {
     padding-left: 0;
 
@@ -522,7 +527,7 @@ ol{
         left: 0;
         top: 1px;
         color: $primary-color;
-        transition: .3s ease;
+        transition: 0.3s ease;
       }
     }
   }
@@ -536,9 +541,9 @@ ol{
 
     th,
     td {
-      padding: .75rem;
+      padding: 0.75rem;
       vertical-align: top;
-      border: 1px solid #dee2e6
+      border: 1px solid #dee2e6;
     }
 
     thead {
@@ -554,7 +559,6 @@ ol{
     }
   }
 
-
   blockquote {
     p {
       margin-bottom: 0;
@@ -562,7 +566,6 @@ ol{
       font-style: italic !important;
     }
   }
-
 
   pre {
     padding: 10px 20px;
@@ -598,13 +601,13 @@ ol{
 .px-50 {
   padding-left: 50px;
   padding-right: 50px;
-  @include desktop{
+  @include desktop {
     padding-left: 30px;
-    padding-right: 30px;   
+    padding-right: 30px;
   }
   @include mobile {
     padding-left: 20px;
-    padding-right: 20px;   
+    padding-right: 20px;
   }
 }
 .px-80 {
@@ -612,14 +615,14 @@ ol{
   padding-right: 80px;
   @include tablet {
     padding-left: 40px;
-    padding-right: 40px;   
+    padding-right: 40px;
   }
   @include mobile {
     padding-left: 20px;
-    padding-right: 20px;   
+    padding-right: 20px;
   }
 }
-.col-cta{
+.col-cta {
   height: 600px;
 }
 
@@ -637,7 +640,7 @@ ol{
   background-color: $primary-color;
 }
 
-.btn-blue{
+.btn-blue {
   background-color: $secondary-color;
   border-radius: 0;
   border: 0;
@@ -688,7 +691,7 @@ footer {
 
   .list {
     a {
-      color: $white;;
+      color: $white;
 
       &:hover {
         color: $primary-color;
@@ -708,11 +711,12 @@ footer {
 }
 // card
 .my-card {
-transition: all .4s;
-&:hover {
-  transform: scale(1.15);
-  background-color: $primary-color;
-    h4, p {
+  transition: all 0.4s;
+  &:hover {
+    transform: scale(1.15);
+    background-color: $primary-color;
+    h4,
+    p {
       color: $white;
     }
   }
@@ -724,12 +728,12 @@ transition: all .4s;
     }
   }
   h4 {
-    transition: all .4s;
+    transition: all 0.4s;
     text-transform: capitalize;
   }
   p {
     color: $black;
-    transition: all .4s;
+    transition: all 0.4s;
     text-transform: capitalize;
   }
 }
@@ -750,11 +754,12 @@ transition: all .4s;
 // project
 .project-list {
   .my-card {
-    transition: all .4s;
+    transition: all 0.4s;
     &:hover {
-    transform: scale(1.15);
-    background-color: $primary-color;
-      h4, p {
+      transform: scale(1.15);
+      background-color: $primary-color;
+      h4,
+      p {
         color: $white;
       }
     }
@@ -766,12 +771,12 @@ transition: all .4s;
       }
     }
     h4 {
-      transition: all .4s;
+      transition: all 0.4s;
       text-transform: capitalize;
     }
     p {
       color: $black;
-      transition: all .4s;
+      transition: all 0.4s;
       text-transform: capitalize;
     }
   }
@@ -781,7 +786,7 @@ transition: all .4s;
   background-color: #f6eeee;
 }
 .overlay::before {
-  background-color: rgba(0, 0, 0, 0.70);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hero-description {
@@ -835,7 +840,7 @@ main .list {
       left: 0;
       top: 1px;
       color: $primary-color;
-      transition: .3s ease;
+      transition: 0.3s ease;
     }
   }
 }
@@ -870,79 +875,79 @@ main .list {
   }
 }
 
-.slider-test{
-  .clipped{
+.slider-test {
+  .clipped {
     margin: 0 auto;
-    @include desktop-lg{
+    @include desktop-lg {
       width: 200px;
       height: 220px;
     }
-    @include tablet{
+    @include tablet {
       width: 239px;
       height: 256px;
     }
   }
 }
 
-.slick-prev{
+.slick-prev {
   margin-left: -100px;
   top: 40%;
   transform: translateX(50%);
   position: absolute;
   cursor: pointer;
-  @include desktop-el{
+  @include desktop-el {
     margin-left: -70px;
   }
-  @include desktop-lg{
+  @include desktop-lg {
     margin-left: -50px;
   }
-  @include tablet{
+  @include tablet {
     margin-left: -70px;
   }
-  @include mobile{
+  @include mobile {
     margin-left: 30px;
   }
 }
-.slick-next{
+.slick-next {
   margin-right: -100px;
   top: 40%;
   right: 0;
   transform: translateX(50%);
   position: absolute;
   cursor: pointer;
-  @include desktop-el{
+  @include desktop-el {
     margin-right: -50px;
   }
-  @include desktop-lg{
+  @include desktop-lg {
     margin-right: -20px;
   }
-  @include tablet{
+  @include tablet {
     margin-right: -50px;
   }
-  @include mobile{
+  @include mobile {
     margin-right: 50px;
   }
 }
-.project-bg-white{
+.project-bg-white {
   background-color: $white;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 243px;
-  @include desktop-lg{
+  @include desktop-lg {
     height: 222px;
   }
-  @include tablet{
+  @include tablet {
     height: 243px;
   }
-  @include mobile{
+  @include mobile {
     height: 235px;
   }
 }
 
-.sucess-stories .slick-dots{
+.sucess-stories .slick-dots {
   margin-top: 50px;
-  li{
+  li {
     display: inline-block;
     height: 10px;
     width: 10px;
@@ -957,4 +962,18 @@ main .list {
     width: 15px;
     border-radius: 20%;
   }
+}
+
+.label-bold {
+  font-weight: 800 !important;
+}
+
+.content-package-title {
+  font-size: 40px;
+  text-align: left;
+}
+
+.faqs.overlay::before {
+  background: #131415 !important;
+  opacity: 0.8 !important;
 }
