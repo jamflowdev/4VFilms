@@ -34,6 +34,16 @@
 </section>
 {{ end }}
 
+{{ with .Site.Data.digital_impact_accelerator.discription }}
+<section class="bg-white py-50">
+  <div class="container">
+    <div>
+      <h4>{{ .content }}</h4>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <!-- 4 Pillars -->
 {{ with .Site.Data.digital_impact_accelerator.pillars }}
 <section class="pillars py-50 overlay bg-cover" data-background="{{ .bgImage | absURL }}">
@@ -131,7 +141,7 @@
     </div>
     <div class="row">
       <div class="col-12 high-quality-content">
-        <h4 class="mt-5 mb-3 text-white font-weight-normal">{{ .subtitle.text }} <span class="text-white font-weight-bold">{{ .subtitle.highlighted }}</span></h4>
+        <h4 class="mt-5 mb-3 text-white font-weight-normal">{{ .subtitle.text }} <span class="text-primary font-weight-bold">{{ .subtitle.highlighted }}</span></h4>
         <!-- <div class="row my-3">
             <div class="col-md-6 col-sm-7 col-12 mb-0">
               <ul class="list">

@@ -258,14 +258,19 @@
     </div>
     <div class="row high-quality-content">
       {{ range .steps }}
-      <!-- <div class="col-12 d-flex flex-row justify-content-left align-items-center"> -->
-      <div class="col-md-1 mb-3 col-sm-2 col-2 d-flex align-items-start">
-        <img src="{{ .icon | absURL }}" alt="icon" />
+      <div class="col-12 d-flex flex-row justify-content-left align-items-start">
+        <div class="col-md-1 mb-3 col-sm-2 col-2 d-flex align-items-start">
+          <img src="{{ .icon | absURL }}" alt="icon" />
+        </div>
+        <div class="col-md-1 mb-3 col-sm-2 col-2 d-flex align-items-start">
+          <p class="text-white text-nowrap mb-0">{{ .title }}</p>
+        </div>
+        <div class="col-md-11 mb-3 col-sm-10 col-10 d-flex">
+          <p class="text-white mb-0">
+            {{.content}}
+          </p>
+        </div>
       </div>
-      <div class="col-md-11 mb-3 col-sm-10 col-10 d-flex align-items-start">
-        <p class="text-white mb-0">{{ .title | safeHTML }}</p>
-      </div>
-      <!-- </div> -->
       {{ end }}
     </div>
   </div>

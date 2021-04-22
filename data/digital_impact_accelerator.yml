@@ -13,7 +13,10 @@ DigitalImpact:
     - "You attract a lot of opportunities – the right sort."
     - "You earn more money than most – and it isn’t a struggle."
     - "You scale rapidly - from small business, to beyond."
-  discription: "The Digital Impact Accelerator is designed around the 4 Pillars of digital assets, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business."
+
+########################### Discription ##################################
+discription:
+  content: "The Digital Impact Accelerator is designed around the 4 Pillars of digital assets, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business."
   
 ############################ The 4 Pillars #################################
 pillars:
