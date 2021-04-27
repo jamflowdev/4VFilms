@@ -103,10 +103,10 @@ cta:
   bgImage2 : "images/backgrounds/cta-bg2.jpg"
   button: 
     label: "TAKE THE IMPACT TEST"
-    link: "contact"
+    link: "#"
   button2:
     label: "Watch Me Now"
-    link: "contact"
+    link: "#"
 
 
 ############################## pricing ######################################
