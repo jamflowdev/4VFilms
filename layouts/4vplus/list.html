@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
-        <h3 class="text-white font-primary-bold mb-5">{{ .title | upper }}</h3>
+        <h2 class="text-white font-primary-bold mb-5">{{ .title | upper }}</h2>
         <h3 class="text-white">
           {{ .subtitle.whiteText }}
           <span class="text-primary">{{ .subtitle.highlighted }}</span>
@@ -152,7 +152,7 @@
                   <h5 class="text-primary">{{ .discountPrice }}</h5>
                 </div>
               </div>
-              <ul class="list px-2 pt-4">
+              <ul class="list pricing-list px-2 pt-4">
                 {{ range .serviceList }}
                 <li class="">{{ .service }}</li>
                 {{ end }}
@@ -221,7 +221,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-sm-12 text-center">
         <h5 class="my-5">{{ .subtitle }}</h5>
         <p>{{ .showreelTitle }}</p>
       </div>
@@ -255,21 +255,19 @@
         <hr class="orange-line mt-4" />
       </div>
     </div>
-    <div class="row high-quality-content">
-      <div class="col-12">
-        <h5 class="mt-5 mb-3 text-white">{{ .subtitle }}</h5>
+    <div class="row high-quality-content justify-content-center">
+      <div class="col-md-8 col-sm-9 mb-3">
+        <h4 class="mt-5 mb-3 text-white text-center">{{ .subtitle }}</h4>
       </div>
     </div>
-    <div class="row high-quality-content">
+    <div class="row high-quality-content justify-content-center">
       {{ range .steps }}
-      <div class="col-12 d-flex flex-row justify-content-left align-items-center">
-        <div class="col-md-1 mb-3 col-sm-2 col-2 d-flex align-items-start">
+      <div class="col-lg-10 col-md-12 d-flex flex-row justify-content-left mb-4">
+        <div class="col-lg-1 col-md-2 mb-3 col-sm-2 col-2">
           <img src="{{ .icon | absURL }}" alt="icon" />
         </div>
-        <div class="col-md-1 mb-3 col-sm-2 col-2 d-flex align-items-start">
-          <p class="text-white text-nowrap mb-0">{{ .title }}</p>
-        </div>
-        <div class="col-md-11 mb-3 col-sm-10 col-10 d-flex">
+        <div class="col-lg-11 col-md-10 mb-3 col-sm-10 col-10">
+          <p class="text-white mb-1">{{ .title }}</p>
           <p class="text-white mb-0">
             {{.content}}
           </p>
@@ -336,19 +334,19 @@
       {{ $t := "Apply your interest " }}
       <h2 class="section-title">{{ $t | upper }}</h2>
     </div>
-    <div class="row">
-      <div class="col-lg-12 text-left">
+    <div class="row justify-content-center">
+      <div class="col-sm-9 text-left">
         <h5 class="my-5">
-          Fill out our quick and easy form, Simply book below and choose a time
-          that suits you and we will send you the online meeting link.
-        </h5>
-        <h5 class="">
           This session will include a breakdown of your current content, key
           insights and strategic advice that you can implement right away to
           your content plan, with no obligation to sign up.
         </h5>
+        <h5 class="">
+          Fill out our quick and easy form, Simply book below and choose a time
+          that suits you and we will send you the online meeting link.
+        </h5>
       </div>
-      <div class="col-lg-9 mx-auto mt-5">
+      <div class="col-sm-9 mx-auto mt-5">
         <div
           class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column"
         >

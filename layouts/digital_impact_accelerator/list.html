@@ -14,21 +14,34 @@
 {{ with .Site.Data.digital_impact_accelerator.DigitalImpact }}
 <section class="digital-impact py-50 bg-secondary">
   <div class="container">
-    <div class="col-lg-12 mx-auto text-center">
-      <h2 class="section-title text-white">{{ .title }}</h2>
-      <hr class="orange-line mt-4">
+    <div class="row">
+      <div class="col-sm-12 mx-auto text-center">
+        <h2 class="section-title text-white">{{ .title }}</h2>
+        <hr class="orange-line mt-4">
+      </div>
     </div>
-    <div class="col-lg-12 p-0 mt-5">
-      <h5 class="mb-3 text-white">{{ .subtitle }}</h5>
-      <p class="text-white">{{ .content }}</p>
+    <div class="row align-items-center">
+      <div class="col-sm-6">
+        <h5 class="mt-4 mb-3 text-white">{{ .subtitle }}</h5>
+        <ul class="list text-white mx-auto">
+          <li class="list-item text-white">Quality</li>
+          <li class="list-item text-white">Value </li>
+          <li class="list-item text-white">Consistency </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <img src="/images/digital-impact-service.png" alt="">
+      </div>
     </div>
-    <div>
-      <h4 class="mt-5 mb-3 text-white text-center">{{ .secondTitle }}</h4>
-      <ul class="list text-white mx-auto">
-        {{ range .listItems }}
-        <li class="list-item text-white">{{ . }}</li>
-        {{ end }}
-      </ul>
+    <div class="row mt-4 justify-content-center">
+      <div class="col-sm-8">
+        <h4 class="mt-5 mb-3 text-white text-center">{{ .secondTitle }}</h4>
+        <ul class="list text-white mx-auto">
+          {{ range .listItems }}
+          <li class="list-item text-white">{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
     </div>
     <!-- <p class="mt-5 text-white">{{ .discription }}</p> -->
   </div>
@@ -38,8 +51,15 @@
 {{ with .Site.Data.digital_impact_accelerator.discription }}
 <section class="bg-white py-50">
   <div class="container">
-    <div>
-      <h4>{{ .content }}</h4>
+    <div class="row justify-content-center">
+      <div class="col-sm-10">
+        <h4>The Digital Impact Accelerator transforms a small businesses online presence over 6 months, following our impact method above. Here’s how it works.</h4>
+        <div class="mt-3">
+          <h5><span class="text-primary">Quality : </span><span>Professional crew and gear</span></h5>
+          <h5><span class="text-primary">Value : </span><span>Following the 4 pillars of digital assets</span></h5>
+          <h5><span class="text-primary">Consistency : </span><span>6 months of content + SoMe team</span></h5>
+        </div>
+      </div>
     </div>
   </div>
 </section>
