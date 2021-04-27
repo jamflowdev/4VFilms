@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-left">
-        <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .Title | upper | markdownify }}</h1>
+        <h1 class="display-1 text-white font-primary-bold">{{ .Title | upper | markdownify }}</h1>
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@
         {{ range .mission.description }}
         {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         {{ $counter := $.Scratch.Get `counter`}}
-        <h4 class="text-white pt-sm-50 {{ if eq $counter 1 }} mb-5 mb-sm-0 {{ end }}">{{ . }}</h4>
+        <h4 class="text-white pt-sm-50 {{ if eq $counter 1 }} mb-5 mb-sm-0 {{ end }}">{{ . | markdownify }}</h4>
         {{ end }}
       </div>
     </div>

@@ -5,7 +5,7 @@ hero:
 ########################### Digital Impact ##################################
 DigitalImpact:
   title: "A DIGITAL IMPACT"
-  subtitle: "Transform your brand, expand your digital assets and become a content leader in your industry."
+  subtitle: "To dominate online and rapidly scale your brand, you need 3 key ingredients."
   content: "At the centre of every industry, you will find the brands that dominate social media and the online world. As a result, they are highly respected, highly valued and highly paid."
   secondTitle: "When you have a Digital Impact, significant things happen:"
   listItems:
@@ -21,15 +21,15 @@ discription:
 ############################ The 4 Pillars #################################
 pillars:
   bgImage : "/images/backgrounds/pillars-bg.jpg"
-  title : "4 Pillars Methodology"
-  subtitle : "There are 4 Key areas of your business that need consistent content."
+  title : "The 4 Pillars"
+  subtitle : "The 4 content areas in your brand that create value."
   listItem:
     - title : "People - This is your"
       highlighted: "WHO?"
       content : "The humanisation of your brand. Connecting with your audience on a human level and creating a personal side to your business."
     - title : "Purpose - This is your"
       highlighted: "WHY?"
-      content : "You must put your brand values on the stage, display what makes you different and leverage a deeper sense of purpose"
+      content : "You must put your brand values on the stage, display what makes you different and leverage a deeper sense of purpose."
     - title : "Product - This is your"
       highlighted: "WHAT?"
       content : "Creating content around what you offer and the solution you provide. Take your customer on a journey and excite them."
@@ -38,7 +38,7 @@ pillars:
       content : "Your audience need final proof before buying. You must position yourself as the expert and convince them of your value."
   videoURL: "video/Showreel.mp4"
   button:
-    label: "APPLY NOW"
+    label: "Learn more"
     url: "#"
       
 ############################## for small brands ####################################
@@ -80,13 +80,14 @@ whatDoesItMean:
   title : "In a nutshell"
   listItems:
     - "Up to 150 professional, creative and value adding content pieces covering each of the 4 Pillars."
-    - "Imagine this content could be produced and delivered to you within a matter of weeks..."
-    - "Imagine being able to dominate social media with your online presence, with valuable, thought provoking content that ticks all the boxes."
-    - "Imagine not having to think about creating amazing content and being able to focus on what you are good at."
+    - "Imagine this content could be produced within a matter of weeks."
+    - "Imagine this content being scheduled and published every day across all your platforms."
+    - "Imagine being able to dominate social media with your online presence, with valuable, consistent content that ticks all the boxes."
+    - "Imagine not having to think about creating content or scheduling/publishing across your platforms - but being able to focus on what you are good at instead."
   
   subtitle:
     text: "To put it into perspective,"
-    highlighted: "you could publish one piece of content every day, for 4 months straight."
+    highlighted: "this would be like hiring a full-time video production and social media team over 6 months, for a fraction of the cost."
   
   # recommendedList:
   #   title: "Recommended"
@@ -111,5 +112,5 @@ whatDoesItMean:
     #     text: ", for 35 months straight."
   bottomDiscription: "Once you are In this position, you will have a Digital Impact."
   button:
-    label: "Transform your online presence <br> Apply Now"
+    label: "Apply Now"
     url: "#"

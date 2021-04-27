@@ -9,10 +9,10 @@ History:
   content:
     - "4V Films was founded in 2019 by Head videographer, Patrick Bates. Patrick's vision for developing the digital assets of small businesses stems from his own experiences within video production."
     - "After being invited to the Middle East to learn more about how Dubai's leading production house operates, Patrick quickly learnt what it takes to work on a commercial level and to transform brands. Having taken sole responsibility for numerous projects, big and small, with clients such as Audi, Emirates and BMW, Patrick discovered a burning passion that changed his world."
-    - "He moved to Copenhagen in 2018 when offered a spot at Copenhagen Business School. During his bachelor, he was surrounded by many small businesses who all shared one thing in common, they lacked high quality, consistent content."
-    - "Realising his unique skillset and passion for creating, 4V Films was born with the sole aim to completely transform small businesses, supply them with a wealth of digital assets, help them grow and provide value to others."
+    - "He moved to Copenhagen in 2018 when offered a spot at Copenhagen Business School. During his bachelor, he was surrounded by many small businesses who all shared one thing in common, they lacked high quality, valuable and consistent content."
+    - "Realising his unique skillset and passion for creating, 4V Films was born with the sole aim to completely transform small businesses, supply them with a wealth of digital assets, scale their online presence and rapidly grow their business."
   imageURL: "/images/team/patrick.jpg"
-  quote: "We want to unlock small businesses potential by creating digital assets so that they can transform, grow and contribute to society with their unique product or service."
+  quote: "I want to unlock small businesses potential by scaling their digital impact, so they can transform, grow and contribute to society with their unique product or service."
   author: "Patrick Bates"
 
 ########################### Vision and Mission ##################################
@@ -23,12 +23,12 @@ VisionAndMission:
     title: "Vision"
     description:
     # - "To be one of Scandinavia’s leading production houses with a core focus on helping small businesses rapidly grow through digital assets so that they can focus on providing value to their customers."
-    - "Our aim is to transform 50 small businesses online presence by the end of 2022, through the Digital Impact Accelerator."
+    - "We want to be the front runner in Scandinavia for rapidly transforming and scaling small businesses through our unique digital impact method."
     imgURL: "/images/icons/vision-icon.svg"
   mission:
     title: "Mission"
     description:
-    - "To combine our wealth of global experience and knowledge with our passion for creating to rapidly transform small businesses, give them a strong digital impact that allows them to reach more people with their product or service."
+    - "We actively combine our wealth of global experience with our passion for creating to transform small businesses. This transformation allows them to reach more people with their product or service. Our aim is to provide 50 small businesses with a strong digital impact by the end of 2022, through the [Digital Impact Accelerator](http://localhost:1313/digital_impact_accelerator/)."
     imgURL: "/images/icons/mission-icon.svg"
   
 ############################ features #################################
@@ -39,23 +39,23 @@ features:
   insight:
     title: "Heres a brief insight how:"
     items:
-      - title: "Globally Experienced Crew"
-        content: "We have worked with over 15+ industries, in the UAE, U.K. and Denmark."
-      - title: "Our Values"
+      - title: "Global Experience"
+        content: "In the UAE, UK and Denmark, with top brands such as Audi, Emirates and Carlsberg."
+      - title: "Strong Values"
         content: "We are extremely passionate about what we do and we apply our values such as Honesty, Trust, Reliability and Quality in every action we take."
       - title: "Free tools and Resources"
         content: "We provide our audience with many free tools that help them scale online and create content, such as the Digital Impact assessment or our Digital Impact Workshop."
       - title: "Content Strategy Session"
-        content: "We help small businesses strategise and create a plan to dominate online."
+        content: "Walking you through the digital impact method and creating your 6-month plan"
+      - title: "Digital Impact Method "
+        content: "Our unique method for creating a strong online presence following the principles of high quality, value, and consistency."
       - title: "Digital Impact Accelerator"
-        content: "Our affordable solution for small businesses to transform their online presence, following our 4 Pillar methodology."
+        content: "Our affordable solution for small brands to transform their online presence following the impact method."
       - title: "Limited Spaces"
-        content: "Each year, we have a maximum capacity of 24 clients. This is so we can comfortably ensure the highest value and results for our clients."
+        content: "Each year, we have a maximum capacity of 24 clients on the accelerator. This is so we can comfortably ensure the highest value and results for our clients."
       - title: "4V Plus"
         content: "Our exclusive monthly production and SoMe management service. Made highly affordable and convenient for our clients."
       - title: "4V Model"
         content: "For our productions outside the accelerator, we follow our unique 4V model that creates transparency and trust."
-      - title: "Booking System"
-        content: "Smooth and easy, choose your meeting or event that fits your schedule."
       - title: "Delighted Clients"
         content: "We are rated 5 stars across all our platforms, including Facebook and Google. Our clients success speaks for themselves."

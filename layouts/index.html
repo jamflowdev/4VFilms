@@ -40,8 +40,13 @@
   <div class="container">
     <div class="row align-items-center text-white justify-content-center">
       {{ with .Site.Data.homepage.vision }}
-      <div class="col-sm-5">
-        <h1 class="section-title text-primary">{{ .title | markdownify }} <span class="white-line"></span></h1>
+      <div class="col-sm-5 d-flex justify-content-center">
+        <h1 class="section-title text-primary">{{ .title | markdownify }}</h1>
+  
+          <svg class="ml-5" width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0L100 50L0 100V0Z" fill="#ffffff"/>
+          </svg>
+        
       </div>
       <div class="col-sm-7 px-50">
         <h4 class="big-description mt-5 text-white">{{ .subtitle1 | markdownify}}</h4>
@@ -176,46 +181,9 @@
 <!-- testimonials -->
 {{- partial "testimonials-slider.html" . }}
 
-<!-- client -->
-<section class="client section">
-  <div class="container">
-    <div class="col-12 mx-auto mb-5 text-center">
-      <h2 class="section-title">Our Clients</h2>
-      <hr class="orange-line mt-4">
-    </div>
-    <div class="row my-5 justify-content-center">
-      <div class="my-col">
-        <img src="/images/clients/audi.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/live.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/bmw.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/female-leadership.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/bike-buddies.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/glostrup-park-hotel.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/zealand.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/cbs.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/blue-lobster.png" alt="">
-      </div>
-      <div class="my-col">
-        <img src="/images/clients/carlsberg.png" alt="">
-      </div>
-    </div>
-  </div>
-</section>
+<!-- clients -->
+
+{{- partial "clients.html" . }}
+
 
 {{ end }}

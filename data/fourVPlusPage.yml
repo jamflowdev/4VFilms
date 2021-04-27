@@ -1,7 +1,7 @@
 ############################## Banner ###################################
 banner:
   BgImage: "/images/banner/4v-plus-hero-bg.jpg"
-  title: "MONTHLY PHOTO AND VIDEO CONTENT PACKAGES"
+  title: "monthly content packages"
   subtitle:
     whiteText: "STARTING FROM"
     highlighted: "DKK 1.950"
@@ -23,7 +23,7 @@ RightPlace:
 
 ###########################  Features Section ##################################
 Features:
-  title: "SO, CAN YOU IMAGINE HAVING…"
+  title: "SO, YOU can IMAGINE HAVING…"
   icons:
     - content: "CONSISTENT CONTENT"
       url: "/images/icons/CONSISTENT-CONTENT.svg"

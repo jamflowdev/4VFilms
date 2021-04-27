@@ -38,8 +38,8 @@ service:
      label: "Read More"
   perfect_solution:
     title: "Digital Impact Accelerator"
-    subtitle: "A complete digital transformation for small businesses following our 4 Pillar methodology."
-    description: "Great for small businesses that need to boost their online presence rapidly and make a digital impact."
+    subtitle: "A complete digital transformation for small businesses following our digital impact method."
+    description: "Great for small businesses that want to transform their online presence rapidly and scale their brand."
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     logoURL: "/images/digital-impact-service.png"
     button:

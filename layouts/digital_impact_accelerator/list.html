@@ -22,14 +22,15 @@
       <h5 class="mb-3 text-white">{{ .subtitle }}</h5>
       <p class="text-white">{{ .content }}</p>
     </div>
-    
-    <h4 class="mt-5 mb-3 text-white">{{ .secondTitle }}</h4>
-    <ul class="list text-white">
-      {{ range .listItems }}
-      <li class="list-item text-white">{{ . }}</li>
-      {{ end }}
-    </ul>
-    <p class="mt-5 text-white">{{ .discription }}</p>
+    <div>
+      <h4 class="mt-5 mb-3 text-white text-center">{{ .secondTitle }}</h4>
+      <ul class="list text-white mx-auto">
+        {{ range .listItems }}
+        <li class="list-item text-white">{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <!-- <p class="mt-5 text-white">{{ .discription }}</p> -->
   </div>
 </section>
 {{ end }}
