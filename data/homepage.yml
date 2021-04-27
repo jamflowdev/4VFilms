@@ -18,15 +18,15 @@ vision:
 service:
   enable : true
   title : "Services"
-  fourv_films:
-    title: "4V Films"
-    subtitle: "Our standard Video/ Photo Productions"
-    description: "Great for brands who need a high quality, professional Video/Photo Production."
-    imgURL: "/images/backgrounds/services-bg-1.jpg"
-    logoURL: "/images/four-v-films-service.svg"
-    button:
-     url: "#"
-     label: "Read More"
+  # fourv_films:
+  #   title: "4V Films"
+  #   subtitle: "Our standard Video/ Photo Productions"
+  #   description: "Great for brands who need a high quality, professional Video/Photo Production."
+  #   imgURL: "/images/backgrounds/services-bg-1.jpg"
+  #   logoURL: "/images/four-v-films-service.svg"
+  #   button:
+  #    url: "#"
+  #    label: "Read More"
   fourv_plus:
     title: "4V Plus+"
     subtitle: "Our monthly Video/Photo content packages"
@@ -34,7 +34,7 @@ service:
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     logoURL: "/images/four-v-films-service.svg"
     button:
-     url: "#"
+     url: "4vplus"
      label: "Read More"
   perfect_solution:
     title: "Digital Impact Accelerator"
@@ -43,7 +43,7 @@ service:
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     logoURL: "/images/digital-impact-service.png"
     button:
-     url: "#"
+     url: "/digital_impact_accelerator/"
      label: "Read More"
   
 ############################ features #################################

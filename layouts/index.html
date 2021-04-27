@@ -68,7 +68,7 @@
       </div>
       {{ end }}
     </div>
-    <div class="row py-50">
+    <!-- <div class="row py-50">
       {{ with .Site.Data.homepage.service.fourv_films }}
       <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
         <div class="overlay2-primary">
@@ -84,35 +84,37 @@
           <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
         </div>
         {{ end }}
-    </div>
+    </div> -->
     <div class="row py-50">
       {{ with .Site.Data.homepage.service.fourv_plus }}
+        <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
+          <div class="overlay2-primary">
+          </div>
+          <img src="{{ .logoURL | absURL }}" alt="" class="service-logo">
+        </div>
         <div class="col-sm-6 px-50">
           <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
           <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
           <p class="services-description mb-4">{{ .description | markdownify }}</p>
           <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
         </div>
-        <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
-          <div class="overlay2-primary">
-          </div>
-          <img src="{{ .logoURL | absURL }}" alt="" class="service-logo">
-        </div>
+
       {{ end }}
     </div>
     <div class="row py-50">
       {{ with .Site.Data.homepage.service.perfect_solution }}
+      <div class="col-sm-6 pt-sm-50 px-50">
+        <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
+        <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
+        <p class="services-description mb-4">{{ .description | markdownify }}</p>
+        <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
+      </div>
       <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
         <div class="overlay2-primary">
         </div>
         <img src="{{ .logoURL | absURL }}" alt="" class="service-logo-small">
       </div>
-        <div class="col-sm-6 pt-sm-50 px-50">
-          <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
-          <h3 class="services-subtitle mb-4">{{ .subtitle | markdownify }}</h3>
-          <p class="services-description mb-4">{{ .description | markdownify }}</p>
-          <a href="{{ .button.url | absURL }}" class="btn btn-orange mb-4">{{ .button.label }}</a>
-        </div>
+
         {{ end }}
     </div>
   </div>
@@ -162,7 +164,7 @@
       {{ end }}
     </div>
     <div class="row py-4">
-      {{ range (where  .Site.RegularPages "Section" "projects") }}
+      {{ range first 3 (where  .Site.RegularPages "Section" "projects").ByDate.Reverse }}
         <div class="col-lg-4 col-sm-6 mt-5">
           {{- partial "card.html" . -}}
         </div>
@@ -170,7 +172,7 @@
     </div>
     <div class="row py-3">
       <div class="col-12">
-        <a class="d-block mx-auto btn btn-orange" href="#">VIEW MORE</a>
+        <a class="d-block mx-auto btn btn-orange" href="/projects/">VIEW MORE</a>
       </div>
     </div>
   </div>
