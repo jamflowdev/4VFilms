@@ -44,7 +44,7 @@
     <div class="row mt-5">
       {{ range .icons }}
       <div class="col-sm-4 text-center">
-        <img src="{{ .url | absURL }}" alt="" />
+        <img src="{{ .url | absURL }}" alt="icons" loading = lazy />
         <h4 class="mb-3 text-white text-center">{{ .content | upper }}</h4>
       </div>
       {{ end }}
@@ -62,7 +62,7 @@
     <div class="row mt-5 mb-0">
       {{ range .icons }}
       <div class="col-md-3 col-sm-6 col-12 text-center">
-        <img src="{{ .url | absURL }}" alt="" />
+        <img src="{{ .url | absURL }}" alt="icons" loading = lazy />
         <h4 class="mb-3 text-center">{{ .content | upper }}</h4>
       </div>
       {{ end }}
@@ -112,7 +112,7 @@
           </div> -->
           <div class="image-wrapper">
             <p>{{.title}}</p>
-            <img src="{{ .Image | absURL }}" alt="">
+            <img loading =lazy src="{{ .Image | absURL }}" alt="{{.title}}">
           </div>
         </div>
         {{ end }} {{ end }}
@@ -139,7 +139,7 @@
       <div class="col-md-4 col-sm-9 mt-3 plan-bronze pb-0">
         <div class="pricing-header bg-{{ .title | lower }} p-3 pb-0">
           <div class="bg-white p-4 text-center">
-            <img src="{{ .icon }}" alt="{{ .title }}" />
+            <img src="{{ .icon }}" loading = lazy alt="{{ .title }}" />
             <h5 class="plan-title text-{{ .title | lower }} font-weight-bold">
               {{ .title }}
             </h5>

@@ -90,7 +90,7 @@
         <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
           <div class="overlay2-primary">
           </div>
-          <img src="{{ .logoURL | absURL }}" alt="" class="service-logo">
+          <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo">
         </div>
         <div class="col-sm-6 px-50">
           <h2 class="services-title mb-4">{{ .title | markdownify }}</h2>
@@ -112,7 +112,7 @@
       <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
         <div class="overlay2-primary">
         </div>
-        <img src="{{ .logoURL | absURL }}" alt="" class="service-logo-small">
+        <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo-small">
       </div>
 
         {{ end }}
@@ -126,7 +126,7 @@
 <!-- promo video -->
 {{ with .Site.Data.homepage.promo }}
 <section class="section-lg position-relative bg-cover" data-background="'{{ .bgImage | absURL }}'">
-  <img src="{{`images/backgrounds/about-bg-overlay.png` | absURL }}" alt="overlay" class="overlay-image img-fluid">
+  <img src="{{`images/backgrounds/about-bg-overlay.png` | absURL }}" loading = lazy alt="overlay" class="overlay-image img-fluid">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-6 col-md-8 col-sm-7 col-8">

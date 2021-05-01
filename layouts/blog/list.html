@@ -10,7 +10,7 @@
       <div class="col-md-6 my-4 px-4">
         <a href="{{ .Permalink }}" class="">
           <article class="card my-card border-radius card-hover">
-            <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}">
+            <img src="{{ .Params.Image | absURL }}"  loading="lazy" alt="{{ .Title }}">
             <div class="card-body text-left">
               <p class="">{{ .PublishDate.Format "January 02, 2006" }}</p>
               <h4 class="">{{ .Title }}</h4>

@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 mb-4 mb-lg-0">
-        <img src="{{ .image | absURL }}" alt="about" class="img-fluid">
+        <img src="{{ .image | absURL }}"  loading="lazy" alt="about 4v Films" class="img-fluid">
       </div>
       <div class="col-md-6 col-lg-5">
         {{ range .progressbar }}
@@ -38,7 +38,7 @@
     <div class="row">
       <div class="col-12">
         <div class="overlay-secondary video-player">
-          <img src="{{ .videoThumb | absURL }}" alt="video-thumb" class="img-fluid w-100">
+          <img src="{{ .videoThumb | absURL }}" alt="video-thumb"  loading="lazy" class="img-fluid w-100">
           <a class="play-icon">
             <i class="text-center icon-sm icon-box-sm rounded-circle text-white bg-gradient-primary d-block ti-control-play content-center"
               data-video="{{ .videoLink | safeURL }}">
@@ -71,7 +71,7 @@
           <div class="slide">
             <div class="card text-center">
               <div class="card-body px-5 py-4">
-                <img src="{{ .image | absURL }}" alt="user-1" class="img-fluid rounded-circle mb-4">
+                <img src="{{ .image | absURL }}" alt="{{ .name }}"  loading="lazy" class="img-fluid rounded-circle mb-4">
                 <h4 class="text-secondary">{{ .name }}</h4>
                 <p>“{{ .content | markdownify }}”</p>
               </div>
