@@ -835,6 +835,18 @@ footer {
   width: 0;
   height: 0;
 }
+.seeItToBeliveIt-slider {
+  .image-wrapper {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+      color: $white;
+    }
+  }
+}
 .clipped {
   width: 239px;
   height: 256px;

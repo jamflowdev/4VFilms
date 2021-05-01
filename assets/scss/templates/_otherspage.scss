@@ -134,3 +134,49 @@
   max-height: 260px;
   max-width: 260px;
 }
+
+.whatDoIGet {
+  .title {
+    text-align: center;
+    background-color: $primary-color;
+    font-size: 24px;
+    font-weight: 700;
+    color: $white;
+    padding: 10px 0;
+  }
+
+  .wrapper {
+    background-color: rgba($color: $secondary-color, $alpha: 0.7);
+    padding: 30px 20px;
+    color: $white;
+    ;
+
+    h3 {
+      font-size: 24px;
+      color: $white;
+      text-align: center;
+      word-wrap: break-word;
+      // @include desktop {
+      //   font-size: 20px;
+      // }
+    }
+    .subtitle {
+      font-size: 18px;
+      font-weight: bold;
+      color: $white;
+      line-height: 24px;
+    }
+    .divider {
+      height: 3px;
+      width: 100%;
+      background-color: $white;
+      margin: 20px 0;
+    }
+    .list {
+      padding-left: 20px;
+      @include desktop {
+        padding-left: 0px;
+      }
+    }
+  }
+}

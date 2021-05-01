@@ -1,15 +1,16 @@
 {{ define "main" }}
+{{ with .Site.Data.digital_impact_accelerator.hero }}
 <!-- Hero -->
-<section class="page-title overlay bg-cover" data-background="{{ .Params.BgImage | absURL}}">
+<section class="page-title overlay bg-cover" data-background="{{ .BGImage | absURL}}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .Title | markdownify }}</h1>
+        <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .title | markdownify }}</h1>
       </div>
     </div>
   </div>
 </section>
-
+{{ end }}
 <!-- digital_impact -->
 {{ with .Site.Data.digital_impact_accelerator.DigitalImpact }}
 <section class="digital-impact py-50 bg-secondary">
@@ -115,31 +116,121 @@
 {{ end }}
 
 <!-- WHAT DO I GET? -->
-{{ with .Site.Data.digital_impact_accelerator.whatDoIGet }}
-<section class="overlay bg-cover" data-background="{{ .bgImage | absURL }}">
-  <div class="bg-blur py-50">
+<!-- {{ with .Site.Data.digital_impact_accelerator.whatDoIGet }} -->
+<section class="py-50 overlay whatDoIGet bg-cover" data-background="{{ .bgImage | absURL }}">
+  <div class="container">
     <div class="row m-5">
-      <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title text-white">{{ .title }}</h2>
+      <div class="col-sm-12 mx-auto text-center">
+        <h2 class="section-title text-white">WHAT DO I GET?</h2>
         <hr class="orange-line mt-4">
+        <h3 class="text-white mt-5">YOUR 6 MONTH TRANSFORMATION</h3>
       </div>
     </div>
-    <div class="container">
-      <div class="col-lg-12 content">
-        <h5 class="title mb-5">{{ .subtitle }}</h5>
-        <ul class="list ml-5">
-          {{ range .listItems }}
-          <li class="list-item mb-4">{{ . }}</li>
-          {{ end }}
-        </ul>
-        <div class="text-center">
-          <a href="{{ .button.url | absURL }}" class="mt-5 di mx-auto btn btn-orange">{{ .button.label }}</a>
+    <div class="row">
+      <div class="col-md-9 mt-4">
+        <h3 class="title">1 MONTH</h3>
+        <div class="row">
+          <div class="col-sm-4 mt-4">
+            <div class="wrapper">
+              <h3>PRE PRODUCTION</h3>
+              <div class="divider"></div>
+              <h4 class="subtitle">
+                90 minutes vision session
+              </h4>
+              <ul class="list mt-3">
+                <li class="list-item">Run down of production</li>
+                <li class="list-item">Workbook introduction</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Client Preperation</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Script writing</li>
+                <li class="list-item">Following workbook</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="wrapper">
+              <h3>PRE PRODUCTION</h3>
+              <div class="divider"></div>
+              <h4 class="subtitle">People</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Founder Interviews</li>
+                <li class="list-item">Team Interviews</li>
+                <li class="list-item">B-Roll</li>
+                <li class="list-item">Headshots</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Purpose</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Values video</li>
+                <li class="list-item">Vision and mission video</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Product</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Promo video</li>
+                <li class="list-item">B-Roll</li>
+                <li class="list-item">Photography</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Proof</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Face to cam videos x5</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-4">
+            <div class="wrapper">
+              <h3>POST PRODUCTION</h3>
+              <div class="divider"></div>
+              <h4 class="subtitle">Video Editing</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Macro Micro</li>
+                <li class="list-item">B-Roll Videos</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Photo Editing</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Headshots</li>
+                <li class="list-item">In - action shots</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Graphic Design</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Quotes</li>
+                <li class="list-item">Statistics</li>
+                <li class="list-item">Motion Graphics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <h3 class="title">1 MONTH</h3>
+        <div class="row mt-3">
+          <div class="col-sm-12">
+            <div class="wrapper">
+              <h3>SOCIAL MEDIA GROWTH</h3>
+              <div class="divider"></div>
+              <h4 class="subtitle">Scheduling team</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Content calendar</li>
+              </ul>
+              <img src="/images/icons/Plus.png" class="mb-4" alt="" srcset="">
+              <h4 class="subtitle">Publishing team</h4>
+              <ul class="list mt-3">
+                <li class="list-item">Posting your content for you</li>
+                <li class="list-item">Monthly analysis reports</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
+<!-- {{ end }} -->
 
 <!-- WHAT DOES IT MEAN? -->
 {{ with .Site.Data.digital_impact_accelerator.whatDoesItMean }}
