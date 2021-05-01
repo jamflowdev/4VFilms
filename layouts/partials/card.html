@@ -1,6 +1,6 @@
 <a href="#" class="">
   <div class="card my-card border-radius card-hover">
-    <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}">
+    <img src="{{ .Params.thumbnail | absURL }}" loading="lazy" alt="{{ .Title }}">
     <div class="card-body text-left">
       <h4 class="card-title">{{ .Title }}</h4>
       <p class="card-name">{{ .Params.company_name | markdownify }}</p>
