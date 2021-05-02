@@ -24,16 +24,16 @@ pillars:
   title : "The 4 Pillars"
   subtitle : "The 4 content areas in your brand that create value."
   listItem:
-    - title : "People - This is your"
+    - title : "People - "
       highlighted: "WHO?"
       content : "The humanisation of your brand. Connecting with your audience on a human level and creating a personal side to your business."
-    - title : "Purpose - This is your"
+    - title : "Purpose - "
       highlighted: "WHY?"
       content : "You must put your brand values on the stage, display what makes you different and leverage a deeper sense of purpose."
-    - title : "Product - This is your"
+    - title : "Product - "
       highlighted: "WHAT?"
       content : "Creating content around what you offer and the solution you provide. Take your customer on a journey and excite them."
-    - title : "Proof - This is your"
+    - title : "Proof - "
       highlighted: "HOW?"
       content : "Your audience need final proof before buying. You must position yourself as the expert and convince them of your value."
   videoURL: "video/Showreel.mp4"
@@ -81,13 +81,13 @@ whatDoesItMean:
   listItems:
     - "Up to 150 professional, creative and value adding content pieces covering each of the 4 Pillars."
     - "Imagine this content could be produced within a matter of weeks."
-    - "Imagine this content being scheduled and published every day across all your platforms."
-    - "Imagine being able to dominate social media with your online presence, with valuable, consistent content that ticks all the boxes."
+    - "Imagine this content being scheduled and published every day across all your platforms for you."
+    - "Imagine being able to dominate social media with your online presence, with valuable, optimised content that ticks all the boxes."
     - "Imagine not having to think about creating content or scheduling/publishing across your platforms - but being able to focus on what you are good at instead."
   
   subtitle:
     text: "To put it into perspective,"
-    highlighted: "this would be like hiring a full-time video production and social media team over 6 months, for a fraction of the cost."
+    highlighted: "this would be like hiring a full-time video production and social media team over 6 months, but for a fraction of the cost."
   
   # recommendedList:
   #   title: "Recommended"

@@ -351,6 +351,9 @@ svg {
 .text-bronze {
   color: $bronze !important;
 }
+.text-black {
+  color: $text-color-dark !important;
+}
 .bg-golden {
   background-color: $golden !important;
 }
@@ -1034,4 +1037,8 @@ main .list {
   .image-wrapper {
     height: 300px;
   }
+}
+
+.width-fitcontent {
+  width: fit-content;
 }
