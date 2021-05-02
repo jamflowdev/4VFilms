@@ -5,7 +5,7 @@ pricingTable:
     icon: "/images/icons/bronze-pricing-icon.png"
     subtitle: "For brands needing a content boost."
     regularPrice: "5.675 DKK"
-    discountPrice: "2.979 DKK"
+    discountPrice: "1.950 DKK"
     # service list
     serviceList:
       - service: "Monthly vision session"
@@ -21,7 +21,7 @@ pricingTable:
     icon: "/images/icons/silver-pricing-icon.png"
     subtitle: "For brands looking to outsource the complete production process."
     regularPrice: "8.042 DKK"
-    discountPrice: "5.950 DKK"
+    discountPrice: "4.950 DKK"
     # service list
     serviceList:
       - service: "Monthly vision session"
@@ -38,7 +38,7 @@ pricingTable:
   # pricing table
   - title: "Golden"
     icon: "/images/icons/golden-pricing-icon.png"
-    subtitle: "For brands who want the complete package of bothcontent creation and SoMe management, strategy and growth."
+    subtitle: "For brands who want the complete package of both content creation and SoMe management, strategy and growth."
     regularPrice: "17.108 DKK"
     discountPrice: "11.955 DKK"
     # service list
@@ -59,7 +59,7 @@ pricingTable:
       - service: "24/7 online support"
 
 contentPackages:
-  title: "Our monthly content packages make a great fit"
+  title: "Our monthly content packages make a great fit for you if:"
   list:
     - "You’re an influencer or coach who needs fresh, engaging content every month."
     - "You’re a business that wants to create highly engaging social media content."
