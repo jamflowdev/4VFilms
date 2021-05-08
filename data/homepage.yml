@@ -32,7 +32,7 @@ service:
     subtitle: "Our monthly Video/Photo content packages"
     description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
     imgURL: "/images/backgrounds/services-bg-2.jpg"
-    logoURL: "/images/four-v-films-service.svg"
+    logoURL: "/images/four-v-plus-service.svg"
     button:
      url: "4vplus"
      label: "Read More"
@@ -41,51 +41,11 @@ service:
     subtitle: "A complete digital transformation for small businesses following our digital impact method."
     description: "Great for small businesses that want to transform their online presence rapidly and scale their brand."
     imgURL: "/images/backgrounds/services-bg-2.jpg"
-    logoURL: "/images/digital-impact-service.png"
+    logoURL: "/images/dis.png"
     button:
      url: "/digital_impact_accelerator/"
      label: "Read More"
   
-############################ features #################################
-feature:
-  enable : false
-  image : "images/feature.jpg"
-  title : "We know What Bait to Use"
-  featureItem:
-    # feature item
-    - title : "User Experience"
-      icon : "ti-vector" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Responsive Layout"
-      icon : "ti-layout" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Digital Solutions"
-      icon : "ti-headphone-alt" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-      
-    # feature item
-    - title : "Bootstrap 4x"
-      icon : "ti-ruler-pencil" # themify icon pack https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo"
-
-
-############################# promo video #################################
-promo:
-  enable : false
-  bgImage : "images/backgrounds/about-bg.jpg"
-  title : "Who We Are"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  videoURL : "https://www.youtube.com/watch?v=jrkvirglgaQ"
-  button:
-    enable : true
-    label : "Read More"
-    link : "about"
-
-
 ############################## project ####################################
 project:
   enable : true
