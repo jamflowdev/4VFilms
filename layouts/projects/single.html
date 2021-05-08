@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<!-- page-title -->
+<section class="page-title bg-cover bg-secondary" >
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-primary-bold">{{ .Title | markdownify }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page-title -->
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        {{ if .Params.video_url }}
+        <iframe width="100%" height="460" src="{{ .Params.video_url | absURL }}" title="{{ .Title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {{ end }}
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

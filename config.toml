@@ -2,7 +2,8 @@
 baseURL = "https://4vfilems.netlify.app/"
 languageCode = "en-us"
 title = "4v Films"
-
+[permalinks]
+  projects = "/project/:title/"
 
 #################################### Plugins ##########################################
 [params.plugins]
