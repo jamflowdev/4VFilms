@@ -178,6 +178,9 @@ svg {
   }
 }
 .service-logo {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
   z-index: 1;
   &-small {
     margin: 0 auto;

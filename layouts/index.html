@@ -58,7 +58,7 @@
 {{ end }}
 {{ if .Site.Data.homepage.service.enable }}
 <!-- service -->
-<section class="section">
+<section class="section bg-gradient-primary">
   <div class="container">
     <div class="row">
       {{ with .Site.Data.homepage.service }}
@@ -85,7 +85,22 @@
         </div>
         {{ end }}
     </div> -->
-    <div class="row py-50">
+    <div class="row">
+      {{ with .Site.Data.homepage.service.fourv_plus }}
+        <div class="col-sm-6 d-flex justify-content-center flex-column">
+          <!-- <div class="service-logo" data-background="{{ .logoURL | absURL }}">
+            </div> -->
+          <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo">
+          <a href="{{ .button.url | absURL }}" class="btn btn-orange mt-4 mr-auto ml-auto">{{ .button.label }}</a>
+        </div>
+        {{ end }}
+      {{ with .Site.Data.homepage.service.perfect_solution }}
+      <div class="col-sm-6 d-flex justify-content-center flex-column">
+        <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo">
+        <a href="{{ .button.url | absURL }}" class="btn btn-orange mt-4 mr-auto ml-auto">{{ .button.label }}</a>
+      </div>
+        {{ end }}
+    <!-- <div class="row py-50">
       {{ with .Site.Data.homepage.service.fourv_plus }}
         <div class="col-sm-6 bg-cover bg-services bg-cover d-flex justify-content-center flex-column" data-background="{{ .imgURL | absURL }}">
           <div class="overlay2-primary">
@@ -115,7 +130,7 @@
         <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo-small">
       </div>
 
-        {{ end }}
+        {{ end }} -->
     </div>
   </div>
 </section>
