@@ -211,6 +211,12 @@
       transition: 'ease'
     });
   }
-
-
+  $('.testimonialsBlok').each(function () {
+    var testimonialsBlokHeight = $(this).height()
+    $(this).find('iframe').height(testimonialsBlokHeight)
+  });
+  $('.queot').each(function () {
+    var testimonialsBlokHeight = $(this).height()
+    $(this).find('iframe').height(testimonialsBlokHeight)
+  });
 })(jQuery);

@@ -8,14 +8,38 @@ banner:
 queots:
   items:
     - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
-      video: "/video/Showreel.mp4"
+      video: "https://www.youtube.com/embed/TPrTPOTZlxo"
       companyName: "Ajay"
       author:
         name: "Kamil Makowski"
         image: "/images/backgrounds/pillars-bg.jpg"
     - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
-      video: "/video/Showreel.mp4"
-      companyName: "Amjad"
+      video: "https://www.youtube.com/embed/hPeVcbx9IoQ"
+      companyName: "Bike Buddies"
+      author:
+        name: "Kamil Makowski"
+        image: "/images/backgrounds/pillars-bg.jpg"
+    - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
+      video: "https://www.youtube.com/embed/JivtAYzVwtg"
+      companyName: "Female Leadership Academy"
+      author:
+        name: "Kamil Makowski"
+        image: "/images/backgrounds/pillars-bg.jpg"
+    - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
+      video: "https://www.youtube.com/embed/8BsyRZ3VzR4"
+      companyName: "MCon Services"
+      author:
+        name: "Kamil Makowski"
+        image: "/images/backgrounds/pillars-bg.jpg"
+    - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
+      video: "https://www.youtube.com/embed/tep4e1P5Uew"
+      companyName: "Coffee Collective"
+      author:
+        name: "Kamil Makowski"
+        image: "/images/backgrounds/pillars-bg.jpg"
+    - text: "The creative process is not always easy, but with their 4V model it went sooo smooth. This model is what makes this production team unique. I really felt safe and understood throughout the whole process."
+      video: "https://www.youtube.com/embed/IFCXjhH6swE"
+      companyName: "Polit Case Competition"
       author:
         name: "Kamil Makowski"
         image: "/images/backgrounds/pillars-bg.jpg"
