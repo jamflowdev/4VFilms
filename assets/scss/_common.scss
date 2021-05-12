@@ -178,16 +178,10 @@ svg {
   }
 }
 .service-logo {
-  background-position: center;
-  background-size: cover;
-  z-index: 1;
-  &-small {
-    margin: 0 auto;
-    z-index: 1;
-    width: 80%;
-  }
-}
+  width: 360px;
+  margin: 50px auto 20px auto;
 
+}
 .overlay {
   position: relative;
 

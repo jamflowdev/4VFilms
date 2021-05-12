@@ -58,12 +58,12 @@
 {{ end }}
 {{ if .Site.Data.homepage.service.enable }}
 <!-- service -->
-<section class="section bg-gradient-primary">
+<section class="section bg-cover overlay" data-background="/images/backgrounds/home-service.png">
   <div class="container">
     <div class="row">
       {{ with .Site.Data.homepage.service }}
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title w-bold">{{ .title | markdownify }}</h2>
+        <h2 class="section-title w-bold text-white">{{ .title | markdownify }}</h2>
         <hr class="orange-line mt-4">
       </div>
       {{ end }}
@@ -135,35 +135,6 @@
   </div>
 </section>
 <!-- /service -->
-{{ end }}
-
-{{ if .Site.Data.homepage.promo.enable }}
-<!-- promo video -->
-{{ with .Site.Data.homepage.promo }}
-<section class="section-lg position-relative bg-cover" data-background="'{{ .bgImage | absURL }}'">
-  <img src="{{`images/backgrounds/about-bg-overlay.png` | absURL }}" loading = lazy alt="overlay" class="overlay-image img-fluid">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-6 col-md-8 col-sm-7 col-8">
-        <h2 class="text-white mb-4">{{ .title  | markdownify }}</h2>
-        <p class="text-light mb-4">{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-      <div class="col-md-2 col-sm-4 col-4 text-right align-self-end">
-        <a class="venobox" data-autoplay="true" data-vbtype="video" href="{{ .videoURL | safeURL }}">
-          <i
-            class="text-center icon-sm icon-box rounded-circle text-white bg-gradient-primary d-block ti-control-play"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /promo video -->
 {{ end }}
 
 {{ if .Site.Data.homepage.project.enable }}
