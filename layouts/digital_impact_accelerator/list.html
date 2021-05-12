@@ -53,13 +53,19 @@
 <section class="bg-secondary py-50">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-sm-10">
+      <div class="col-sm-10 video">
         <h4 class="text-white">The Digital Impact Accelerator transforms a small businesses online presence over 6 months, following our impact method above. Here’s how we do it.</h4>
         <div class="mt-3">
           <h5><span class="text-primary">Quality : </span><span class="text-white">Professional crew, gear and experience</span></h5>
           <h5><span class="text-primary">Value : </span><span class="text-white">Creating 150 content pieces around the 4 pillarsof value</span></h5>
           <h5><span class="text-primary">Consistency : </span><span  class="text-white">Scheduling and Publishing SoMe team for 6 months</span></h5>
-          <iframe width="100%" height="520px" class="mt-5" src="https://www.youtube.com/embed/oFrrK4Bo5pI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <video
+            id="vid1"
+            class="video-js mt-5 vjs-default-skin"
+            height="460"
+            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/oFrrK4Bo5pI", "title": "{{.subtitle}}"}]}'
+          >
+          </video>
           <a href="#" class="mt-5 d-block mx-auto btn btn-orange">Apply Now</a>
         </div>
       </div>
@@ -90,8 +96,14 @@
         </div>
         {{ end }}
       </div>
-      <div class="col-sm-5 text-center">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/hTyhfsjM2UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+      <div class="col-sm-5 text-center video">
+        <video
+          id="4pillar-video"
+          class="video-js vjs-default-skin"
+          height="315"
+          data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/hTyhfsjM2UM", "title": "{{.title}}"}]}'
+        >
+        </video>  
         <a href="{{ .button.url | absURL }}" class="mt-4 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
       </div>
     </div>

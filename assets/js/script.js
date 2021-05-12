@@ -213,10 +213,28 @@
   }
   $('.testimonialsBlok').each(function () {
     var testimonialsBlokHeight = $(this).height()
-    $(this).find('iframe').height(testimonialsBlokHeight)
+    var testimonialsBlokWidth = $(this).width()
+    $(this).find('video').height(testimonialsBlokHeight)
+    $(this).find('video').width(testimonialsBlokWidth)
   });
   $('.queot').each(function () {
     var testimonialsBlokHeight = $(this).height()
-    $(this).find('iframe').height(testimonialsBlokHeight)
+    var testimonialsBlokWidth = $(this).width()
+    $(this).find('video').height(testimonialsBlokHeight)
+    $(this).find('video').width(testimonialsBlokWidth)
   });
+  $('.video').each(function () {
+    var videoWidth = $(this).width()
+    // $(this).find('video').height(testimonialsBlokHeight)
+    $(this).find('video').width(videoWidth)
+  });
+  var myPlayer = videojs('vid1');
+myPlayer.ready(function () {
+  
+  setTimeout(function(){
+    console.log("stop video");
+    //myPlayer.play();
+    myPlayer.pause()
+ }, 10000)
+});
 })(jQuery);
