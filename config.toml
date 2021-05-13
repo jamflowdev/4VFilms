@@ -15,14 +15,14 @@ title = "4v Films"
   URL = "plugins/slick/slick.css"
   [[params.plugins.css]]
   URL = "plugins/themify-icons/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/venobox/venobox.css"
+#  [[params.plugins.css]]
+#  URL = "plugins/venobox/venobox.css"
   [[params.plugins.css]]
   URL = "plugins/card-slider/css/style.css"
   [[params.plugins.css]]
   URL = "https://unpkg.com/aos@2.3.1/dist/aos.css"
-  [[params.plugins.css]]
-  URL = "https://vjs.zencdn.net/5.4.6/video-js.min.css"
+ # [[params.plugins.css]]
+ # URL = "https://vjs.zencdn.net/5.4.6/video-js.min.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -31,8 +31,8 @@ title = "4v Films"
   URL = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
   URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/venobox/venobox.min.js"
+#  [[params.plugins.js]]
+#  URL = "plugins/venobox/venobox.min.js"
   [[params.plugins.js]]
   URL = "plugins/shuffle/shuffle.min.js"
   [[params.plugins.js]]
@@ -43,10 +43,10 @@ title = "4v Films"
   URL = "plugins/card-slider/js/card-slider-min.js"
   [[params.plugins.js]]
   URL = "https://unpkg.com/aos@2.3.1/dist/aos.js"
-  [[params.plugins.js]]
-  URL = "https://vjs.zencdn.net/7.11.4/video.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"
+#  [[params.plugins.js]]
+#  URL = "https://vjs.zencdn.net/7.11.4/video.min.js"
+#  [[params.plugins.js]]
+#  URL = "https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"
 #  [[params.plugins.js]]
 #  URL = "plugins/google-map/gmap.js"
 

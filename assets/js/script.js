@@ -23,7 +23,7 @@
   });
 
   // venobox popup 
-  $('.venobox').venobox();
+  // $('.venobox').venobox();
 
   // dropdown menu
   var mobileWidth = 992;
