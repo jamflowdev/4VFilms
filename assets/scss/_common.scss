@@ -752,9 +752,11 @@ footer {
       color: $white;
     }
   }
-  img {
+  .image-wrapper {
     height: 290px;
     border-radius: 4px 4px 0 0;
+    background-position: center;
+    background-size: cover;
     @include tablet {
       height: 220px;
     }
@@ -795,8 +797,10 @@ footer {
         color: $white;
       }
     }
-    img {
+    .image-wrapper {
       height: 400px;
+      background-position: center;
+      background-size: cover;
       border-radius: 4px 4px 0 0;
       @include mobile {
         height: 320px;

@@ -17,13 +17,7 @@
     <div class="row">
       <div class="col-lg-10 mx-auto video">
         {{ if .Params.video_url }}
-        <video
-          id="vid1"
-          class="video-js mt-5 vjs-default-skin"
-          height="460"
-          data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ .Params.video_url | absURL }}", "title": "{{.Title}}"}]}'
-        >
-        </video>
+        <iframe height="460" src="{{ .Params.video_url | absURL }}" title="{{ .Title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {{ end }}
         <div class="content">
           {{ .Content }}

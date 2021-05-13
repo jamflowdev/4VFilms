@@ -114,6 +114,7 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 {{ "<!-- google analitycs -->" | safeHTML }}
+{{ if .Site.Params.googleAnalitycsID }}
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -129,3 +130,4 @@
   ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
   ga('send', 'pageview');
 </script>
+{{ end }}
