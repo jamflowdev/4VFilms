@@ -31,31 +31,6 @@
 {{ end }}
 <!-- /banner -->
 
-{{ if .Site.Data.homepage.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
-
-{{ if .Site.Data.homepage.vision.enable }}
-<section class="py-50 bg-secondary">
-  <div class="container">
-    <div class="row align-items-center text-white justify-content-center">
-      {{ with .Site.Data.homepage.vision }}
-      <div class="col-sm-5 d-flex justify-content-center">
-        <h1 class="section-title text-primary">{{ .title | markdownify }}</h1>
-  
-          <svg class="ml-5" width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0L100 50L0 100V0Z" fill="#ffffff"/>
-          </svg>
-        
-      </div>
-      <div class="col-sm-7 px-50">
-        <h4 class="big-description mt-5 text-white">{{ .subtitle1 | markdownify}}</h4>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
 {{ if .Site.Data.homepage.service.enable }}
 <!-- service -->
 <section class="section bg-cover overlay" data-background="/images/backgrounds/home-service.png">
@@ -136,6 +111,32 @@
 </section>
 <!-- /service -->
 {{ end }}
+{{ if .Site.Data.homepage.vision.enable }}
+<section class="py-50 bg-secondary">
+  <div class="container">
+    <div class="row align-items-center text-white justify-content-center">
+      {{ with .Site.Data.homepage.vision }}
+      <div class="col-sm-5 d-flex justify-content-center">
+        <h1 class="section-title text-primary">{{ .title | markdownify }}</h1>
+  
+          <svg class="ml-5" width="70" height="70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0L100 50L0 100V0Z" fill="#ffffff"/>
+          </svg>
+        
+      </div>
+      <div class="col-sm-7 px-50">
+        <h4 class="big-description mt-5 text-white">{{ .subtitle1 | markdownify}}</h4>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ if .Site.Data.homepage.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+
 
 {{ if .Site.Data.homepage.project.enable }}
 <!-- project -->
