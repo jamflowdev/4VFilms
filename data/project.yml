@@ -78,41 +78,22 @@ clientsLogo:
   enable : true
   slider:
     # slider item
-    - logo : "images/clients/audi.png"
-      link : "http://demo.link.url"
+    - logo : "images/clients/Image1.png"
+    - logo : "images/clients/Image2.png"
+    - logo : "images/clients/Image3.png"
+    - logo : "images/clients/Image4.png"
+    - logo : "images/clients/Image5.png"
+    - logo : "images/clients/Image6.png"
+    - logo : "images/clients/Image7.png"
+    - logo : "images/clients/Image8.png"
+    - logo : "images/clients/Image9.png"
+    - logo : "images/clients/Image10.png"
+    - logo : "images/clients/Image11.png"
+    - logo : "images/clients/Image12.png"
+    - logo : "images/clients/Image13.png"
+    - logo : "images/clients/Image14.png"
+    - logo : "images/clients/Image15.png"
+    - logo : "images/clients/Image16.png"
+    - logo : "images/clients/Image17.png"
+    - logo : "images/clients/Image18.png"
       
-    # slider item
-    - logo : "images/clients/live.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/bmw.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/female-leadership.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/bike-buddies.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/glostrup-park-hotel.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/zealand.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/cbs.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/blue-lobster.png"
-      link : ""
-      
-    # slider item
-    - logo : "images/clients/carlsberg.png"
-      link : ""
