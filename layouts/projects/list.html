@@ -37,30 +37,26 @@ data-background="/images/backgrounds/home-service.png">
       </div>
     </div>
     <div class="row">
-      {{ $.Scratch.Set "counter" 0 }}
       {{ range .items }}
-      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-      {{ $counter := $.Scratch.Get `counter`}}
       <div class="col-sm-6 mb-5 ">
         <div class="testimonials">
-          <iframe src="{{ .videoURL | absURL }}" title="{{ .companyName }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ .video | absURL }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .companyName }}"></iframe></div>
+          <!-- <iframe src="{{ .video | absURL }}" width="100%" title="{{ .companyName }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
+<script src="https://player.vimeo.com/api/player.js"></script>
 {{ end }}
 <!-- cta -->
 {{ if .Site.Data.project.cta.enable }}
 {{ partial "cta2.html" . }}
 {{ end }}
 
-<!-- {{ if .Site.Data.project.clientsLogo.enable }}
+{{ if .Site.Data.project.clientsLogo.enable }}
 {{ partial "clients-logo.html" . }}
-{{ end }} -->
-<!-- clients -->
-
-{{- partial "clients.html" . }}
+{{ end }}
 
 {{ end }}
