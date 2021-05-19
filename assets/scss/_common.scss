@@ -445,9 +445,9 @@ svg {
   font-family: $secondary-font !important;
 }
 
-.shadow {
-  box-shadow: 0px 46px 65px 0px rgba(181, 188, 236, 0.16) !important;
-}
+// .shadow {
+//   box-shadow: 0px 4px 4px 0px $secondary-color !important;
+// }
 
 .bg-gradient-primary {
   background: $primary-gradient !important;
