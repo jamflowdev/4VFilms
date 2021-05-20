@@ -63,11 +63,18 @@ title = "4v Films"
   name = "Services"
   weight = 3
   hasChildren = true
+    
+    [[menu.main]]
+    parent = "Services"
+    name = "Strategy Session"
+    URL = "/strategy-session/"
+    weight = 1
 
     [[menu.main]]
     parent = "Services"
     name = "4V Plus+"
     URL = "/4vplus/"
+    weight = 3
     
 #    [[menu.main]]
 #    parent = "Services"
@@ -78,16 +85,12 @@ title = "4v Films"
     parent = "Services"
     name = "Digital Impact Accelerator"
     URL = "/digital_impact_accelerator/"
+    weight = 2
   
-  [[menu.main]]
-  name = "Strategy Session"
-  URL = "/strategy-session/"
-  weight = 4
-
   [[menu.main]]
   name = "Projects"
   URL = "/projects/"
-  weight = 5
+  weight = 4
   
   [[menu.main]]
   name = "Testimonials"
