@@ -9,14 +9,14 @@
     }
     .queot {
         background: $secondary-color;
-        min-height: 480px;
+        min-height: 420px;
         padding: 30px;
         h3 {
-            font-size: 24px;
+            font-size: 20px;
             text-align: right;
         }
         .q-text {
-            width: 70%;
+            width: 60%;
             margin: 0 auto;
             @include desktop-el{
               width: 80%;
@@ -31,14 +31,7 @@
         color: $primary-color;
         text-align: center;
         font-size: 18px;
-        margin-top: 25px;
-    }
-    .q-icon {
-      @include desktop-el {
-        &.float-right {
-          margin-top: -25px;
-       }
-      }
+        margin-top: 15px;
     }
         
 }
