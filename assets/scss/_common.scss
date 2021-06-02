@@ -180,7 +180,11 @@ svg {
 .service-logo {
   width: 360px;
   margin: 50px auto 20px auto;
-
+}
+.service-logo.strategy-session{
+  max-height: 140px;
+  width: auto;
+  margin: 50px auto 20px auto;
 }
 .overlay {
   position: relative;

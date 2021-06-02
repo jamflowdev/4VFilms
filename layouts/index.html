@@ -62,7 +62,7 @@
     </div> -->
     <div class="row mt-5">
       {{ with .Site.Data.homepage.service.fourv_plus }}
-        <div class="col-sm-6 d-flex justify-content-center flex-column">
+        <div class="col-sm-4 d-flex justify-content-center flex-column">
           <!-- <div class="service-logo" data-background="{{ .logoURL | absURL }}">
             </div> -->
           <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo">
@@ -70,8 +70,14 @@
         </div>
         {{ end }}
       {{ with .Site.Data.homepage.service.perfect_solution }}
-      <div class="col-sm-6 d-flex justify-content-center flex-column">
+      <div class="col-sm-4 d-flex justify-content-center flex-column">
         <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo">
+        <a href="{{ .button.url | absURL }}" class="btn btn-orange mt-5 mr-auto ml-auto">{{ .button.label }}</a>
+      </div>
+        {{ end }}
+      {{ with .Site.Data.homepage.service.strategy_session }}
+      <div class="col-sm-4 d-flex justify-content-center flex-column">
+        <img src="{{ .logoURL | absURL }}" loading = lazy alt="" class="service-logo strategy-session">
         <a href="{{ .button.url | absURL }}" class="btn btn-orange mt-5 mr-auto ml-auto">{{ .button.label }}</a>
       </div>
         {{ end }}

@@ -45,6 +45,15 @@ service:
     button:
      url: "/digital_impact_accelerator/"
      label: "Read More"
+  strategy_session:
+    title: "Strategy Session"
+    subtitle: ""
+    description: ""
+    imgURL: "/images/backgrounds/services-bg-2.jpg"
+    logoURL: "/images/strategy-session.png"
+    button:
+     url: "/strategy-session/"
+     label: "Read More"
   
 ############################## project ####################################
 project:
