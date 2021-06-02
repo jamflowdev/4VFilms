@@ -12,7 +12,7 @@ banner:
 
 ###########################  Right Place Section ##################################
 RightPlace:
-  title: "YOU’RE IN THE RIGHT PLACE <br> IF YOU’VE EVER SAID…"
+  title: "You’re in the right place <br> If you’ve ever said…"
   icons:
     - content: "I don't have time to create consistent content"
       url: "/images/icons/No-Time-Icon.svg"
@@ -23,7 +23,7 @@ RightPlace:
 
 ###########################  Features Section ##################################
 Features:
-  title: "SO, YOU can IMAGINE HAVING…"
+  title: "So, you can imagine having…"
   icons:
     - content: "CONSISTENT CONTENT"
       url: "/images/icons/CONSISTENT-CONTENT.svg"
