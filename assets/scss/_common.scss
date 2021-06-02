@@ -831,6 +831,9 @@ footer {
 
 .section-title {
   text-transform: uppercase;
+  &.-lower{
+    text-transform: capitalize;
+  }
 }
 
 .hero-bg {
