@@ -59,8 +59,6 @@ seeItToBeliveIt:
   title: "SEE IT TO BELIEVE IT"
   subtitle: "A quick idea of the many different types of content these packages can make for you, to elevate your online presence."
   Slider:
-    - Image: '/images/see-it-to-belive/Announcements.png'
-      title:  Announcements
     - Image: '/images/see-it-to-belive/Commercials.png'
       title:  Commercials
     - Image: '/images/see-it-to-belive/Corporate-Films.png'
@@ -77,8 +75,6 @@ seeItToBeliveIt:
       title:  Products
     - Image: '/images/see-it-to-belive/SoMe-advert.png'
       title:  SoMe advert
-    - Image: '/images/see-it-to-belive/Products.png'
-      title:  Online course
     - Image: '/images/see-it-to-belive/Team-photos.png'
       title:  Team photos
     - Image: '/images/see-it-to-belive/tips-and-advice.png'
