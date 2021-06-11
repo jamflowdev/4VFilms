@@ -51,7 +51,7 @@ service:
     description: ""
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     # logoURL: "/images/strategy-session.png"
-    logoURL: "/images/Vector.png"
+    logoURL: "/images/strategy-session.png"
     button:
      url: "/strategy-session/"
      label: "Read More"

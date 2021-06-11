@@ -1,11 +1,11 @@
 <!-- call to action -->
 {{ with .Site.Data.homepage.cta }}
-<section class="cta">
+<section class="cta position-relative" data-background="{{ .bgImage | absURL }}">
+  <div class="overlay2 d-flex flex-column align-items-center">
+  </div>
   <div class="container">
     <div class="row">
-      <div class="position-relative cta-col col-sm-12 m-auto px-80 py-50 d-flex justify-content-center flex-column" data-background="{{ .bgImage | absURL }}">
-        <div class="overlay2 d-flex flex-column align-items-center">
-        </div>
+      <div class="position-relative cta-col col-sm-12 m-auto px-80 py-50 d-flex justify-content-center">
         <div class="content">
           <svg class="m-5" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0L100 50L0 100V0Z" fill="#FD6B60"/>

@@ -43,7 +43,7 @@
       {{ range .icons }}
       <div class="col-sm-4 text-center">
         <img src="{{ .url | absURL }}" alt="icons" loading = lazy />
-        <h4 class="mb-3 text-white text-center">{{ .content | upper }}</h4>
+        <h4 class="mb-3 text-white text-center">{{ .content | lower }}</h4>
       </div>
       {{ end }}
     </div>
@@ -61,7 +61,7 @@
       {{ range .icons }}
       <div class="col-md-3 col-sm-6 col-12 text-center">
         <img src="{{ .url | absURL }}" alt="icons" loading = lazy />
-        <h4 class="mb-3 text-center">{{ .content | upper }}</h4>
+        <h4 class="mb-3 text-center">{{ .content | lower }}</h4>
       </div>
       {{ end }}
       <div class="col-12 mt-5 mb-0 text-center">
