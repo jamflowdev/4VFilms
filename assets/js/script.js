@@ -214,8 +214,8 @@
   $('.testimonialsBlok').each(function () {
     var testimonialsBlokHeight = $(this).height()
     var testimonialsBlokWidth = $(this).width()
-    $(this).find('iframe').height(testimonialsBlokHeight)
-    $(this).find('iframe').width(testimonialsBlokWidth)
+    $(this).find('iframe').height('100%')
+    // $(this).find('iframe').width(testimonialsBlokWidth)
   });
   $('.queot').each(function () {
     var testimonialsBlokHeight = $(this).height()

@@ -9,10 +9,7 @@
       </div>
     </div>
     <div class="row sucess-stories m-0 myslider">
-      {{ $.Scratch.Set "counter" 0 }}
       {{ range .items }}
-      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-      {{ $counter := $.Scratch.Get `counter`}}
       <div class="col-12 slide">
         <div class="row m-0">
           <div class="col-md-12 col-lg-6 p-0">
@@ -50,9 +47,9 @@
         </div>
       </div>
       {{ end }}
-      <script src="https://player.vimeo.com/api/player.js"></script>  
-
+      
     </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>  
   </div>
 </section>
 
