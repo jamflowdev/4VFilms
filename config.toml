@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseURL = "https://4vfilms.com/"
+baseURL = "https://www.4vfilms.com/"
 languageCode = "en-us"
 title = "4v Films"
 [permalinks]
