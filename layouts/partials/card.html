@@ -1,6 +1,7 @@
 <a href="{{.Permalink}}" class="">
   <div class="card my-card border-radius card-hover">
-    <div class="image-wrapper" data-background="{{ .Params.thumbnail | absURL }}"></div>
+    {{ $url := replace .Params.thumbnail ".png" "-600.png"}}
+    <div class="image-wrapper" data-background="{{ $url | absURL }}"></div>
     <div class="card-body text-left">
       <h4 class="card-title">{{ .Title }}</h4>
     </div>
