@@ -161,7 +161,7 @@ title = "4v Films"
 logo = "images/4V-FILMS-LOGO-BLUE.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
 author = "Amjad Rathod"
 # google map
 #gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
@@ -191,17 +191,21 @@ googleAnalitycsID = "Your ID"
 
   ######################### Social site ##############################
   [[params.social]]
+  icon = "ti-twitter" # themify icon pack https://themify.me/themify-icons
+  link = "https://twitter.com/4vfilmsdk"
+  
+  [[params.social]]
   icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  link = "https://www.facebook.com/4vfilms/"
   
   [[params.social]]
   icon = "ti-instagram" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  link = "https://www.instagram.com/4vfilms/"
   
   [[params.social]]
   icon = "ti-youtube" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  link = "https://www.youtube.com/channel/UC3jHb-6A-BVfkFg4fwb5Rmw"
   
   [[params.social]]
   icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-  link = "#"
+  link = "https://www.linkedin.com/company/4v-films/"
