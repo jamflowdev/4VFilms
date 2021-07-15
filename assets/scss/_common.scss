@@ -87,6 +87,12 @@ svg {
   left: 50%;
   bottom: 50px;
   transform: translate(-50%, -50%);
+  @include mobile {
+    position: relative;
+    transform: unset;
+    left: unset;
+    bottom: unset;
+  }
 }
 .mt-sm-5 {
   @include tablet {
@@ -959,7 +965,9 @@ main .list {
     margin-left: -70px;
   }
   @include mobile {
-    margin-left: 30px;
+    margin-left: 10px;
+    top: 50%;
+    z-index: 10;
   }
 }
 .slick-next {
@@ -979,7 +987,8 @@ main .list {
     margin-right: -50px;
   }
   @include mobile {
-    margin-right: 50px;
+    top: 50%;
+    margin-right: 30px;
   }
 }
 .project-bg-white {
@@ -1046,4 +1055,13 @@ main .list {
 }
 .video-js {
   position: relative;
+}
+
+.video {
+  iframe {
+    @include mobile {
+      margin-top: 20px;
+      height: 100% !important;
+    }
+  } 
 }

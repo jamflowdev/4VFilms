@@ -11,6 +11,9 @@
         background: $secondary-color;
         min-height: 420px;
         padding: 30px;
+        @include tablet{
+            min-height: unset;
+        }
         h3 {
             font-size: 20px;
             text-align: right;
