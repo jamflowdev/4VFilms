@@ -5,7 +5,7 @@ banner:
   title : "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
   videoURL: "video/Showreel.mp4"
   button:
-    url: "#"
+    url: "our_vision"
     label: "LEARN MORE"
 
 ########################### Vision ##################################
@@ -51,7 +51,7 @@ service:
     description: ""
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     # logoURL: "/images/strategy-session.png"
-    logoURL: "/images/strategy-session.png"
+    logoURL: "/images/backgrounds/strategy-session-logo.png"
     button:
      url: "/strategy-session/"
      label: "Read More"
@@ -73,7 +73,7 @@ cta:
   bgImage2 : "images/backgrounds/cta-bg2.jpg"
   button: 
     label: "TAKE THE IMPACT TEST"
-    link: "#"
+    link: "https://www.digitalimpactscore.dk"
   button2:
     label: "Watch Me Now"
     link: "#"

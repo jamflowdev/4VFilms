@@ -19,7 +19,7 @@
         <h5 class="text-white mb-5">
           It’s the same <span class="text-primary"> 4V quality </span> + More.
         </h5>
-        <a href="{{ .button.url | absURL }}" class="btn btn-orange"
+        <a href="{{ .button.url | absURL }}" target="_blank" class="btn btn-orange"
           >{{ .button.label }}</a
         >
       </div>
@@ -67,6 +67,7 @@
       <div class="col-12 mt-5 mb-0 text-center">
         <a
           href="{{ .button.url | absURL }}"
+          target="_blank"
           class="btn mb-0 btn-orange text-center"
         >
           {{ .button.label }}
@@ -199,6 +200,7 @@
         <a
           href="{{ .contentPackages.button.url | absURL }}"
           class="btn mb-0 btn-orange text-center"
+          target="_blank"
           >{{ .contentPackages.button.label }}</a
         >
       </div>
@@ -232,6 +234,7 @@
         <div class="video justify-content-bottom mt-4 align-items-center text-center d-flex flex-column">
           <iframe height="460" src="https://player.vimeo.com/video/450030953" title="{{ .subtitle }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <a
+            target="_blank"
             href="{{ .button.url | absURL }}"
             class="btn mt-5 btn-orange text-center"
             >{{ .button.label }}</a
@@ -352,9 +355,9 @@
             Secure my spot for a
             <span class="text-primary"> FREE</span> consultation
           </h4>
-          <h5 class="text-white">(Valued at 750 DKK)</h5>
           <h5 class="text-white">Click below - limited spaces available</h5>
-          <a href="#" class="btn mt-5 mb-0 btn-orange text-center"
+          <h5 class="text-white">(Valued at 750 DKK)</h5>
+          <a href="https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films" target="_blank" class="btn mt-5 mb-0 btn-orange text-center"
             >BOOK MY SPOT</a
           >
         </div>

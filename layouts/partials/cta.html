@@ -14,7 +14,7 @@
             <h3 class="mt-5 title text-white">{{ .title }}</h3>
               <h4 class="subtitle text-white"> {{ .content }} </h4>
               {{ with .button }}
-              <a href="{{ .button.link | absURL }}" class="d-block mt-3 cta-button btn btn-orange">{{ .label | upper }}</a>
+              <a href="{{ .link | absURL }}" target="_blank" class="d-block mt-3 cta-button btn btn-orange">{{ .label | upper }}</a>
               {{ end }}
           </div>
         </div>

@@ -7,7 +7,7 @@ banner:
     highlighted: "DKK 1.950"
   videoURL: "video/Showreel.mp4"
   button:
-    url: "#"
+    url: "https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films"
     label: "LEARN MORE"
 
 ###########################  Right Place Section ##################################
@@ -35,7 +35,7 @@ Features:
       url: "/images/icons/camera-man.svg"
   button:
     label: "LEARN MORE"
-    url: "#"
+    url: "https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films"
 
 ########################### How does it work ##################################
 HowDoesItWork:
@@ -90,4 +90,4 @@ WhyFourVPlus:
   videoURL: "#"
   button:
     label: "APPLY NOW"
-    url: "#"
+    url: "https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films"
