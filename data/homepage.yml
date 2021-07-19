@@ -73,7 +73,7 @@ cta:
   bgImage2 : "images/backgrounds/cta-bg2.jpg"
   button: 
     label: "TAKE THE IMPACT TEST"
-    link: "https://www.digitalimpactscore.dk"
+    link: "https://4vfilms.scoreapp.com"
   button2:
     label: "Watch Me Now"
     link: "#"
