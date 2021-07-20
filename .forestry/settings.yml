@@ -3,7 +3,57 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: data
+  label: Pages Data
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/4vfilms
+  label: 4vfilms
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/4vplus
+  label: 4vplus
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/digital_impact_accelerator
+  label: Digital impact accelerator
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/our_vision
+  label: Our vision
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/projects
+  label: Projects
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/strategy session
+  label: Strategy session
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
