@@ -1,99 +1,74 @@
+---
 hero:
-  title: "Amjad"
-  description: "Amjad"
-  BGImage: "images/project/project-1.jpg"
-########################### projects ############################
+  title: Projects
+  description: Amjad
+  BGImage: images/project/project-1.jpg
 projects:
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-1.jpg"
-    column : 1 # column is for image width
-    link : "http://demo.url.com"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-2.jpg"
-    column : 1 # column is for image width
-    link : "#"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-3.jpg"
-    column : 1 # column is for image width
-    link : "http://demo.url.com"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-4.jpg"
-    column : 1 # column is for image width
-    link : "http://demo.url.com"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-5.jpg"
-    column : 1 # column is for image width
-    link : "http://demo.url.com"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-6.jpg"
-    column : 2 # column is for image width
-    link : "#"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-7.jpg"
-    column : 1 # column is for image width
-    link : "#"
-
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-1.jpg"
-    column : 1 # column is for image width
-    link : "#"
-    
-  # project item
-  - title : "Project title"
-    companyName: "abcd"
-    image : "images/project/project-3.jpg"
-    column : 1 # column is for image width
-    link : "#"
-
-  
-############################## call to action ############################
+- title: Project title
+  companyName: abcd
+  image: images/project/project-1.jpg
+  column: "1"
+  link: http://demo.url.com
+- title: Project title
+  companyName: abcd
+  image: images/project/project-2.jpg
+  column: "1"
+  link: "#"
+- title: Project title
+  companyName: abcd
+  image: images/project/project-3.jpg
+  column: "1"
+  link: http://demo.url.com
+- title: Project title
+  companyName: abcd
+  image: images/project/project-4.jpg
+  column: "1"
+  link: http://demo.url.com
+- title: Project title
+  companyName: abcd
+  image: images/project/project-5.jpg
+  column: "1"
+  link: http://demo.url.com
+- title: Project title
+  companyName: abcd
+  image: images/project/project-6.jpg
+  column: "2"
+  link: "#"
+- title: Project title
+  companyName: abcd
+  image: images/project/project-7.jpg
+  column: "1"
+  link: "#"
+- title: Project title
+  companyName: abcd
+  image: images/project/project-1.jpg
+  column: "1"
+  link: "#"
+- title: Project title
+  companyName: abcd
+  image: images/project/project-3.jpg
+  column: "1"
+  link: "#"
 cta:
   enable: true
-  # cta content comes from 'hompage.yml'
-
-#################### clients logo ###############################
 clientsLogo:
-  enable : true
+  enable: true
   slider:
-    # slider item
-    - logo : "images/clients/Image1.png"
-    - logo : "images/clients/Image2.png"
-    - logo : "images/clients/Image3.png"
-    - logo : "images/clients/Image4.png"
-    - logo : "images/clients/Image5.png"
-    - logo : "images/clients/Image6.png"
-    - logo : "images/clients/Image7.png"
-    - logo : "images/clients/Image8.png"
-    - logo : "images/clients/Image9.png"
-    - logo : "images/clients/Image10.png"
-    - logo : "images/clients/Image11.png"
-    - logo : "images/clients/Image12.png"
-    - logo : "images/clients/Image13.png"
-    - logo : "images/clients/Image14.png"
-    - logo : "images/clients/Image15.png"
-    - logo : "images/clients/Image16.png"
-    - logo : "images/clients/Image17.png"
-    - logo : "images/clients/Image18.png"
-      
+  - logo: images/clients/Image1.png
+  - logo: images/clients/Image2.png
+  - logo: images/clients/Image3.png
+  - logo: images/clients/Image4.png
+  - logo: images/clients/Image5.png
+  - logo: images/clients/Image6.png
+  - logo: images/clients/Image7.png
+  - logo: images/clients/Image8.png
+  - logo: images/clients/Image9.png
+  - logo: images/clients/Image10.png
+  - logo: images/clients/Image11.png
+  - logo: images/clients/Image12.png
+  - logo: images/clients/Image13.png
+  - logo: images/clients/Image14.png
+  - logo: images/clients/Image15.png
+  - logo: images/clients/Image16.png
+  - logo: images/clients/Image17.png
+  - logo: images/clients/Image18.png
