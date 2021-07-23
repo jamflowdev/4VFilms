@@ -1,116 +1,98 @@
+---
 hero:
-  title: "DIGITAL IMPACT ACCELERATOR"
+  title: digital impact accelerator
   BGImage: "/images/banner/dia-bg.jpeg"
-
-########################### Digital Impact ##################################
 DigitalImpact:
-  title: "A DIGITAL IMPACT"
-  subtitle: "To dominate online and rapidly scale your brand, you need 3 key ingredients."
-  content: "At the centre of every industry, you will find the brands that dominate social media and the online world. As a result, they are highly respected, highly valued and highly paid."
-  secondTitle: "When you have a Digital Impact, significant things happen:"
+  title: A DIGITAL IMPACT
+  subtitle: To dominate online and rapidly scale your brand, you need 3 key ingredients.
+  content: At the centre of every industry, you will find the brands that dominate
+    social media and the online world. As a result, they are highly respected, highly
+    valued and highly paid.
+  secondTitle: 'When you have a Digital Impact, significant things happen:'
   listItems:
-    - "Your brand comes up in conversations – for all the right reasons."
-    - "You attract a lot of opportunities – the right sort."
-    - "You earn more money than most – and it isn’t a struggle."
-    - "You scale rapidly - from small business, to beyond."
-
-########################### Discription ##################################
+  - Your brand comes up in conversations – for all the right reasons.
+  - You attract a lot of opportunities – the right sort.
+  - You earn more money than most – and it isn’t a struggle.
+  - You scale rapidly - from small business, to beyond.
 discription:
-  content: "The Digital Impact Accelerator is designed around the 4 Pillars of digital assets, and works around small business owners and their busy schedule. Our clients achieve their results while they continue to run their business. Our combination of focused production days, online resources and vision sessions allow you develop a Digital Impact, within the context of running your business."
-  
-############################ The 4 Pillars #################################
+  content: The Digital Impact Accelerator is designed around the 4 Pillars of digital
+    assets, and works around small business owners and their busy schedule. Our clients
+    achieve their results while they continue to run their business. Our combination
+    of focused production days, online resources and vision sessions allow you develop
+    a Digital Impact, within the context of running your business.
 pillars:
-  bgImage : "/images/backgrounds/pillars-bg.jpg"
-  title : "The 4 Pillars"
-  subtitle : "The 4 content areas in your brand that create value."
+  bgImage: "/images/backgrounds/pillars-bg.jpg"
+  title: The 4 Pillars
+  subtitle: The 4 content areas in your brand that create value.
   listItem:
-    - title : "People - "
-      highlighted: "WHO?"
-      content : "The humanisation of your brand. Connecting with your audience on a human level and creating a personal side to your business."
-    - title : "Purpose - "
-      highlighted: "WHY?"
-      content : "You must put your brand values on the stage, display what makes you different and leverage a deeper sense of purpose."
-    - title : "Product - "
-      highlighted: "WHAT?"
-      content : "Creating content around what you offer and the solution you provide. Take your customer on a journey and excite them."
-    - title : "Proof - "
-      highlighted: "HOW?"
-      content : "Your audience need final proof before buying. You must position yourself as the expert and convince them of your value."
-  videoURL: "https://player.vimeo.com/video/548400598"
+  - title: 'People - '
+    highlighted: WHO?
+    content: The humanisation of your brand. Connecting with your audience on a human
+      level and creating a personal side to your business.
+  - title: 'Purpose - '
+    highlighted: WHY?
+    content: You must put your brand values on the stage, display what makes you different
+      and leverage a deeper sense of purpose.
+  - title: 'Product - '
+    highlighted: WHAT?
+    content: Creating content around what you offer and the solution you provide.
+      Take your customer on a journey and excite them.
+  - title: 'Proof - '
+    highlighted: HOW?
+    content: Your audience need final proof before buying. You must position yourself
+      as the expert and convince them of your value.
+  videoURL: https://player.vimeo.com/video/548400598
   button:
-    label: "Learn more"
-    url: "https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films"
-      
-############################## for small brands ####################################
+    label: Learn more
+    url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
 impactAccelerator:
-  title : "The Digital Impact Accelerator is perfect for small brands who are:"
+  title: 'The Digital Impact Accelerator is perfect for small brands who are:'
   listItems:
-    - "Small, with a team of 8 or less."
-    - "Based in Copenhagen."
-    - "Finds creating content and a digital impact either expensive, time consuming or overwhelming."
-    - "Missing consistent and high-quality content."
-    - "Missing focus on at-least 1 of the 4 pillars."
-    - "Ready to transform their online presence and scale rapidly."
-
-############################## WHAT DO I GET? ####################################
-
+  - Small, with a team of 8 or less.
+  - Based in Copenhagen.
+  - Finds creating content and a digital impact either expensive, time consuming or
+    overwhelming.
+  - Missing consistent and high-quality content.
+  - Missing focus on at-least 1 of the 4 pillars.
+  - Ready to transform their online presence and scale rapidly.
 whatDoIGet:
-  title : "WHAT DO I GET?"
-  subtitle : "Here’s a peak inside our accelerator package:"
+  title: WHAT DO I GET?
+  subtitle: 'Here’s a peak inside our accelerator package:'
   bgImage: "/images/backgrounds/what-do-i-get-bg.png"
   listItems:
-    - "Our globally experienced 4V crew, cinematic gear, lighting, and audio all at your disposal."
-    - "Multiple Vision Sessions that will establish direction and creativity of each Pillar."
-    - "Content planning support and script advice."
-    - "Up to 3 Days Filming at your location of choice."
-    - "Up to 7 Days Editing at our HQ."
-    - "20 Videos"
-    - "80 Photos"
-    - "25 Graphics"
-    - "4 Mins B-Roll"
-    - "2 revisions per content piece"
-    - "2–3-week complete turnaround"
+  - Our globally experienced 4V crew, cinematic gear, lighting, and audio all at your
+    disposal.
+  - Multiple Vision Sessions that will establish direction and creativity of each
+    Pillar.
+  - Content planning support and script advice.
+  - Up to 3 Days Filming at your location of choice.
+  - Up to 7 Days Editing at our HQ.
+  - 20 Videos
+  - 80 Photos
+  - 25 Graphics
+  - 4 Mins B-Roll
+  - 2 revisions per content piece
+  - 2–3-week complete turnaround
   button:
-    label: "FIND OUT MORE"
+    label: FIND OUT MORE
     url: "#"
-
-############################## WHAT DOES IT MEAN? ####################################
-
 whatDoesItMean:
-  title : "In a nutshell"
+  title: In a nutshell
   listItems:
-    - "Up to 150 professional, creative and value adding content pieces covering each of the 4 Pillars."
-    - "Imagine this content could be produced within a matter of weeks."
-    - "Imagine this content being scheduled and published every day across all your platforms for you."
-    - "Imagine being able to dominate social media with your online presence, with valuable, optimised content that ticks all the boxes."
-    - "Imagine not having to think about creating content or scheduling/publishing across your platforms - but being able to focus on what you are good at instead."
-  
+  - Up to 150 professional, creative and value adding content pieces covering each
+    of the 4 Pillars.
+  - Imagine this content could be produced within a matter of weeks.
+  - Imagine this content being scheduled and published every day across all your platforms
+    for you.
+  - Imagine being able to dominate social media with your online presence, with valuable,
+    optimised content that ticks all the boxes.
+  - Imagine not having to think about creating content or scheduling/publishing across
+    your platforms - but being able to focus on what you are good at instead.
   subtitle:
-    text: "To put it into perspective,"
-    highlighted: "this would be like hiring a full-time video production and social media team over 6 months, but for a fraction of the cost."
-  
-  # recommendedList:
-  #   title: "Recommended"
-  #   listItems:
-  #     - highlited: "14x per week"
-  #       text: ", for 2 months straight."
-  #     - highlited: "7x per week"
-  #       text: ", for 4 months straight."
-  
-  # averageList:
-  #   title: "Average"
-  #   listItems:
-  #     - highlited: "4x per week"
-  #       text: ", for 8 months straight."
-
-  # weakList:
-    # title: "Weak"
-    # listItems:
-    #   - highlited: "2x per week"
-    #     text: ", for 15 months straight."
-    #   - highlited: "1x per week"
-    #     text: ", for 35 months straight."
-  bottomDiscription: "Once you are In this position, you will have a Digital Impact."
+    text: To put it into perspective,
+    highlighted: this would be like hiring a full-time video production and social
+      media team over 6 months, but for a fraction of the cost.
+  bottomDiscription: Once you are In this position, you will have a Digital Impact.
   button:
-    label: "Apply Now"
-    url: "https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films"
+    label: Apply Now
+    url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
