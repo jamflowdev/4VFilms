@@ -1,56 +1,8 @@
 ---
 hero:
-  title: Projects
-  description: Amjad
+  title: Our Projects
+  description: We have worked with 15+ industries around the world and on a variety of different projects. Check out some of our recent projects below.
   BGImage: images/project/project-1.jpg
-projects:
-- title: Project title
-  companyName: abcd
-  image: images/project/project-1.jpg
-  column: "1"
-  link: http://demo.url.com
-- title: Project title
-  companyName: abcd
-  image: images/project/project-2.jpg
-  column: "1"
-  link: "#"
-- title: Project title
-  companyName: abcd
-  image: images/project/project-3.jpg
-  column: "1"
-  link: http://demo.url.com
-- title: Project title
-  companyName: abcd
-  image: images/project/project-4.jpg
-  column: "1"
-  link: http://demo.url.com
-- title: Project title
-  companyName: abcd
-  image: images/project/project-5.jpg
-  column: "1"
-  link: http://demo.url.com
-- title: Project title
-  companyName: abcd
-  image: images/project/project-6.jpg
-  column: "2"
-  link: "#"
-- title: Project title
-  companyName: abcd
-  image: images/project/project-7.jpg
-  column: "1"
-  link: "#"
-- title: Project title
-  companyName: abcd
-  image: images/project/project-1.jpg
-  column: "1"
-  link: "#"
-- title: Project title
-  companyName: abcd
-  image: images/project/project-3.jpg
-  column: "1"
-  link: "#"
-cta:
-  enable: true
 clientsLogo:
   enable: true
   slider:

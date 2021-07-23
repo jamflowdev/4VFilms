@@ -1,8 +1,7 @@
 ---
 hero:
-  title: our vision
-  description: ''
-  BGImage: "/images/backgrounds/our-vision-bg.jpg"
+  title: Our Vision
+  BGImage: /images/backgrounds/our-vision-bg.jpg
 History:
   title: History
   content:

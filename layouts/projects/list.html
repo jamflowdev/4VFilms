@@ -1,17 +1,17 @@
 {{ define "main" }}
+{{ with .Site.Data.project.hero }}
 <section class="banner bg-cover overlay position-relative h-100 d-flex justify-content-center align-items-center"
 data-background="/images/backgrounds/home-service.png">
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h1 class="hero-title mb-5 text-white font-primary-bold">OUR PROJECTS</h1>
-      <p class="hero-description text-white">
-       We have worked with 15+ industries around the world and on a variety of different projects. Check out some of our recent projects below. 
-      </p>
+      <h1 class="hero-title mb-5 text-white font-primary-bold">{{ .title | markdownify }}</h1>
+      <p class="hero-description text-white">{{ .description | markdownify}}</p>
     </div>
   </div>
 </div>
 </section>
+{{ end }}
 <!-- project -->
 <section class="section project-list bg-secondary">
   <div class="container">
