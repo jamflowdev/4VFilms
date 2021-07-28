@@ -6,7 +6,7 @@ banner:
   videoURL: video/Showreel.mp4
   button:
     url: our_vision
-    label: LEARN MORE
+    label: Learn more
 vision:
   enable: true
   title: Our Vision
