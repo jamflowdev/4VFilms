@@ -45,7 +45,7 @@ service:
     logoURL: "/images/backgrounds/strategy-session-logo.png"
     button:
       url: "/strategy-session/"
-      label: Content strategy session
+      label: Strategy session
 project:
   enable: true
   title: Recent Projects
