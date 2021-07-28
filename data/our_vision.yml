@@ -1,7 +1,7 @@
 ---
 hero:
   title: Our Vision
-  BGImage: /images/backgrounds/our-vision-bg.jpg
+  BGImage: "/images/backgrounds/our-vision-bg.jpg"
 History:
   title: History
   content:
@@ -25,7 +25,7 @@ History:
     or service.
   author: Patrick Bates
 VisionAndMission:
-  title: WE ARE NOT A STANDARD PRODUCTION COMPANY
+  title: We are not a standard production company
   bgImage: "/images/backgrounds/our-vision-bg-2.jpg"
   vision:
     title: Vision
