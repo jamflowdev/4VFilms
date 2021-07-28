@@ -1,93 +1,72 @@
-############################## Banner ###################################
+---
 banner:
-  bgImage : "images/banner/banner2.jpg"
-  # title : "Showreel"
-  title : "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
-  videoURL: "video/Showreel.mp4"
+  bgImage: images/banner/banner2.jpg
+  title: We are a full service, video production house dedicated to transforming the
+    small businesses of Copenhagen.
+  videoURL: video/Showreel.mp4
   button:
-    url: "our_vision"
-    label: "LEARN MORE"
-
-########################### Vision ##################################
+    url: our_vision
+    label: LEARN MORE
 vision:
-  enable : true
-  title : "Our Vision"
-  subtitle1 : "We are not a standard production company. We are dedicated to creating the greatest quality and compelling video content for small businesses so they can transform and scale rapidly."
-
-  ########################### services ##################################
+  enable: true
+  title: Our Vision
+  subtitle1: We are not a standard production company. We are dedicated to creating
+    the greatest quality and compelling video content for small businesses so they
+    can transform and scale rapidly.
 service:
-  enable : true
-  title : "Services"
-  # fourv_films:
-  #   title: "4V Films"
-  #   subtitle: "Our standard Video/ Photo Productions"
-  #   description: "Great for brands who need a high quality, professional Video/Photo Production."
-  #   imgURL: "/images/backgrounds/services-bg-1.jpg"
-  #   logoURL: "/images/four-v-films-service.svg"
-  #   button:
-  #    url: "#"
-  #    label: "Read More"
+  enable: true
+  title: Services
   fourv_plus:
-    title: "4V Plus+"
-    subtitle: "Our monthly Video/Photo content packages"
-    description: "Great for brands who seek consistent, affordable professional Video/Photo Content."
+    title: 4V Plus+
+    subtitle: Our monthly Video/Photo content packages
+    description: Great for brands who seek consistent, affordable professional Video/Photo
+      Content.
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     logoURL: "/images/four-v-plus-service.svg"
     button:
-     url: "4vplus"
-     label: "Read More"
+      url: 4vplus
+      label: Read More
   perfect_solution:
-    title: "Digital Impact Accelerator"
-    subtitle: "A complete digital transformation for small businesses following our digital impact method."
-    description: "Great for small businesses that want to transform their online presence rapidly and scale their brand."
+    title: Digital Impact Accelerator
+    subtitle: A complete digital transformation for small businesses following our
+      digital impact method.
+    description: Great for small businesses that want to transform their online presence
+      rapidly and scale their brand.
     imgURL: "/images/backgrounds/services-bg-2.jpg"
     logoURL: "/images/dis.png"
     button:
-     url: "/digital_impact_accelerator/"
-     label: "Read More"
+      url: "/digital_impact_accelerator/"
+      label: Read More
   strategy_session:
-    title: "Strategy Session"
-    subtitle: ""
-    description: ""
+    title: Strategy Session
+    subtitle: ''
+    description: ''
     imgURL: "/images/backgrounds/services-bg-2.jpg"
-    # logoURL: "/images/strategy-session.png"
     logoURL: "/images/backgrounds/strategy-session-logo.png"
     button:
-     url: "/strategy-session/"
-     label: "Read More"
-  
-############################## project ####################################
+      url: "/strategy-session/"
+      label: Read More
 project:
-  enable : true
-  title : "Recent Projects"
-  # project item comes from 'project.yml'
-  
-################################## call to action ###########################
+  enable: true
+  title: Recent Projects
 cta:
-  enable : true
-  title : "Discover your digital impact score"
-  content : "and build your brand image"
-  title2 : "DIGITAL IMPACT WORKSHOP"
-  content2 : "Access our 30 minute workshop full of methods, ideas and strategies, for FREE"
-  bgImage : "images/backgrounds/cta-bg1.jpg"
-  bgImage2 : "images/backgrounds/cta-bg2.jpg"
-  button: 
-    label: "TAKE THE IMPACT TEST"
-    link: "https://4vfilms.scoreapp.com"
+  enable: true
+  title: Discover your digital impact score
+  content: and build your brand image
+  title2: DIGITAL IMPACT WORKSHOP
+  content2: Access our 30 minute workshop full of methods, ideas and strategies, for
+    FREE
+  bgImage: images/backgrounds/cta-bg1.jpg
+  bgImage2: images/backgrounds/cta-bg2.jpg
+  button:
+    label: TAKE THE IMPACT TEST
+    link: https://4vfilms.scoreapp.com
   button2:
-    label: "Watch Me Now"
+    label: Watch Me Now
     link: "#"
-
-
-############################## pricing ######################################
 pricing:
-  enable : false
-  title : ""
-  # pricing table comes from 'pricing.yml'
-
-
-############################## blog ######################################
+  enable: false
+  title: ''
 blog:
-  enable : false
-  title : "Latest News"
-  # blog content comes from `content/blog` folder
+  enable: false
+  title: Latest News
