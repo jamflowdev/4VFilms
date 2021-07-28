@@ -36,7 +36,7 @@ service:
     logoURL: "/images/dis.png"
     button:
       url: "/digital_impact_accelerator/"
-      label: Full package solution
+      label: Package solution
   strategy_session:
     title: Strategy Session
     subtitle: ''
