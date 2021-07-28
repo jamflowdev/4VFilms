@@ -26,19 +26,19 @@ pillars:
   subtitle: The 4 areas in your brand that create value.
   listItem:
   - title: 'People - '
-    highlighted: WHO?
+    highlighted: Who?
     content: The humanisation of your brand. Connecting with your audience on a human
       level and creating a personal side to your business.
   - title: 'Purpose - '
-    highlighted: WHY?
+    highlighted: Why?
     content: You must put your brand values on the stage, display what makes you different
       and leverage a deeper sense of purpose.
   - title: 'Product - '
-    highlighted: WHAT?
+    highlighted: What?
     content: Creating content around what you offer and the solution you provide.
       Take your customer on a journey and excite them.
   - title: 'Proof - '
-    highlighted: HOW?
+    highlighted: How?
     content: Your audience need final proof before buying. You must position yourself
       as the expert and convince them of your value.
   videoURL: https://player.vimeo.com/video/548400598
