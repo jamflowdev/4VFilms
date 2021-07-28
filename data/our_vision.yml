@@ -43,10 +43,10 @@ VisionAndMission:
       Accelerator](http://localhost:1313/digital_impact_accelerator/).
     imgURL: "/images/icons/mission-icon.svg"
 features:
-  title: WHAT MAKES US
-  highlighted: DIFFERENT?
+  title: What makes us
+  highlighted: Different?
   subtitle: 4V films has been built around the instinct to provide the greatest possible
-    value to our clients. We go the extra mile that most production companies wont.
+    value to our clients. We go the extra mile that most production companies won't.
   insight:
     title: 'Heres a brief insight how:'
     items:
@@ -58,8 +58,7 @@ features:
         such as Honesty, Trust, Reliability and Quality in every action we take.
     - title: Free tools and Resources
       content: We provide our audience with many free tools that help them scale online
-        and create content, such as the Digital Impact assessment or our Digital Impact
-        Workshop.
+        and create content, such as the Digital Impact Assessment or Workshops.
     - title: Content Strategy Session
       content: Walking you through the digital impact method and creating your 6-month
         plan
