@@ -1,69 +1,63 @@
-################# pricing ###################
+---
 pricingTable:
-  # pricing table
-  - title: "Bronze"
-    icon: "/images/icons/bronze-pricing-icon.png"
-    subtitle: "For brands needing a content boost."
-    regularPrice: "5.675 DKK"
-    discountPrice: "1.950 DKK"
-    # service list
-    serviceList:
-      - service: "Monthly vision session"
-      - service: "Up to 4 hours filming"
-      - service: "Videographer"
-      - service: "Premium camera package"
-      - service: "Audio package"
-      - service: "Selects + Colour correction"
-      - service: "Raw files handed over/uploaded"
-
-  # pricing table
-  - title: "Silver"
-    icon: "/images/icons/silver-pricing-icon.png"
-    subtitle: "For brands looking to outsource the complete production process."
-    regularPrice: "8.042 DKK"
-    discountPrice: "4.950 DKK"
-    # service list
-    serviceList:
-      - service: "Monthly vision session"
-      - service: "Up to 4 hours filming or photography"
-      - service: "Videographer or photographer"
-      - service: "Production assistant"
-      - service: "Premium camera package"
-      - service: "Premium lights package"
-      - service: "Audio package"
-      - service: "Up to 8 hours editing"
-      - service: "Selects, colour correction, music license, graphics"
-      - service: "Raw files + final videos uploaded to online cloud"
-      - service: "Multiple short videos or single longer form video"
-  # pricing table
-  - title: "Golden"
-    icon: "/images/icons/golden-pricing-icon.png"
-    subtitle: "For brands who want the complete package of both content creation and SoMe management, strategy and growth."
-    regularPrice: "17.108 DKK"
-    discountPrice: "11.955 DKK"
-    # service list
-    serviceList:
-      - service: "Monthly vision session"
-      - service: "Up to 8 hours filming or photography"
-      - service: "Videographer or Photographer"
-      - service: "Production assistant"
-      - service: "Monthly SoMe reports"
-      - service: "Premium camera package"
-      - service: "Premium lights package"
-      - service: "Audio package"
-      - service: "Up to 16 hours editing"
-      - service: "Selects, colour correction, music license, motion graphics"
-      - service: "Raw files + final videos uploaded to online cloud"
-      - service: "Multiple short videos or single longer form video"
-      - service: "Social media management"
-      - service: "24/7 online support"
-
+- title: Bronze
+  icon: "/images/icons/bronze-pricing-icon.png"
+  subtitle: For brands needing a content boost.
+  regularPrice: 5.675 DKK
+  discountPrice: 1.950 DKK
+  serviceList:
+  - service: Monthly vision session
+  - service: Up to 4 hours filming
+  - service: Videographer
+  - service: Premium camera package
+  - service: Audio package
+  - service: Selects + Colour correction
+  - service: Raw files handed over/uploaded
+- title: Silver
+  icon: "/images/icons/silver-pricing-icon.png"
+  subtitle: For brands looking to outsource the complete production process.
+  regularPrice: 8.042 DKK
+  discountPrice: 4.950 DKK
+  serviceList:
+  - service: Monthly vision session
+  - service: Up to 4 hours filming or photography
+  - service: Videographer or photographer
+  - service: Production assistant
+  - service: Premium camera package
+  - service: Premium lights package
+  - service: Audio package
+  - service: Up to 8 hours editing
+  - service: Selects, colour correction, music license, graphics
+  - service: Raw files + final videos uploaded to online cloud
+  - service: Multiple short videos or single longer form video
+- title: Golden
+  icon: "/images/icons/golden-pricing-icon.png"
+  subtitle: For brands who want the complete package of both content creation and
+    SoMe management, strategy and growth.
+  regularPrice: 17.108 DKK
+  discountPrice: 11.955 DKK
+  serviceList:
+  - service: Monthly vision session
+  - service: Up to 8 hours filming or photography
+  - service: Videographer or Photographer
+  - service: Production assistant
+  - service: Monthly SoMe reports
+  - service: Premium camera package
+  - service: Premium lights package
+  - service: Audio package
+  - service: Up to 16 hours editing
+  - service: Selects, colour correction, music license, motion graphics
+  - service: Raw files + final videos uploaded to online cloud
+  - service: Multiple short videos or single longer form video
+  - service: Social media management
+  - service: 24/7 online support
 contentPackages:
-  title: "Our monthly content packages make a great fit for you if:"
+  title: 'Our monthly content packages make a great fit for you if:'
   list:
-    - "You’re an influencer or coach who needs fresh, engaging content every month."
-    - "You’re a business that wants to create highly engaging social media content."
-    - "You lack digital assets for marketing and product or service promotion on a regular basis."
+  - You’re an influencer or coach who needs fresh, engaging content every month.
+  - You’re a business that wants to create highly engaging social media content.
+  - You lack digital assets for marketing and product or service promotion on a regular
+    basis.
   button:
-    url: "https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films"
-    label: "LEARN MORE"
+    url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
+    label: Learn More
