@@ -59,7 +59,7 @@ cta:
   bgImage: images/backgrounds/cta-bg1.jpg
   bgImage2: images/backgrounds/cta-bg2.jpg
   button:
-    label: TAKE THE IMPACT TEST
+    label: Take the test
     link: https://4vfilms.scoreapp.com
   button2:
     label: Watch Me Now
