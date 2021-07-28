@@ -1,8 +1,8 @@
 ---
 banner:
   bgImage: images/banner/banner2.jpg
-  title: We are a full service, video production house dedicated to transforming the
-    small businesses of Copenhagen.
+  title: We are a full service, video production house transforming the small businesses
+    of Copenhagen.
   videoURL: video/Showreel.mp4
   button:
     url: our_vision
