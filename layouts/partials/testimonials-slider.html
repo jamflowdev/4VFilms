@@ -15,7 +15,7 @@
           <div class="col-md-12 col-lg-6 p-0">
             <div class="queot p-0" style="background-color: unset;">
               <div style="padding:56.25% 0 0 0;position:relative;">
-                <iframe sandbox="allow-same-origin allow-scripts allow-popups" src="{{ .video | absURL }}" loading="lazy" title="{{ .companyName }}" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="lazy" sandbox="allow-same-origin allow-scripts allow-popups" src="{{ .video | absURL }}" loading="lazy" title="{{ .companyName }}" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>                
             </div>
           </div>
@@ -49,7 +49,7 @@
       {{ end }}
       
     </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>  
+    <script src="https://player.vimeo.com/api/player.js" defer></script>  
   </div>
 </section>
 

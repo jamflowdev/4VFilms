@@ -222,5 +222,7 @@
     // $(this).find('video').height(testimonialsBlokHeight)
     $(this).find('iframe').width(videoWidth)
   });
-
+  var lazyLoadInstance = new LazyLoad({
+    // Your custom settings go here
+  });
 })(jQuery);
