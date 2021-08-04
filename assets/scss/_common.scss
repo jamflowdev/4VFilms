@@ -94,6 +94,10 @@ svg {
     bottom: unset;
   }
 }
+.plus-icon{
+  max-height: 30px;
+  max-width: 30px;
+}
 .mt-sm-5 {
   @include tablet {
     margin-top: 50px !important;
@@ -188,7 +192,7 @@ svg {
   margin: 50px auto 20px auto;
 }
 .service-logo.strategy-session{
-  max-height: 142px;
+  max-height: 110px;
   width: auto;
   margin: 50px auto 20px auto;
 }
@@ -311,9 +315,6 @@ svg {
   border-radius: 24px;
   transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
   // transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
-}
-.ajayyyy {
-  fill: url("/images/backgrounds/4v-films-bg.jpg");
 }
 .production-company {
   position: absolute;
