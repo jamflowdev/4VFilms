@@ -1,27 +1,34 @@
 {{ define "main" }}
-<section class="page-title overlay bg-cover" data-background="/images/strategy-session/Image1.jpeg">
+
+{{ with .Site.Data.strategy_session.hero }}
+<section class="page-title overlay bg-cover" data-background="{{ .BGImage }}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .Title | markdownify }}</h1>
+        <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .title | markdownify }}</h1>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
+{{ with .Site.Data.strategy_session.content_strategy_session_section }}
 <section class="py-50 bg-secondary">
   <div class="container">
     <div class="row align-items-center text-white justify-content-center">
       <div class="col-sm-7">
-        <h4 class="big-description text-white">Founder Patrick Bates offers a 1 on 1, content strategy session for brands that need guidance with dominating online, creating high value content and a long-term plan.</h4>
+        <h4 class="big-description text-white">{{ .description }}</h4>
       </div>
       <div class="col-sm-5">
         <div class="video">
-          <iframe height="460" width="100%" src="https://player.vimeo.com/video/567113359" title="content strategy session for brands that need guidance with dominating online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe height="460" width="100%" src="{{ .videoURL }}" title="{{ .description }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
+online_session_section
+{{ with .Site.Data.strategy_session.online_session_section }}
 <section class="py-50">
   <div class="container">
     <div class="row align-items-center justify-content-center">
@@ -30,36 +37,41 @@
           <div class="col-sm-12">
             <div class="">
               <h3 class="">
-                This90-minuteonline session is filled with value and covers:
+                {{ .title }}
               </h3>
             </div>
           </div>
           <div class="col-sm-12">
             <div class="text-left">
               <ul class="list p-0">
-                <li class="mb-2">The digital impact method</li>
-                <li class="mb-2">The digital impact method</li>
-                <li class="mb-2">The digital impact method</li>
-                <li class="mb-2">The digital impact method</li>
+                {{ range .session_value_list}}
+                <li class="mb-2">{{ . }}</li>
+                {{ end }}
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <img class="shadow" src="/images/backgrounds/collage.jpeg" alt="" srcset="">
+        <img class="shadow" src="{{ .collage }}" alt="{{ .title }}" srcset="">
       </div>
     </div>
   </div>
 </section>
+{{ end }}
+{{ with .Site.Data.strategy_session.strategy_sessions_queots }}
 <section class="py-50 bg-secondary">
   <div class="container">
+
     <div class="row align-items-center text-white justify-content-center">
       <div class="col-12">
         <h4 class="big-description text-white text-center my-2">Our clients leave these intimate strategy sessions filled with motivation, inspiration and understanding as to how they can begin scaling online and stand out from the crowd.</h4>
         <h4 class="text-white text-center my-3">Here’s what some of them had to say about their experience...</h4>
       </div>
     </div>
+    {{ range $index, $item := .queots }}
+    {{$count := mod $index 2}}
+    {{ if eq $count 0 }}
     <div class="row my-5 align-items-center text-white justify-content-center">
       <div class="col-sm-7 col-12 order-sm-1 order-12 text-white mt-5">
         <div class="">
@@ -71,7 +83,7 @@
           </svg>
         </div>
         <div>
-          <h4 class="text-white text-center">I had a 90-minute strategy session with Patrick at 4v Films for my startup Paradigm Exchange. This session helped us kickstart our content strategy with loads of ideas of what to post and how to make your content professional.I would warmly recommend this to any small business that are having issues with getting their online presence breakthrough</h4>
+          <h4 class="text-white text-center">{{ .title }}</h4>
         </div>
         <div class="q-icon float-right">
           <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,17 +93,18 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2936 0.762643C11.7093 -1.15216 6.66663 0.762637 4.14528 4.0178C-1.12665 6.50705 -1.12666 13.0174 2.76998 17.0385C4.8329 19.3362 7.35426 19.1448 9.6464 18.1874C9.87561 18.1874 10.1048 18.1874 10.334 18.1874C10.7925 24.6977 6.89584 30.0591 2.9992 35.8036C2.76999 35.6121 2.08235 35.4206 1.85313 35.8036C1.39471 36.5695 0.707049 37.3354 0.477835 38.2928C0.477835 38.4843 0.477849 38.8672 0.707063 39.0587C0.707063 39.6332 1.62391 40.0161 2.31155 39.4417C2.54077 39.2502 2.54076 39.0587 2.76998 38.8672C7.12504 36.1865 11.0217 32.7399 14.0015 28.7188C17.6689 26.0381 20.1903 22.5914 20.8779 18.5703C22.024 16.464 22.4824 14.1663 22.7116 12.2515C23.6285 7.46446 22.024 3.06041 16.2936 0.762643ZM4.14528 9.95371C4.14528 9.76223 4.37448 9.37925 4.6037 9.18777C4.6037 9.95369 5.06211 10.9111 5.52054 11.677C5.52054 12.06 5.29135 12.6344 5.29135 13.0174C4.83292 12.06 4.14528 10.9111 4.14528 9.95371ZM4.83292 16.464C2.54078 14.9322 1.85311 11.677 2.08233 9.37926C2.08233 8.80482 2.31157 8.23039 2.54078 7.65595C2.54078 7.84743 2.54078 7.84742 2.54078 8.0389C1.85314 9.57074 1.85314 11.1026 2.54078 12.6344C2.54078 12.8259 2.54078 13.0174 2.54078 13.2089C2.54078 13.5918 2.76999 13.9748 2.9992 14.3578C3.22842 14.9322 3.45762 15.3151 3.91605 15.8896C4.37448 16.464 5.52056 16.847 6.43742 17.0385C6.66663 17.23 6.89585 17.2299 7.12507 17.4214C6.43742 17.2299 5.52057 17.0385 4.83292 16.464ZM12.8554 3.0604C11.4801 2.86892 9.87563 2.86893 8.72956 3.25189C8.50034 3.25189 8.04189 3.25189 7.81268 3.25189H7.58349C8.72956 2.48597 10.1048 1.91154 11.7093 1.91154C11.4801 2.10302 11.4801 2.29449 11.9385 2.29449C12.8554 2.29449 13.7723 2.48597 14.4599 2.67745C13.7723 2.86893 13.3138 2.86892 12.8554 3.0604ZM14.9183 19.1448C14.9183 19.1448 14.9183 19.3362 14.9183 19.1448C14.9183 18.5703 14.9183 17.6129 14.6891 16.847C14.6891 16.847 14.9183 16.847 14.9183 16.6555C15.1475 17.6129 15.1475 18.3788 14.9183 19.1448ZM20.6487 8.61335C20.4195 8.42187 19.961 8.61334 19.961 8.9963C20.4195 10.5281 20.4195 12.06 19.961 13.5918C19.961 13.2089 19.961 12.8259 19.961 12.443C19.961 12.2515 19.961 12.2515 19.961 12.06C20.1902 11.2941 20.1902 10.7196 19.961 9.95371C19.7318 7.84742 19.2734 5.54965 18.1273 4.0178C19.7318 5.35817 20.4195 7.08151 20.6487 8.61335C20.6487 8.80483 20.6487 8.80483 20.6487 8.61335Z" fill="#FD6B60"/>
           </svg>                    
         </div>
-        <p class="text-center text-primary">Martin Jonson, Paradigm Exchange</p>
+        <p class="text-center text-primary">{{ .client_name }}</p>
 
       </div>
       <div class="col-sm-5 col-12 order-sm-12 order-1">
-        <img class="shadow" src="/images/strategy-session/Image3.jpeg" alt="" srcset="">
+        <img class="shadow" src="{{ .client_picture}}" alt="{{ .title }}" srcset="">
       </div>
     </div>
+    {{ else }}
     <div class="row my-5 align-items-center text-white justify-content-center">
 
       <div class="col-sm-5">
-        <img class="shadow" src="/images/strategy-session/Image5.jpeg" alt="" srcset="">
+        <img class="shadow" src="{{ .client_picture }}" alt="{{ .title }}" srcset="">
       </div>
       <div class="col-sm-7 text-white mt-5">
         <div class="">
@@ -103,7 +116,7 @@
           </svg>
         </div>
         <div>
-          <h4 class="text-white text-center">I had a 90-minute strategy session with Patrick at 4v Films for my startup Paradigm Exchange. This session helped us kickstart our content strategy with loads of ideas of what to post and how to make your content professional.I would warmly recommend this to any small business that are having issues with getting their online presence breakthrough</h4>
+          <h4 class="text-white text-center">{{ .title }}</h4>
         </div>
         <div class="q-icon float-right">
           <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,11 +126,17 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2936 0.762643C11.7093 -1.15216 6.66663 0.762637 4.14528 4.0178C-1.12665 6.50705 -1.12666 13.0174 2.76998 17.0385C4.8329 19.3362 7.35426 19.1448 9.6464 18.1874C9.87561 18.1874 10.1048 18.1874 10.334 18.1874C10.7925 24.6977 6.89584 30.0591 2.9992 35.8036C2.76999 35.6121 2.08235 35.4206 1.85313 35.8036C1.39471 36.5695 0.707049 37.3354 0.477835 38.2928C0.477835 38.4843 0.477849 38.8672 0.707063 39.0587C0.707063 39.6332 1.62391 40.0161 2.31155 39.4417C2.54077 39.2502 2.54076 39.0587 2.76998 38.8672C7.12504 36.1865 11.0217 32.7399 14.0015 28.7188C17.6689 26.0381 20.1903 22.5914 20.8779 18.5703C22.024 16.464 22.4824 14.1663 22.7116 12.2515C23.6285 7.46446 22.024 3.06041 16.2936 0.762643ZM4.14528 9.95371C4.14528 9.76223 4.37448 9.37925 4.6037 9.18777C4.6037 9.95369 5.06211 10.9111 5.52054 11.677C5.52054 12.06 5.29135 12.6344 5.29135 13.0174C4.83292 12.06 4.14528 10.9111 4.14528 9.95371ZM4.83292 16.464C2.54078 14.9322 1.85311 11.677 2.08233 9.37926C2.08233 8.80482 2.31157 8.23039 2.54078 7.65595C2.54078 7.84743 2.54078 7.84742 2.54078 8.0389C1.85314 9.57074 1.85314 11.1026 2.54078 12.6344C2.54078 12.8259 2.54078 13.0174 2.54078 13.2089C2.54078 13.5918 2.76999 13.9748 2.9992 14.3578C3.22842 14.9322 3.45762 15.3151 3.91605 15.8896C4.37448 16.464 5.52056 16.847 6.43742 17.0385C6.66663 17.23 6.89585 17.2299 7.12507 17.4214C6.43742 17.2299 5.52057 17.0385 4.83292 16.464ZM12.8554 3.0604C11.4801 2.86892 9.87563 2.86893 8.72956 3.25189C8.50034 3.25189 8.04189 3.25189 7.81268 3.25189H7.58349C8.72956 2.48597 10.1048 1.91154 11.7093 1.91154C11.4801 2.10302 11.4801 2.29449 11.9385 2.29449C12.8554 2.29449 13.7723 2.48597 14.4599 2.67745C13.7723 2.86893 13.3138 2.86892 12.8554 3.0604ZM14.9183 19.1448C14.9183 19.1448 14.9183 19.3362 14.9183 19.1448C14.9183 18.5703 14.9183 17.6129 14.6891 16.847C14.6891 16.847 14.9183 16.847 14.9183 16.6555C15.1475 17.6129 15.1475 18.3788 14.9183 19.1448ZM20.6487 8.61335C20.4195 8.42187 19.961 8.61334 19.961 8.9963C20.4195 10.5281 20.4195 12.06 19.961 13.5918C19.961 13.2089 19.961 12.8259 19.961 12.443C19.961 12.2515 19.961 12.2515 19.961 12.06C20.1902 11.2941 20.1902 10.7196 19.961 9.95371C19.7318 7.84742 19.2734 5.54965 18.1273 4.0178C19.7318 5.35817 20.4195 7.08151 20.6487 8.61335C20.6487 8.80483 20.6487 8.80483 20.6487 8.61335Z" fill="#FD6B60"/>
           </svg>                    
         </div>
-        <p class="text-center text-primary">Martin Jonson, Paradigm Exchange</p>
+        <p class="text-center text-primary">{{ .client_name }}</p>
       </div>
     </div>
+    {{ end }}
+    {{ end }}
+
+
   </div>
 </section>
+{{ end }}
+{{ with .Site.Data.strategy_session.book_now_cta }}
 <section class="content py-50 bg-white">
   <div class="container">
     <div class="row">
@@ -125,11 +144,11 @@
         <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column">
           <h4 class="text-white">Book a strategy session with us?</h4>
           <h5 class="text-white">Book a meeting that fits your schedule below</h5>
-          <a href="https://4vfilms.appointlet.com/s/strategysession/patrick-bates-founder-of-4v-films" class="btn mt-5 mb-0 btn-orange text-center" target="_blank">BOOK NOW</a>
+          <a href="{{ .cta_URL | absURL }}" class="btn mt-5 mb-0 btn-orange text-center" target="_blank">{{ .cta_title }}</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-
+{{ end }}
 {{ end }}

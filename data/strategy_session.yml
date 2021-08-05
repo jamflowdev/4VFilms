@@ -1,0 +1,29 @@
+hero:
+  title: "Strategy session"
+  BGImage: /images/strategy-session/Image1.jpeg
+
+content_strategy_session_section:
+  description : "Founder Patrick Bates offers a 1 on 1, content strategy session for brands that need guidance with dominating online, creating high value content and a long-term plan."
+  videoURL: "https://player.vimeo.com/video/567113359"
+
+online_session_section:
+  title: "This 90-minuteonline session is filled with value and covers:"
+  session_value_list:
+    - "The digital impact method"
+    - "The digital impact method"
+    - "The digital impact method"
+    - "The digital impact method"
+  collage: /images/backgrounds/collage.jpeg
+
+strategy_sessions_queots:
+  queots:
+  - title: "I had a 90-minute strategy session with Patrick at 4v Films for my startup Paradigm Exchange. This session helped us kickstart our content strategy with loads of  ideas of what to post and how to make your content professional.I would warmly recommend this to any small business that are having issues with getting their online presence breakthrough"
+    client_name: "Martin Jonson, Paradigm Exchange"
+    client_picture: /images/strategy-session/Image3.jpeg
+  - title: "I had a 90-minute strategy session with Patrick at 4v Films for my startup Paradigm Exchange. This session helped us kickstart our content strategy with loads of  ideas of what to post and how to make your content professional.I would warmly recommend this to any small business that are having issues with getting their online presence breakthrough"
+    client_name: "Martin Jonson, Paradigm Exchange"
+    client_picture: /images/strategy-session/Image5.jpeg
+
+book_now_cta: 
+  cta_title: "Book Now"
+  cta_URL: "https://4vfilms.appointlet.com/s/strategysession/patrick-bates-founder-of-4v-films"
