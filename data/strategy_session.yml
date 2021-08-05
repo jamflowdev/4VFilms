@@ -8,12 +8,12 @@ content_strategy_session_section:
     plan to dominate online.
   videoURL: https://player.vimeo.com/video/567113359
 online_session_section:
-  title: 'This 90-minuteonline session is filled with value and covers:'
+  title: 'This 90-minute online session is filled with value and covers:'
   session_value_list:
-  - The digital impact method
-  - The digital impact method
-  - The digital impact method
-  - The digital impact method
+  - The 3 step digital impact method
+  - Techniques, tips and tricks
+  - Workbook and content planning
+  - A 6 month plan
   collage: "/images/backgrounds/collage.jpeg"
 strategy_sessions_queots:
   queots:
