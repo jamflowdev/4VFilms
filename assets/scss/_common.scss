@@ -6,6 +6,10 @@ body {
 img {
   max-width: 100%;
 }
+::-moz-selection {
+  background: lighten($color: $primary-color, $amount: 10);
+  color: $white;
+}
 ::selection {
   background: lighten($color: $primary-color, $amount: 10);
   color: $white;
@@ -24,9 +28,15 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1050;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 a {
@@ -47,6 +57,8 @@ a,
 button,
 select {
   cursor: pointer;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
   transition: 0.2s ease;
 
   &:focus {
@@ -86,12 +98,17 @@ svg {
   position: absolute;
   left: 50%;
   bottom: 50px;
-  transform: translate(-50%, -50%);
-  @include mobile {
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  @include desktop {
     position: relative;
-    transform: unset;
+    -webkit-transform: unset;
+        -ms-transform: unset;
+            transform: unset;
     left: unset;
     bottom: unset;
+    margin: 0 auto;
   }
 }
 .plus-icon{
@@ -250,6 +267,8 @@ svg {
       width: 100%;
       top: 0;
       left: 0;
+      background: -webkit-gradient(linear, left top, right top, color-stop(60%, $secondary-color), to(transparent));
+      background: -o-linear-gradient(left, $secondary-color 60%, transparent);
       background: linear-gradient(to right, $secondary-color 60%, transparent);
     }
   }
@@ -313,14 +332,18 @@ svg {
   mix-blend-mode: normal;
   background-color: #f6eeee;
   border-radius: 24px;
-  transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
+  -webkit-transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
+      -ms-transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
+          transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
   // transform: matrix(0.8, 0.63, -0.57, 0.8, 0, 0);
 }
 .production-company {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   @include desktop {
     font-size: 48px;
   }
@@ -465,6 +488,8 @@ svg {
 }
 
 .transition {
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
@@ -480,7 +505,8 @@ svg {
   border-bottom: 1px solid $border-color;
 
   &:focus {
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     border-color: $primary-color;
   }
 }
@@ -515,6 +541,8 @@ textarea.form-control {
       left: 0;
       top: 0px;
       color: $secondary-color;
+      -webkit-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
       transition: 0.3s ease;
     }
   }
@@ -570,6 +598,8 @@ textarea.form-control {
         left: 0;
         top: 1px;
         color: $primary-color;
+        -webkit-transition: 0.3s ease;
+        -o-transition: 0.3s ease;
         transition: 0.3s ease;
       }
     }
@@ -618,15 +648,17 @@ textarea.form-control {
 
 .my-col {
   padding: 20px 10px;
-  -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
   max-width: 20%;
   @include tablet {
     padding: 15px 20px;
   }
   @include mobile {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
     max-width: 50%;
   }
   img {
@@ -688,7 +720,8 @@ textarea.form-control {
   border-radius: 0;
   border: 0;
   color: $white;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .btn-orange {
   background-color: $primary-color;
@@ -697,7 +730,10 @@ textarea.form-control {
   text-transform: uppercase;
   color: $white;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   &:hover {
     color: $black;
@@ -754,9 +790,13 @@ footer {
 }
 // card
 .my-card {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
   &:hover {
-    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+            transform: scale(1.15);
     background-color: $primary-color;
     h4,
     p {
@@ -773,11 +813,15 @@ footer {
     }
   }
   h4 {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
     text-transform: capitalize;
   }
   p {
     color: $black;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
     text-transform: capitalize;
   }
@@ -798,9 +842,13 @@ footer {
 // project
 .project-list {
   .my-card {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
     &:hover {
-      transform: scale(1.15);
+      -webkit-transform: scale(1.15);
+          -ms-transform: scale(1.15);
+              transform: scale(1.15);
       background-color: $primary-color;
       h4,
       p {
@@ -817,11 +865,15 @@ footer {
       }
     }
     h4 {
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
       transition: all 0.4s;
       text-transform: capitalize;
     }
     p {
       color: $black;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
       transition: all 0.4s;
       text-transform: capitalize;
     }
@@ -841,14 +893,14 @@ footer {
 }
 
 .section-title {
-  text-transform: uppercase;
   &.-lower{
     text-transform: capitalize;
   }
 }
 
 .hero-bg {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -863,9 +915,16 @@ footer {
 .seeItToBeliveIt-slider {
   .image-wrapper {
     height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
     p {
       color: $white;
@@ -901,6 +960,8 @@ main .list {
       left: 0;
       top: 1px;
       color: $primary-color;
+      -webkit-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
       transition: 0.3s ease;
     }
   }
@@ -953,7 +1014,9 @@ main .list {
 .slick-prev {
   margin-left: -100px;
   top: 40%;
-  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%);
   position: absolute;
   cursor: pointer;
   @include desktop-el {
@@ -975,7 +1038,9 @@ main .list {
   margin-right: -100px;
   top: 40%;
   right: 0;
-  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%);
   position: absolute;
   cursor: pointer;
   @include desktop-el {
@@ -1052,6 +1117,8 @@ main .list {
 }
 
 .width-fitcontent {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .video-js {

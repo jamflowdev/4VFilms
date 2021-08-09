@@ -6,13 +6,19 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .hover-bg-secondary {
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
 
   * {
+    -webkit-transition: inherit;
+    -o-transition: inherit;
     transition: inherit;
   }
 
@@ -34,9 +40,13 @@
 }
 
 .hover-bg-primary {
+  -webkit-transition: .2s ease;
+  -o-transition: .2s ease;
   transition: .2s ease;
 
   * {
+    -webkit-transition: inherit;
+    -o-transition: inherit;
     transition: inherit;
   }
 
@@ -73,14 +83,20 @@
   position: absolute;
   left: 50%;
   top: 32%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   opacity: .1;
+  -webkit-transition: inherit;
+  -o-transition: inherit;
   transition: inherit;
 }
 
 .card:hover {
   .icon-watermark {
-    transform: translate(-50%, -50%) scale(1.5);
+    -webkit-transform: translate(-50%, -50%) scale(1.5);
+        -ms-transform: translate(-50%, -50%) scale(1.5);
+            transform: translate(-50%, -50%) scale(1.5);
   }
 }
 
@@ -106,10 +122,13 @@
 
 .hover-shadow {
   &::before {
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
     transition: .3s ease;
     position: absolute;
     height: 100%;
-    box-shadow: 0px 33px 49px 0px rgba(190, 193, 228, 0.31);
+    -webkit-box-shadow: 0px 33px 49px 0px rgba(190, 193, 228, 0.31);
+            box-shadow: 0px 33px 49px 0px rgba(190, 193, 228, 0.31);
     width: 100%;
     left: 0;
     right: 0;
@@ -140,7 +159,9 @@
     content: "";
     height: 100%;
     width: 100%;
-    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+        -ms-transform: rotate(40deg);
+            transform: rotate(40deg);
     background: $primary-gradient;
     left: 0;
     top: 60%;
@@ -152,7 +173,9 @@
     content: "";
     height: 100%;
     width: 100%;
-    transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+        -ms-transform: rotate(40deg);
+            transform: rotate(40deg);
     background: $primary-gradient;
     left: 20%;
     top: 55%;
@@ -169,7 +192,8 @@
     .project-hover {
       visibility: visible;
       opacity: 1;
-      transform: rotateX(0deg);
+      -webkit-transform: rotateX(0deg);
+              transform: rotateX(0deg);
     }
   }
 }
@@ -179,14 +203,25 @@
   width: 80%;
   left: 10%;
   bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   visibility: hidden;
   opacity: 0;
-  transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
   transition: .3s ease;
-  transform-origin: bottom;
+  -webkit-transform-origin: bottom;
+      -ms-transform-origin: bottom;
+          transform-origin: bottom;
 
   i {
     height: 55px;
