@@ -36,7 +36,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title-lower text-white">{{ .title | upper | safeHTML }}</h2>
+        <h2 class="section-title-lower text-white">{{ .title | safeHTML }}</h2>
       </div>
     </div>
     <div class="row mt-5">
@@ -54,7 +54,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title-lower">{{ .title | upper }}</h2>
+        <h2 class="section-title-lower">{{ .title }}</h2>
       </div>
     </div>
     <div class="row mt-5 mb-0">
@@ -185,7 +185,7 @@
       <div class="col-sm-12 text-center">
         <div class="text-center">
           <h3 class="text-white content-package-title">
-            {{ .contentPackages.title | upper }}
+            {{ .contentPackages.title }}
           </h3>
         </div>
       </div>
@@ -252,7 +252,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title text-white">{{ .title | upper }}</h2>
+        <h2 class="section-title text-white">{{ .title }}</h2>
         <hr class="orange-line mt-4" />
       </div>
     </div>
@@ -287,7 +287,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-lg-12 mx-auto text-center">
-        <h2 class="section-title text-white">{{ .title | upper }}</h2>
+        <h2 class="section-title text-white">{{ .title }}</h2>
         <hr class="orange-line mt-4" />
       </div>
     </div>
@@ -333,7 +333,7 @@
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
       {{ $t := "Apply your interest " }}
-      <h2 class="section-title">{{ $t | upper }}</h2>
+      <h2 class="section-title">{{ $t }}</h2>
     </div>
     <div class="row justify-content-center">
       <div class="col-sm-9 text-left">
