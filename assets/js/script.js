@@ -180,21 +180,21 @@
     responsive: [{
       breakpoint: 991,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1
       }
     },
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 3,
+        slidesToScroll: 1
       }
     },
     {
       breakpoint: 575,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     },   
