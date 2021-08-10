@@ -6,6 +6,7 @@ hero:
   BGImage: "/uploads/whatsapp-image-2021-07-28-at-11-56-42.jpeg"
 clientsLogo:
   enable: true
+  title: "Who we've worked with"
   slider:
   - logo: images/clients/Image1.png
   - logo: images/clients/Image2.png

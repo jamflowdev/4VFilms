@@ -1,10 +1,19 @@
 <!-- clients -->
+{{ with .Site.Data.project }}
 <section class="section-sm">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 mx-auto mb-5 text-center">
+        <h2 class="section-title">{{ .clientsLogo.title }}</h2>
+        <hr class="orange-line mt-4">
+      </div>
+    </div>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
         <div class="client-logo-slider d-flex align-items-center">
-          {{ range .Site.Data.project.clientsLogo.slider }}
+          {{ range .clientsLogo.slider }}
           <div class="image-wrapper client d-flex align-items-center justify-content-center">
             {{ if and ( ne .link "" ) ( ne .link "#" ) }}
             <a href="{{ .link | safeURL }}" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" loading="lazy" src="{{ .logo | absURL }}" alt="client-logo"></a>
@@ -18,4 +27,5 @@
     </div>
   </div>
 </section>
+{{ end }}
 <!-- /clients -->
