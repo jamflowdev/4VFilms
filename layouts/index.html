@@ -2,7 +2,7 @@
 
 <!-- banner -->
 {{ with .Site.Data.homepage.banner }}
-<section class="banner bg-cover overlay position-relative h-100 d-flex justify-content-center align-items-center">
+<section class="banner bg-cover position-relative h-100 d-flex justify-content-center align-items-center">
   <video class="hero-bg lazy" autoplay loop playsinline muted poster="{{ .bgImage | absURL }}">
     <source src="{{ .videoURL | absURL }}" type="video/mp4">
   </video>
