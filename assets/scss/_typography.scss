@@ -30,6 +30,7 @@ p {
 
 .display-1{
   font-size: 100px;
+  font-weight: 700;
   @include desktop {
     font-size: 70px;
   }

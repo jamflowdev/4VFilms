@@ -43,7 +43,7 @@
       {{ range .icons }}
       <div class="col-sm-4 text-center">
         <img src="{{ .url | absURL }}" alt="icons" loading = lazy />
-        <h4 class="mb-3 text-white text-center">{{ .content | lower }}</h4>
+        <h4 class="mb-3 text-white text-center">{{ .content }}</h4>
       </div>
       {{ end }}
     </div>
