@@ -1,5 +1,5 @@
 ---
-title: Polit Case Competition Rise
+title: Polit Case Competition Rise - Explainer
 thumbnail: "/images/project/ppc.png"
 video_url: https://player.vimeo.com/video/548394917
 date: 2019-08-01T16:19:26.000+06:00
