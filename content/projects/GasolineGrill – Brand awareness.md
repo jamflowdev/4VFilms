@@ -8,10 +8,10 @@ description: Each one of Gasoline’s locations has a different vibe, and the pu
   at Landgreven.
 
 ---
-##We can finally share a video campaign we made for Gasoline Grill ���
+We can finally share a video campaign we made for Gasoline Grill 
 
 Each one of Gasoline’s locations has a different vibe, and the purpose of this video was to capture the old school, raw atmosphere through hiphop/funk at Landgreven.
 
-The team of chefs were a pleasure to be around �
+The team of chefs were a pleasure to be around.
 
 Let us know what you think!
