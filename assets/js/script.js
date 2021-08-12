@@ -2,9 +2,9 @@
   'use strict';
 
   // Preloader js    
-  $(window).on('load', function () {
-    $('.preloader').delay(1500).fadeOut(100);
-  });
+  setTimeout(() => {
+    $('.preloader').delay(1000).fadeOut(100);
+  }, 3000);
 
   // Sticky Menu
   $(window).scroll(function () {
