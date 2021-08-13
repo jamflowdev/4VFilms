@@ -193,8 +193,8 @@ googleAnalitycsID = ""
 
   ######################### Social site ##############################
   [[params.social]]
-  icon = "ti-twitter" # themify icon pack https://themify.me/themify-icons
-  link = "https://twitter.com/4vfilmsdk"
+  icon = "ti-vimeo-alt" # themify icon pack https://themify.me/themify-icons
+  link = "https://vimeo.com/4vfilms"
   
   [[params.social]]
   icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons

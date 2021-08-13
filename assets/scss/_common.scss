@@ -94,6 +94,12 @@ svg {
     margin-top: 10px !important;
   }
 }
+.my-sm-2 {
+  @include tablet {
+    margin-top: .5rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
 .cta-button {
   position: absolute;
   left: 50%;
