@@ -16,7 +16,7 @@ data-background="/images/backgrounds/home-service.png">
 <section class="section project-list bg-secondary">
   <div class="container">
     <div class="row">
-      {{ range (where  .Site.RegularPages "Section" "projects") }}
+      {{ range (where  .Site.RegularPages.ByDate.Reverse "Section" "projects") }}
       <div class="col-lg-6 col-sm-6 my-4 px-4">
         {{- partial "card.html" . -}}
       </div>

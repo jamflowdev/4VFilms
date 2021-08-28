@@ -3,7 +3,7 @@ banner:
   bgImage: /uploads/ShowreelBG.png
   title: We are an international video production house transforming the small businesses
     of Copenhagen.
-  videoURL: "/uploads/showreel.mp4"
+  videoURL: "/video/Showreel.mp4"
   button:
     url: our_vision
     label: Learn more

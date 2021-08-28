@@ -10,10 +10,7 @@ queots:
   - text: It was extremely easy for us I would say. With only a few instructions we
       got Patrick to deliver exactly what we desired, and even more than we had hoped
       for.
-    video: <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/590540166?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=3f1de69b41"
-      frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-      style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Client
-      Success Story - Glostrup Park Hotel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    video: https://player.vimeo.com/video/590540166
     companyName: Glostrup Park Hotel
     author:
       name: Mikael Melander
