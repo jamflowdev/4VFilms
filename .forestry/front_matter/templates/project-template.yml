@@ -1,0 +1,19 @@
+---
+label: Project Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: video_url
+  label: video_url
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
