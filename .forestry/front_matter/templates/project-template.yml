@@ -18,4 +18,5 @@ fields:
   name: description
   label: description
 pages:
+- content/projects/boston-consulting-group-explainer.md
 - content/projects/bowline-city-walks-event.md
