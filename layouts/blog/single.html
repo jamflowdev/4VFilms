@@ -28,7 +28,7 @@
       <h3 class="font-primary mb-5">Recent Articles</h3>
     </div>
     <div class="row recent-articles">
-      {{ range first 3 (where  .Site.RegularPages "Section" "blog").Reverse }}
+      {{ range first 3 (where  .Site.RegularPages "Section" "blog").ByDate.Reverse }}
       <div class="col-md-4 col-sm-6 my-3">
         <a href="{{ .Permalink }}" class="">
           <article class="card my-card bg-video border-radius card-hover">

@@ -1,6 +1,6 @@
 ---
 title: New blog post
-date: 2019-08-01T16:19:26.000+06:00
+date: 2021-09-01T16:19:26.000+06:00
 image: images/blog/post-1.jpg
 bgImage: images/backgrounds/page-title.jpg
 description: this is meta description

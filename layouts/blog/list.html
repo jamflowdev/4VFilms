@@ -6,7 +6,7 @@
 <section class="section bg-secondary">
   <div class="container">
     <div class="row">
-      {{ range .Data.Pages }}
+      {{ range .Data.Pages.ByDate.Reverse }}
       <div class="col-md-6 my-4 px-4">
         <a href="{{ .Permalink }}" class="">
           <article class="card my-card border-radius card-hover">

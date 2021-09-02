@@ -1,5 +1,5 @@
 +++
-date = ""
+date = "2021-09-01T16:19:26+06:00"
 description = "We created a video with both Boston Consulting Group and Polit Case Competition, in order to provide students applying for jobs with the best advice, tips and tricks in order to perfect their Resume/CV."
 thumbnail = "/uploads/bcg.png"
 title = "Boston Consulting Group - Explainer"
