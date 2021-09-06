@@ -1,12 +1,14 @@
 <head>
   <meta charset="utf-8">
-  <title>
-    {{- if eq .Kind "home" -}}
-    {{ .Site.Title }}
-    {{- else -}}
-    {{ .Title }} | {{ .Site.Title }}
-    {{- end -}}
-  </title>
+  {{- if eq .Kind "home" -}}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Site.Title }}" />
+  {{- else -}}
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+  {{- end -}}
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +16,23 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
-
+  <link rel="canonical" href="{{ .Permalink}}">
+  <meta property="og:type" content="Films and video production house" />
+  <meta property="og:url" content="{{ .Permalink}}" />
+  <meta name="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" />
+  <meta name="twitter:creator" content="@{{ .Site.Params.author }}" />
+  {{ if .Params.thumbnail}}
+  <meta name="twitter:image" content="{{ .Params.thumbnail | absURL }}">
+  <meta property="og:image" content="{{ .Params.thumbnail | absURL }}">
+  {{else if .Params.Image}}
+  <meta name="twitter:image" content="{{ .Params.Image | absURL }}">
+  <meta property="og:image" content="{{ .Params.Image | absURL }}">
+  {{else if .Params.ogImage}}
+  <meta name="twitter:image" content="{{ .Params.ogImage | absURL }}">
+  <meta property="og:image" content="{{ .Params.ogImage | absURL }}">
+  {{end}}
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">
