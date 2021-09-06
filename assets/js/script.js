@@ -226,4 +226,18 @@
   var lazyLoadInstance = new LazyLoad({
     // Your custom settings go here
   });
+
+
+      	  $(".project-item").hide()
+          $(".project-item").slice(0, 4).show()
+          if($(".project-item").length <= 4) {
+             $(".read-more-button").css("display", "none")
+          }
+          $(".read-more-button").on("click", function(e){
+             e.preventDefault()
+             $(".project-item:hidden").slice(0, 4).slideDown()
+            if($(".project-item:hidden").length == 0) {
+              $(".read-more-button").css("display", "none")
+            }
+          })
 })(jQuery);

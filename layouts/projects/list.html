@@ -17,10 +17,13 @@ data-background="/images/backgrounds/home-service.png">
   <div class="container">
     <div class="row">
       {{ range (where  .Site.RegularPages.ByDate.Reverse "Section" "projects") }}
-      <div class="col-lg-6 col-sm-6 my-4 px-4">
+      <div class="col-lg-6 col-sm-6 my-4 px-4 project-item">
         {{- partial "card.html" . -}}
       </div>
-    {{ end }}
+      {{ end }}
+      <div class="col-12 mt-5">
+        <a class="nav-link btn btn-orange m-auto read-more-button" href="#">Read More</a>
+      </div>
     </div>
   </div>
 </section>
