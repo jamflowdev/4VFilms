@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       {{ range .Data.Pages.ByDate.Reverse }}
-      <div class="col-md-6 my-4 px-4">
+      <div class="col-md-6 my-4 px-4 blog-list-item">
         <a href="{{ .Permalink }}" class="">
           <article class="card my-card border-radius card-hover">
             <img src="{{ .Params.Image | absURL }}"  loading="lazy" alt="{{ .Title }}">
@@ -20,7 +20,7 @@
       </div>
       {{ end }}
       <dic class="col-12 my-5">
-        <a class="nav-link btn btn-orange m-auto" href="#">More</a>
+        <a class="nav-link btn btn-orange m-auto read-more-blog-button" href="#">See More</a>
       </dic>
     </div>
   </div>
