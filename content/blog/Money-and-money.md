@@ -1,46 +1,28 @@
 ---
-title: "What I Wish I’d Known Before Starting a Digital Agency"
-date: 2019-08-01T16:19:26+06:00
-draft: false
+title: The Digital Era is here!
+date: 2019-08-01T16:19:26.000+06:00
 image: images/blog/post-5.jpg
-bgImage: "images/backgrounds/page-title.jpg"
-description: "this is meta description"
+bgImage: images/backgrounds/page-title.jpg
+description: this is meta description
 author: Themefisher
+
 ---
+We're living in the digital era.
 
+What does that mean for you as a business?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+Well, almost every consumer on the planet has access to a mobile phone or the internet. And that means that the whole game of business and consuming has been disrupted and is changing.
 
-**Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.**
+Basically as a consumer, we often just research - at the tip of our fingers we can type in on Google, our problem or the solution we're looking for, or the service we want to find and we have a list of different competitors showing up on this Google platform or even on social media.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+And then we do the analysis, don't we? We often look at which brand is the best, which looks most professional and credible, which can I trust the most, which is most up to date.
 
-> Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+That all points towards your social media and your online presence as a business, right?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+It's never been more important to dominate online, be better than your competitors in this way, and really show off what you can do and what you know. Show that you can solve those problems for your consumers.
 
+And to do this, remember the digital impact method. You need to create high quality, high value and high consistency and combine all those three ingredients to dominate online and create that digital impact.
+
+That's what I mean by 'the digital era is now', and it's never been more important for us as business owners to be dominating online. Creating as much value as possible because there's such an abundance of information in the world. We need to put out as much value as possible, create that community and build that trust, that engagement, that credibility and so on, to get those leads, to get those sales in the digital world.
+
+Really think about it, if you're not online yet, and you're not covering at least a few social media platforms with some consistent, quality and valuable content, you need to start doing that in your brand.
