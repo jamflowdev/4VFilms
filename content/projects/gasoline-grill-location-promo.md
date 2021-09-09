@@ -6,3 +6,4 @@ title = "Gasoline Grill - Location Promo"
 video_url = "https://player.vimeo.com/video/492571052"
 
 +++
+Each one of Gasoline’s locations has a different vibe, and the purpose of this video was to capture the old school, raw atmosphere through hiphop/funk at Landgreven.

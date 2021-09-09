@@ -6,3 +6,4 @@ title = "København Kommune x Polit Case Competition                            
 video_url = "https://player.vimeo.com/video/548397947"
 
 +++
+We had the pleasure of creating the promotional campaign for the case partner reveal for Polit Case Competition Rise! Introducing København Kommune as the 2021 partner.
