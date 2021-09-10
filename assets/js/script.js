@@ -231,13 +231,13 @@
       	  $(".project-item").hide()
           $(".project-item").slice(0, 4).show()
           if($(".project-item").length <= 4) {
-             $(".read-more-blog-button").css("display", "none")
+             $(".read-more-button").css("display", "none")
           }
-          $(".read-more-blog-button").on("click", function(e){
+          $(".read-more-button").on("click", function(e){
              e.preventDefault()
              $(".project-item:hidden").slice(0, 4).slideDown()
             if($(".project-item:hidden").length == 0) {
-              $(".read-more-blog-button").css("display", "none")
+              $(".read-more-button").css("display", "none")
             }
           })
       	  $(".blog-list-item").hide()
@@ -250,6 +250,19 @@
              $(".blog-list-item:hidden").slice(0, 4).slideDown()
             if($(".blog-list-item:hidden").length == 0) {
               $(".read-more-blog-button").css("display", "none")
+            }
+          })
+          //////////
+      	  $(".testimonial-item").hide()
+          $(".testimonial-item").slice(0, 4).show()
+          if($(".testimonial-item").length <= 4) {
+             $(".see-more-testimonial-button").css("display", "none")
+          }
+          $(".see-more-testimonial-button").on("click", function(e){
+             e.preventDefault()
+             $(".testimonial-item:hidden").slice(0, 4).slideDown()
+            if($(".testimonial-item:hidden").length == 0) {
+              $(".see-more-testimonial-button").css("display", "none")
             }
           })
 })(jQuery);
