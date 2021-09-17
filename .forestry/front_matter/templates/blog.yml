@@ -20,3 +20,5 @@ fields:
 - type: text
   name: author
   label: author
+pages:
+- content/blog/the-digital-era-is-here.md
