@@ -1,0 +1,19 @@
+---
+label: Blog Main
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bgImage
+  label: bgImage
+- type: file
+  name: ogImage
+  label: ogImage
+- type: textarea
+  name: description
+  label: description
