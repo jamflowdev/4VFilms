@@ -1,5 +1,5 @@
 ---
-title: Blogs
+title: Blogs and Thoughts
 date: 2021-08-01T16:19:26.000+06:00
 bgImage: "/images/backgrounds/our-vision-bg.jpg"
 ogImage: "/4vlogo.png"
