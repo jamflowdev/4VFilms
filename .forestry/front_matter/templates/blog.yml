@@ -1,0 +1,22 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: file
+  name: bgImage
+  label: bgImage
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
