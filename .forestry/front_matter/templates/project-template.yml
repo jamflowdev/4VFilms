@@ -19,7 +19,6 @@ fields:
   name: description
   label: description
 pages:
-- content/blog/the-digital-impact-method-creating-value.md
 - content/projects/boston-consulting-group-explainer.md
 - content/projects/bowline-city-walks-event-2.md
 - content/projects/bowline-city-walks-event.md

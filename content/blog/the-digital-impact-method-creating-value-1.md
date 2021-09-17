@@ -1,9 +1,10 @@
 +++
-date = 2021-09-17T09:17:42Z
-description = ""
-thumbnail = ""
-title = "The Digital Impact Method - Creating Value"
-video_url = ""
+author = "Patrick Bates"
+bgImage = ""
+date = 2021-09-17T10:00:00Z
+description = "The digital era is here. There are 3 components you must include in creating a digital impact and strong online presence. High quality, value and consistency. "
+image = ""
+title = "The Digital Impact Method - Creating value"
 
 +++
 The digital impact method is a three-step process in transforming your online presence.
