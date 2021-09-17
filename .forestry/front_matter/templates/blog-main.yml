@@ -19,4 +19,6 @@ fields:
   label: description
 pages:
 - content/4vfilms/_index.md
+- content/4vplus/_index.md
 - content/blog/_index.md
+- content/digital_impact_accelerator/_index.md
