@@ -1,9 +1,9 @@
 ---
-title: "4V Films"
-date: 2019-08-01T16:19:26+06:00
-draft: true
+title: 4V Films
+date: 2019-08-01T16:19:26.000+06:00
 bgImage: "/images/banner/4v-films-hero-bg.jpg"
-ogImage: /4vlogo.png
-description: "this is meta description"
----
+ogImage: "/4vlogo.png"
+description: this is meta description
+draft: true
 
+---

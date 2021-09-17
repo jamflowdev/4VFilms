@@ -1,0 +1,26 @@
+---
+label: Blog Main
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bgImage
+  label: bgImage
+- type: file
+  name: ogImage
+  label: ogImage
+- type: textarea
+  name: description
+  label: description
+pages:
+- content/4vfilms/_index.md
+- content/4vplus/_index.md
+- content/blog/_index.md
+- content/digital_impact_accelerator/_index.md
+- content/our_vision/_index.md
+- content/testimonials/_index.md
