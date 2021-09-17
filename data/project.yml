@@ -3,10 +3,10 @@ hero:
   title: Our Projects
   description: We have worked with 15+ industries around the world and on a variety
     of different projects. Check out some of our recent projects below.
-  BGImage: "/uploads/whatsapp-image-2021-07-28-at-11-56-42.jpeg"
+  BGImage: "/uploads/filming.jpeg"
 clientsLogo:
   enable: true
-  title: "Who we've worked with"
+  title: Who we've worked with
   slider:
   - logo: images/clients/Image1.png
   - logo: images/clients/Image2.png
