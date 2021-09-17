@@ -1,10 +1,10 @@
 ---
 title: The Digital Era is here!
-date: 2019-08-01T16:19:26.000+06:00
-image: images/blog/post-5.jpg
-bgImage: images/backgrounds/page-title.jpg
-description: this is meta description
-author: Themefisher
+date: 2021-07-16T10:19:26+00:00
+image: "/uploads/digital.png"
+bgImage: "/uploads/digital.png"
+description: Digital era - Video and online presence is now more important than ever.
+author: Patrick Bates
 
 ---
 We're living in the digital era.
