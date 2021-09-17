@@ -1,7 +1,7 @@
 ---
 title: 4v Plus
 date: 2019-08-01T16:19:26.000+06:00
-bgImage: "/images/backgrounds/4v-films-bg.jpg"
+bgImage: "/images/banner/4v-plus-hero-bg.jpg"
 ogImage: "/4vlogo.png"
 description: We work with your team to create a customised content plan based around
   your business, maximising your return on investment goals and deliver as many content

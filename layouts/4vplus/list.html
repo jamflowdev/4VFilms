@@ -1,7 +1,7 @@
 {{ define "main" }} {{ with .Site.Data.fourVPlusPage.banner }}
 <section
   class="page-title overlay bg-cover"
-  data-background="{{ .BgImage | absURL}}"
+  data-background="{{ $.Params.bgImage | absURL }}"
 >
   <div class="container">
     <div class="row">

@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ with .Site.Data.our_vision.hero }}
-<section class="page-title overlay bg-cover" data-background="{{ .BGImage | absURL}}">
+<section class="page-title overlay bg-cover" data-background="{{ $.Params.bgImage | absURL }}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-left">

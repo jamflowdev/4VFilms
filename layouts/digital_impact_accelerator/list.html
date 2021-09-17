@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ with .Site.Data.digital_impact_accelerator.hero }}
 <!-- Hero -->
-<section class="page-title overlay bg-cover" data-background="{{ .BGImage | absURL}}">
+<section class="page-title overlay bg-cover" data-background="{{ $.Params.bgImage | absURL }}">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
