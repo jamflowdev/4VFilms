@@ -1,6 +1,6 @@
 +++
 author = "Patrick Bates"
-bgImage = ""
+bgImage = "/uploads/consistency.jpeg"
 date = 2021-09-23T22:00:00Z
 description = "It's the digital era and remaining consistent online will strengthen your social media presence."
 image = "/uploads/consistency.jpeg"
