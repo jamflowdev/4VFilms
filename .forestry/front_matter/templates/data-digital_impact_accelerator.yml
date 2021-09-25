@@ -146,3 +146,5 @@ fields:
     - type: text
       name: url
       label: url
+pages:
+- data/digital_impact_accelerator.yml
