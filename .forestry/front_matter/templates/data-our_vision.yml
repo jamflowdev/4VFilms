@@ -94,3 +94,5 @@ fields:
       - type: textarea
         name: content
         label: content
+pages:
+- data/our_vision.yml
