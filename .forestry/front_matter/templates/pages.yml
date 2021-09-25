@@ -1,0 +1,212 @@
+---
+label: pages
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: file
+    name: bgImage
+    label: bgImage
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: videoURL
+    label: videoURL
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: label
+      label: label
+- type: field_group
+  name: vision
+  label: vision
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle1
+    label: subtitle1
+- type: field_group
+  name: service
+  label: service
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: fourv_plus
+    label: fourv_plus
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: description
+      label: description
+    - type: file
+      name: imgURL
+      label: imgURL
+    - type: file
+      name: logoURL
+      label: logoURL
+    - type: field_group
+      name: button
+      label: button
+      fields:
+      - type: text
+        name: url
+        label: url
+      - type: text
+        name: label
+        label: label
+  - type: field_group
+    name: perfect_solution
+    label: perfect_solution
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: textarea
+      name: description
+      label: description
+    - type: file
+      name: imgURL
+      label: imgURL
+    - type: file
+      name: logoURL
+      label: logoURL
+    - type: field_group
+      name: button
+      label: button
+      fields:
+      - type: text
+        name: url
+        label: url
+      - type: text
+        name: label
+        label: label
+  - type: field_group
+    name: strategy_session
+    label: strategy_session
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: description
+      label: description
+    - type: file
+      name: imgURL
+      label: imgURL
+    - type: file
+      name: logoURL
+      label: logoURL
+    - type: field_group
+      name: button
+      label: button
+      fields:
+      - type: text
+        name: url
+        label: url
+      - type: text
+        name: label
+        label: label
+- type: field_group
+  name: project
+  label: project
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: cta
+  label: cta
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
+  - type: text
+    name: title2
+    label: title2
+  - type: text
+    name: content2
+    label: content2
+  - type: file
+    name: bgImage
+    label: bgImage
+  - type: file
+    name: bgImage2
+    label: bgImage2
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+  - type: field_group
+    name: button2
+    label: button2
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: pricing
+  label: pricing
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: blog
+  label: blog
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
