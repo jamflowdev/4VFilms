@@ -1,0 +1,27 @@
+---
+label: Book meeting cta
+hide_body: true
+fields:
+- type: field_group
+  name: cta
+  label: cta
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: contact_no
+    label: contact_no
+  - type: file
+    name: Image
+    label: Image
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: link
+      label: link
