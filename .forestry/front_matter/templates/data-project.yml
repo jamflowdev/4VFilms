@@ -1,0 +1,31 @@
+---
+label: Data project
+hide_body: true
+fields:
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+- type: field_group
+  name: clientsLogo
+  label: clientsLogo
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: slider
+    label: slider
+    fields:
+    - type: file
+      name: logo
+      label: logo
