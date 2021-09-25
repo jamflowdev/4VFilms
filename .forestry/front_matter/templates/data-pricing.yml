@@ -1,0 +1,50 @@
+---
+label: Data Pricing
+hide_body: true
+fields:
+- type: field_group_list
+  name: pricingTable
+  label: pricingTable
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: icon
+    label: icon
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: regularPrice
+    label: regularPrice
+  - type: text
+    name: discountPrice
+    label: discountPrice
+  - type: field_group_list
+    name: serviceList
+    label: serviceList
+    fields:
+    - type: text
+      name: service
+      label: service
+- type: field_group
+  name: contentPackages
+  label: contentPackages
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: list
+    label: list
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: label
+      label: label
