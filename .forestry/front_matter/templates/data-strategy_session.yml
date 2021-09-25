@@ -62,3 +62,5 @@ fields:
   - type: text
     name: cta_URL
     label: cta_URL
+pages:
+- data/strategy_session.yml
