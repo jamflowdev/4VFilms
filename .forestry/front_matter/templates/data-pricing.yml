@@ -48,3 +48,5 @@ fields:
     - type: text
       name: label
       label: label
+pages:
+- data/pricing.yml

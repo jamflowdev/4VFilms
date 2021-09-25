@@ -29,3 +29,5 @@ fields:
     - type: file
       name: logo
       label: logo
+pages:
+- data/project.yml
