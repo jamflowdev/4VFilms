@@ -1,0 +1,41 @@
+---
+label: Data Testimonials
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: file
+    name: bgImage
+    label: bgImage
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: queots
+  label: queots
+  fields:
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: video
+      label: video
+    - type: text
+      name: companyName
+      label: companyName
+    - type: field_group
+      name: author
+      label: author
+      fields:
+      - type: text
+        name: name
+        label: name
