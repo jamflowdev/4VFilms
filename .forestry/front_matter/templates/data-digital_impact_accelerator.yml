@@ -1,0 +1,148 @@
+---
+label: Data Digital_impact_accelerator
+hide_body: true
+fields:
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: BGImage
+    label: BGImage
+- type: field_group
+  name: DigitalImpact
+  label: DigitalImpact
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: secondTitle
+    label: secondTitle
+  - type: list
+    name: listItems
+    label: listItems
+- type: field_group
+  name: discription
+  label: discription
+  fields:
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: pillars
+  label: pillars
+  fields:
+  - type: file
+    name: bgImage
+    label: bgImage
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: listItem
+    label: listItem
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: highlighted
+      label: highlighted
+    - type: textarea
+      name: content
+      label: content
+  - type: text
+    name: videoURL
+    label: videoURL
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: impactAccelerator
+  label: impactAccelerator
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: listItems
+    label: listItems
+- type: field_group
+  name: whatDoIGet
+  label: whatDoIGet
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: bgImage
+    label: bgImage
+  - type: list
+    name: listItems
+    label: listItems
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: whatDoesItMean
+  label: whatDoesItMean
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: listItems
+    label: listItems
+  - type: field_group
+    name: subtitle
+    label: subtitle
+    fields:
+    - type: text
+      name: text
+      label: text
+    - type: textarea
+      name: highlighted
+      label: highlighted
+  - type: text
+    name: bottomDiscription
+    label: bottomDiscription
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
