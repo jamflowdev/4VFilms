@@ -1,0 +1,96 @@
+---
+label: Data Our_vision
+hide_body: true
+fields:
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: History
+  label: History
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: content
+    label: content
+  - type: file
+    name: imageURL
+    label: imageURL
+  - type: textarea
+    name: quote
+    label: quote
+  - type: text
+    name: author
+    label: author
+- type: field_group
+  name: VisionAndMission
+  label: VisionAndMission
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: bgImage
+    label: bgImage
+  - type: field_group
+    name: vision
+    label: vision
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: list
+      name: description
+      label: description
+    - type: file
+      name: imgURL
+      label: imgURL
+  - type: field_group
+    name: mission
+    label: mission
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: list
+      name: description
+      label: description
+    - type: file
+      name: imgURL
+      label: imgURL
+- type: field_group
+  name: features
+  label: features
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: highlighted
+    label: highlighted
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: field_group
+    name: insight
+    label: insight
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: field_group_list
+      name: items
+      label: items
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: textarea
+        name: content
+        label: content
