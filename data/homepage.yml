@@ -5,8 +5,8 @@ banner:
     of Copenhagen.
   videoURL: "/video/Showreel.mp4"
   button:
-    url: our_vision
-    label: Learn more
+    url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
+    label: Book a free call
 vision:
   enable: true
   title: Our Vision
