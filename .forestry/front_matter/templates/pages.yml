@@ -135,6 +135,11 @@ fields:
       - type: text
         name: label
         label: label
+  - name: BgImage
+    type: file
+    config:
+      maxSize: 64
+    label: BgImage for service section
 - type: field_group
   name: project
   label: project
