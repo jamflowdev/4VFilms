@@ -14,14 +14,16 @@
 {{ with .Site.Data.strategy_session.content_strategy_session_section }}
 <section class="py-50 bg-secondary">
   <div class="container">
-    <div class="row align-items-center text-white justify-content-center">
-      <div class="col-sm-7">
-        <h4 class="big-description text-white">{{ .description }}</h4>
-      </div>
-      <div class="col-sm-5">
+    <div class="row text-white justify-content-center">
+      <div class="col-sm-10">
         <div class="video">
           <iframe height="460" width="100%" src="{{ .videoURL }}" title="{{ .description }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+      </div>
+    </div>
+    <div class="row text-white justify-content-center">
+      <div class="col-sm-10">
+        <h4 class="big-description text-white">{{ .description }}</h4>
       </div>
     </div>
   </div>
@@ -59,7 +61,7 @@
 </section>
 {{ end }}
 {{ with .Site.Data.strategy_session.strategy_sessions_queots }}
-<section class="py-50 bg-secondary">
+<!-- <section class="py-50 bg-secondary">
   <div class="container">
 
     <div class="row align-items-center text-white justify-content-center">
@@ -133,16 +135,19 @@
 
 
   </div>
-</section>
+</section> -->
 {{ end }}
+<!-- testimonials -->
+{{- partial "testimonials-slider.html" . }}
+
 {{ with .Site.Data.strategy_session.book_now_cta }}
 <section class="content py-50 bg-white">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto my-0 p-0">
         <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column">
-          <h4 class="text-white">Book a strategy session with us?</h4>
-          <h5 class="text-white">Book a meeting that fits your schedule below</h5>
+          <h4 class="text-white">Book your free 30 minutes call</h4>
+          <h5 class="text-white">It's completely non-binding &#128522;</h5>
           <a href="{{ .cta_URL | absURL }}" class="btn mt-5 mb-0 btn-orange text-center" target="_blank">{{ .cta_title }}</a>
         </div>
       </div>
