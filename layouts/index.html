@@ -33,7 +33,7 @@
 
 {{ if .Site.Data.homepage.service.enable }}
 <!-- service -->
-<section class="section bg-cover overlay" data-background="{{ .bgImage | absURL }}">
+<section class="section bg-cover overlay" data-background="{{ .Site.Data.homepage.service.BgImage | absURL }}">
   <div class="container">
     <div class="row">
       {{ with .Site.Data.homepage.service }}
