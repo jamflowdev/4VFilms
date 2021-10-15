@@ -16,7 +16,7 @@ vision:
 service:
   enable: true
   title: Services
-  BgImage: /images/backgrounds/home-service.png
+  BgImage: "/uploads/4vfilms-08.jpg"
   fourv_plus:
     title: 4V Plus+
     subtitle: Our monthly Video/Photo content packages
@@ -39,7 +39,7 @@ service:
       url: "/digital_impact_accelerator/"
       label: Package solution
   strategy_session:
-    title: Strategy Session
+    title: First Impressions Package
     subtitle: ''
     description: ''
     imgURL: "/images/backgrounds/services-bg-2.jpg"
