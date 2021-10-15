@@ -43,7 +43,7 @@ service:
     subtitle: ''
     description: ''
     imgURL: "/images/backgrounds/services-bg-2.jpg"
-    logoURL: "/uploads/untitled-design-26.png"
+    logoURL: "/uploads/fip-logo.png"
     button:
       url: "/strategy-session/"
       label: Strategy session
