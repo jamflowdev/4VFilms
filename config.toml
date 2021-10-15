@@ -1,213 +1,116 @@
-################################### Default Configuration ############################
 baseURL = "/"
 languageCode = "en-us"
 title = "4v Films"
-[permalinks]
-  projects = "/project/:title/"
-
-#################################### Plugins ##########################################
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-#  [[params.plugins.css]]
-#  URL = "plugins/venobox/venobox.css"
-  [[params.plugins.css]]
-  URL = "plugins/card-slider/css/style.css"
-  [[params.plugins.css]]
-  URL = "https://unpkg.com/aos@2.3.1/dist/aos.css"
- # [[params.plugins.css]]
- # URL = "https://vjs.zencdn.net/5.4.6/video-js.min.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-#  [[params.plugins.js]]
-#  URL = "plugins/venobox/venobox.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/shuffle/shuffle.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/counto/apear.js"
-  [[params.plugins.js]]
-  URL = "plugins/counto/counTo.js"
-  [[params.plugins.js]]
-  URL = "plugins/card-slider/js/card-slider-min.js"
-  [[params.plugins.js]]
-  URL = "https://unpkg.com/aos@2.3.1/dist/aos.js"
-  [[params.plugins.js]]
-  URL = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"
-#  [[params.plugins.js]]
-#  URL = "https://vjs.zencdn.net/7.11.4/video.min.js"
-#  [[params.plugins.js]]
-#  URL = "https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"
-#  [[params.plugins.js]]
-#  URL = "plugins/google-map/gmap.js"
-
-
-###################################### Navigation ######################################
-[menu]
-    
-  [[menu.main]]
-  name = "Our Vision"
-  URL = "/our_vision/"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Services"
-  weight = 3
-  hasChildren = true
-    
-    [[menu.main]]
-    parent = "Services"
-    name = "Strategy Session"
-    URL = "/strategy-session/"
-    weight = 1
-
-    [[menu.main]]
-    parent = "Services"
-    name = "4V Plus+"
-    URL = "/4vplus/"
-    weight = 3
-    
-#    [[menu.main]]
-#    parent = "Services"
-#    name = "4V Films"
-#    URL = "/4vfilms/"
-    
-    [[menu.main]]
-    parent = "Services"
-    name = "Digital Impact Accelerator"
-    URL = "/digital_impact_accelerator/"
-    weight = 2
-  
-  [[menu.main]]
-  name = "Projects"
-  URL = "/projects/"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Testimonials"
-  URL = "testimonials"
-  weight = 5
-
-  [[menu.main]]
-  name = "Blog"
-  URL = "/blog/"
-  weight = 6
-
-  #[[menu.main]]
-  #name = "pages"
-  #weight = 7
-  #hasChildren = true
-
-    #[[menu.main]]
-    #parent = "pages"
-    #name = "Team"
-    #URL = "team"
-    
-    #[[menu.main]]
-    #parent = "pages"
-    #name = "Blog"
-    #URL = "blog"
-    
-    #[[menu.main]]
-    #parent = "pages"
-    #name = "Career"
-    #URL = "career"
-    
-    #[[menu.main]]
-    #parent = "pages"
-    #name = "FAQs"
-    #URL = "faqs"
-
-    #[[menu.main]]
-    #parent = "pages"
-    #name = "Pricing"
-    #URL = "pricing"
-  
-
-  ############################# Footer menu ################################
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 2
-  
-  [[menu.footer]]
-  name = "Service"
-  URL = "service"
-  weight = 3
-  
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 4
-  
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
-
-
-
-########################### Default parameters ##########################
+[[menu.footer]]
+URL = "about"
+name = "About"
+weight = 1
+[[menu.footer]]
+URL = "service"
+name = "Service"
+weight = 2
+[[menu.footer]]
+URL = "portfolio"
+name = "Portfolio"
+weight = 3
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "/projects/"
+name = "Projects"
+weight = 3
+[[menu.main]]
+URL = "testimonials"
+name = "Testimonials"
+weight = 4
+[[menu.main]]
+URL = "/blog/"
+name = "Blog"
+weight = 5
+[[menu.main]]
+URL = "/our_vision/"
+name = "Our Vision"
+weight = 1
+[[menu.main]]
+hasChildren = true
+name = "Services"
+weight = 2
+[[menu.main]]
+URL = "/strategy-session/"
+name = "First Impressions Package"
+parent = "Services"
+weight = 1
+[[menu.main]]
+URL = "/digital_impact_accelerator/"
+name = "Digital Impact Accelerator"
+parent = "Services"
+weight = 2
+[[menu.main]]
+URL = "/4vplus/"
+name = "4V Plus+"
+parent = "Services"
+weight = 3
 [params]
-logo = "images/4V-FILMS-LOGO-BLUE.png"
-home = "Home"
-# Meta data
-description = "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
 author = "Amjad Rathod"
-# google map
-#gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+description = "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
+googleAnalitycsID = ""
+home = "Home"
+logo = "images/4V-FILMS-LOGO-BLUE.png"
 mapLatitude = "51.5223477"
 mapLongitude = "-0.1622023"
 mapMarker = "images/marker.png"
-# Google Analitycs
-googleAnalitycsID = ""
-
-  # Preloader
-  [params.preloader]
-  enable = true
-
-  ############################# Footer Start ###########################
-
-  # footer about
-  [params.footer.about]
-  about = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, odit? Sapiente et temporibus qui corporis veritatis ipsa culpa, numquam id."
-
-  # contact form
-  [params.form]
-  formAction = "#"
-
-  # copyright
-  [params.copyright]
-  copyright = "Copyright &copy; 2019 a theme by [themefisher.com](https://themefisher.com)"
-
-  ######################### Social site ##############################
-  [[params.social]]
-  icon = "ti-vimeo-alt" # themify icon pack https://themify.me/themify-icons
-  link = "https://vimeo.com/4vfilms"
-  
-  [[params.social]]
-  icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-  link = "https://www.facebook.com/4vfilms/"
-  
-  [[params.social]]
-  icon = "ti-instagram" # themify icon pack https://themify.me/themify-icons
-  link = "https://www.instagram.com/4vfilms/"
-  
-  [[params.social]]
-  icon = "ti-youtube" # themify icon pack https://themify.me/themify-icons
-  link = "https://www.youtube.com/channel/UC3jHb-6A-BVfkFg4fwb5Rmw"
-  
-  [[params.social]]
-  icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-  link = "https://www.linkedin.com/company/4v-films/"
+[params.copyright]
+copyright = "Copyright &copy; 2019 a theme by [themefisher.com](https://themefisher.com)"
+[params.footer.about]
+about = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, odit? Sapiente et temporibus qui corporis veritatis ipsa culpa, numquam id."
+[params.form]
+formAction = "#"
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/card-slider/css/style.css"
+[[params.plugins.css]]
+URL = "https://unpkg.com/aos@2.3.1/dist/aos.css"
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+URL = "plugins/counto/apear.js"
+[[params.plugins.js]]
+URL = "plugins/counto/counTo.js"
+[[params.plugins.js]]
+URL = "plugins/card-slider/js/card-slider-min.js"
+[[params.plugins.js]]
+URL = "https://unpkg.com/aos@2.3.1/dist/aos.js"
+[[params.plugins.js]]
+URL = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"
+[params.preloader]
+enable = true
+[[params.social]]
+icon = "ti-vimeo-alt"
+link = "https://vimeo.com/4vfilms"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/4vfilms/"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://www.instagram.com/4vfilms/"
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/channel/UC3jHb-6A-BVfkFg4fwb5Rmw"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/4v-films/"
+[permalinks]
+projects = "/project/:title/"
