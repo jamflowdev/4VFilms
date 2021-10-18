@@ -6,6 +6,7 @@
     <div class="row">
       <div class="col-12 text-center">
         <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .title | markdownify }}</h1>
+        <h3 class="text-white">{{ .subTitle | markdownify}}</h3>
       </div>
     </div>
   </div>
@@ -17,13 +18,13 @@
     <div class="row text-white justify-content-center">
       <div class="col-sm-10">
         <div class="video">
-          <iframe height="460" width="100%" src="{{ .videoURL }}" title="{{ .description }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe height="100%" width="100%" src="{{ .videoURL }}" title="{{ .description }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
     <div class="row text-white mt-4 justify-content-center">
-      <div class="col-sm-10 text-center">
-        <h4 class="big-description text-white">{{ .description }}</h4>
+      <div class="col-10 text-center">
+        <h4 class="big-description text-white text-center">{{ .description }}</h4>
         <a href="https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films" class="btn mt-5 mb-0 btn-orange text-center" target="_blank">Book a free call</a>
       </div>
     </div>

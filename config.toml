@@ -38,7 +38,7 @@ hasChildren = true
 name = "Services"
 weight = 2
 [[menu.main]]
-URL = "/strategy-session/"
+URL = "/first-impressions-package/"
 name = "First Impressions Package"
 parent = "Services"
 weight = 1
