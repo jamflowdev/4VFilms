@@ -15,6 +15,22 @@ online_session_section:
   - Client testimonial interviews
   - Atmosphere shots
   collage: "/uploads/20210211_170843870_ios.jpg"
+HowDoesItWork:
+  title: How does it work?
+  subtitle: 'The process looks like this:'
+  steps:
+  - title: 'Step 1:'
+    content: Book a free call to discuss if this package fits your brand and current needs.
+    icon: "/images/icons/call-icon.svg"
+  - title: 'Step 2:'
+    content: If after the call we feel it's a good fit, we will provide you with a script template and schedule your 2x30 minute script planning sessions.
+    icon: "/images/icons/person-talking.svg"
+  - title: 'Step 3:'
+    content: Once the script is ready, we book the shooting day. We expect to use no more than 4-6 hours producing these interviews and shots at your location.
+    icon: "/images/icons/product-icon.svg"
+  - title: 'Step 4:'
+    content: Our editing team will have the first draft delivered to you within 5 days of the shoot.
+    icon: "/images/icons/file-edit.svg"
 strategy_sessions_queots:
   queots:
   - title: I had a 90-minute strategy session with Patrick at 4v Films for my startup
