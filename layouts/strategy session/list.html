@@ -151,11 +151,11 @@
     <div class="row high-quality-content justify-content-center">
       {{ range .steps }}
       <div class="col-lg-9 col-md-12 d-flex flex-row justify-content-left mb-4">
-        <div class="col-lg-1 col-md-2 mb-3 col-sm-2 col-2">
+        <div class="col-lg-1 col-md-2 mb-3 mr-3 col-sm-2 col-2">
           <img src="{{ .icon | absURL }}" alt="icon" />
         </div>
         <div class="col-lg-11 col-md-10 mb-3 col-sm-10 col-10 d-flex align-items-center">
-          <p class="text-white mb-1"><span class="font-weight-bold">{{ .title }}</span>&nbsp;<span>{{.content}}</span></p>
+          <p class="text-white mb-1"><span class="font-weight-bold"><u>{{ .title }}</u></span>&nbsp;<span>{{.content}}</span></p>
         </div>
       </div>
       {{ end }}
