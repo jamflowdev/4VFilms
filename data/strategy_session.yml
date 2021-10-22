@@ -2,10 +2,11 @@
 hero:
   title: First Impressions Package
   subTitle: The outstanding welcome video your business needs
-  BGImage: "/uploads/whatsapp-image-2021-09-30-at-12-54-00.jpeg"
+  BGImage: "/uploads/4vfilms-20-09-21-33.jpg"
 content_strategy_session_section:
-  description: |-
-    For start-ups and small brands missing an outstanding introduction video, this package is for you. Made to be affordable, efficient and highly valuable, this package is a real game changer.
+  description: For start-ups and small brands missing an outstanding introduction
+    video, this package is for you. Made to be affordable, efficient and highly valuable,
+    this package is a real game changer.
   videoURL: https://player.vimeo.com/video/633016223
 online_session_section:
   title: 'Your 2-3 minute welcome video covers:'
@@ -20,16 +21,20 @@ HowDoesItWork:
   subtitle: 'The process looks like this:'
   steps:
   - title: 'Step 1:'
-    content: Book a free call to discuss if this package fits your brand and current needs.
+    content: Book a free call to discuss if this package fits your brand and current
+      needs.
     icon: "/images/icons/call-icon.svg"
   - title: 'Step 2:'
-    content: If after the call we feel it's a good fit, we will provide you with a script template and schedule your 2x30 minute script planning sessions.
+    content: If after the call we feel it's a good fit, we will provide you with a
+      script template and schedule your 2x30 minute script planning sessions.
     icon: "/images/icons/person-talking.svg"
   - title: 'Step 3:'
-    content: Once the script is ready, we book the shooting day. We expect to use no more than 4-6 hours producing these interviews and shots at your location.
+    content: Once the script is ready, we book the shooting day. We expect to use
+      no more than 4-6 hours producing these interviews and shots at your location.
     icon: "/images/icons/product-icon.svg"
   - title: 'Step 4:'
-    content: Our editing team will have the first draft delivered to you within 5 days of the shoot.
+    content: Our editing team will have the first draft delivered to you within 5
+      days of the shoot.
     icon: "/images/icons/file-edit.svg"
 strategy_sessions_queots:
   queots:
