@@ -140,9 +140,19 @@ h6, .h6{
   font-size: 32px;
   line-height: 1.5;
   font-weight: normal;
+  p{
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: inherit;
+  }
   @include tablet {
     font-size: 24px;
     text-align: left;
+    p{
+      font-size: 24px;
+      text-align: left;
+    }
   }
 }
 .card-title {
