@@ -6,3 +6,4 @@ title = "Windit - Who are we?"
 video_url = "https://player.vimeo.com/video/639006047"
 
 +++
+As part of the Accelerator, we developed an introduction video for the startup - Windit. They provide an innovative and unique product that prevents sweat stains from a backpack.
