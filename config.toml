@@ -19,7 +19,7 @@ name = "About"
 weight = 1
 [[menu.main]]
 URL = "/4vplus/"
-name = "Monthly content"
+name = "Monthly Content"
 parent = "Services"
 weight = 3
 [[menu.main]]
@@ -29,7 +29,7 @@ parent = "Services"
 weight = 2
 [[menu.main]]
 URL = "/first-impressions-package/"
-name = "Welcome video"
+name = "Welcome Video"
 parent = "Services"
 weight = 1
 [[menu.main]]
