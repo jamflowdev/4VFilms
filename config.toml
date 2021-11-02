@@ -2,55 +2,55 @@ baseURL = "/"
 languageCode = "en-us"
 title = "4v Films"
 [[menu.footer]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.footer]]
-URL = "service"
-name = "Service"
-weight = 2
+URL = "contact"
+name = "Contact"
+weight = 4
 [[menu.footer]]
 URL = "portfolio"
 name = "Portfolio"
 weight = 3
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 4
-[[menu.main]]
-URL = "/projects/"
-name = "Projects"
-weight = 3
-[[menu.main]]
-URL = "testimonials"
-name = "Testimonials"
-weight = 4
-[[menu.main]]
-URL = "/blog/"
-name = "Blog"
-weight = 5
-[[menu.main]]
-URL = "/our_vision/"
-name = "Our Vision"
-weight = 1
-[[menu.main]]
-hasChildren = true
-name = "Services"
+URL = "service"
+name = "Service"
 weight = 2
-[[menu.main]]
-URL = "/first-impressions-package/"
-name = "First Impressions Package"
-parent = "Services"
+[[menu.footer]]
+URL = "about"
+name = "About"
 weight = 1
+[[menu.main]]
+URL = "/4vplus/"
+name = "Monthly content"
+parent = "Services"
+weight = 3
 [[menu.main]]
 URL = "/digital_impact_accelerator/"
 name = "Digital Impact Accelerator"
 parent = "Services"
 weight = 2
 [[menu.main]]
-URL = "/4vplus/"
-name = "4V Plus+"
+URL = "/first-impressions-package/"
+name = "Welcome video"
 parent = "Services"
+weight = 1
+[[menu.main]]
+hasChildren = true
+name = "Services"
+weight = 2
+[[menu.main]]
+URL = "/our_vision/"
+name = "Our Vision"
+weight = 1
+[[menu.main]]
+URL = "/blog/"
+name = "Blog"
+weight = 5
+[[menu.main]]
+URL = "testimonials"
+name = "Testimonials"
+weight = 4
+[[menu.main]]
+URL = "/projects/"
+name = "Projects"
 weight = 3
 [params]
 author = "Amjad Rathod"
