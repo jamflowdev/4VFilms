@@ -7,7 +7,7 @@ banner:
     highlighted: DKK 1.950
   videoURL: https://player.vimeo.com/video/559624422
   button:
-    url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
+    url: https://appt.link/4v-films/visionsession
     label: Learn More
 RightPlace:
   title: You’re in the right place <br> If you’ve ever said…
@@ -31,7 +31,7 @@ Features:
     url: "/images/icons/camera-man.svg"
   button:
     label: Learn More
-    url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
+    url: https://appt.link/4v-films/visionsession
 HowDoesItWork:
   title: How does it work?
   subtitle: 'The process looks like this:'
