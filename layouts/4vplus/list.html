@@ -19,9 +19,7 @@
         <h5 class="text-white mb-5">
           It’s the same <span class="text-primary"> 4V quality </span> + More.
         </h5>
-        <a href="{{ .button.url | absURL }}" target="_blank" class="btn btn-orange"
-          >{{ .button.label }}</a
-        >
+        <a href="{{ .button.url | absURL }}" target="_blank" class="btn btn-orange">{{ .button.label }}</a>
       </div>
       <div class="col-md-6 col-sm-12 mt-sm-5">
         <div class="video">
@@ -317,53 +315,49 @@
   </div>
 </section>
 {{ end }}
+
+{{ with .Site.Data.fourVPlusPage.Description }}
+
 <section class="py-5 bg-secondary">
   <div class="container">
     <div class="col-lg-12 mx-auto text-justify">
-      <p class="text-white">
-        All production will be at your location of choice. Studio Locations are charged extra. Packages include travel if within 30 minutes
-        of Copenhagen – If outside of 30 minutes, standard mileage & reduced
-        hourly rate will be billed for the difference. Download more information
-        about our
-        <span class="text-primary">Video Production Subscriptions.</span>
+      <p class="text-white">{{ .content.normal }} <span class="text-primary">{{ .content.highlighted }}</span>
       </p>
     </div>
   </div>
 </section>
+{{ end }}
+
+{{ with .Site.Data.fourVPlusPage.ApplyYourInterest }}
 <section class="py-50 bg-white">
   <div class="container">
     <div class="col-lg-12 mx-auto text-center">
       {{ $t := "Apply your interest " }}
-      <h2 class="section-title">{{ $t }}</h2>
+      <h2 class="section-title">{{ .title }}</h2>
     </div>
     <div class="row justify-content-center">
       <div class="col-sm-9 text-left">
         <h5 class="my-5 my-sm-2">
-          This session will include a breakdown of your current content, key
-          insights and strategic advice that you can implement right away to
-          your content plan, with no obligation to sign up.
+          {{ .content.para1 }}
         </h5>
         <h5 class="">
-          Simply book below and choose a time
-          that suits you and we will send you the online meeting link.
+          {{ .content.para2 }}
         </h5>
       </div>
       <div class="col-sm-9 mx-auto mt-5">
-        <div
-          class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column"
-        >
+        <div class="bg-cover mx-auto py-50 justify-content-center align-items-center bg-secondary text-center d-flex flex-column">
           <h4 class="text-white">
-            Secure my spot for a
-            <span class="text-primary"> FREE</span> consultation
+            {{ .bookMySpot.content.line1_normal }}
+            <span class="text-primary"> {{ .bookMySpot.content.line1_highlighted }}</span> {{ .bookMySpot.content.line1_end }}
           </h4>
-          <h5 class="text-white">Click below - limited spaces available</h5>
-          <h5 class="text-white">(Valued at 750 DKK)</h5>
-          <a href="https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films" target="_blank" class="btn mt-5 mb-0 btn-orange text-center"
-            >BOOK MY SPOT</a
-          >
+          <h5 class="text-white">{{ .bookMySpot.content.line2 }}</h5>
+          <h5 class="text-white">{{ .bookMySpot.content.line3 }}</h5>
+          <a href="{{ .bookMySpot.button.url | absURL }}" target="_blank" class="btn mt-5 mb-0 btn-orange text-center">{{ .bookMySpot.button.label }}</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+{{ end }}
+
 {{ end }}
