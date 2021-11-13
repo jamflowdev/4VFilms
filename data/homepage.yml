@@ -5,7 +5,7 @@ banner:
   videoURL: "/video/Showreel.mp4"
   button:
     url: https://appt.link/4v-films/visionsession
-    label: Book a free call
+    label: Get a quote
 vision:
   enable: true
   title: Our Vision
