@@ -1,8 +1,7 @@
 ---
 banner:
   bgImage: "/uploads/ShowreelBG.png"
-  title: We are an international video production house transforming the small businesses
-    of Copenhagen.
+  title: Copenhagens leading production house for small businesses and startups.
   videoURL: "/video/Showreel.mp4"
   button:
     url: https://appt.link/4v-films/visionsession
@@ -18,7 +17,7 @@ service:
   title: Services
   BgImage: "/uploads/untitled-design-2.png"
   fourv_plus:
-    title: 4V Plus+
+    title: Monthly content
     subtitle: Our monthly Video/Photo content packages
     description: Great for brands who seek consistent, affordable professional Video/Photo
       Content.
@@ -28,7 +27,7 @@ service:
       url: 4vplus
       label: Monthly content
   perfect_solution:
-    title: Digital Impact Accelerator
+    title: The full digital solution
     subtitle: A complete digital transformation for small businesses following our
       digital impact method.
     description: Great for small businesses that want to transform their online presence
@@ -39,7 +38,7 @@ service:
       url: "/digital_impact_accelerator/"
       label: Package solution
   strategy_session:
-    title: First Impressions Package
+    title: Welcome video
     subtitle: ''
     description: ''
     imgURL: "/images/backgrounds/services-bg-2.jpg"
