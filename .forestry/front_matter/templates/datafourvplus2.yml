@@ -1,5 +1,5 @@
 ---
-label: Data Fourvpluspage
+label: DataFourvPlus2
 hide_body: true
 fields:
 - type: field_group
@@ -145,3 +145,69 @@ fields:
     - type: text
       name: url
       label: url
+- type: field_group
+  name: Description
+  label: Description
+  fields:
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: normal
+      label: normal
+    - type: text
+      name: highlighted
+      label: highlighted
+- type: field_group
+  name: ApplyYourInterest
+  label: ApplyYourInterest
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: para1
+      label: para1
+    - type: text
+      name: para2
+      label: para2
+  - type: field_group
+    name: bookMySpot
+    label: bookMySpot
+    fields:
+    - type: field_group
+      name: content
+      label: content
+      fields:
+      - type: text
+        name: line1_normal
+        label: line1_normal
+      - type: text
+        name: line1_highlighted
+        label: line1_highlighted
+      - type: text
+        name: line1_end
+        label: line1_end
+      - type: text
+        name: line2
+        label: line2
+      - type: text
+        name: line3
+        label: line3
+    - type: field_group
+      name: button
+      label: button
+      fields:
+      - type: text
+        name: label
+        label: label
+      - type: text
+        name: url
+        label: url
+pages:
+- data/fourVPlusPage.yml

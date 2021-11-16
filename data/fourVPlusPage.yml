@@ -94,20 +94,26 @@ WhyFourVPlus:
     url: https://appt.link/4v-films/visionsession
 Description:
   content:
-    normal: All production will be at your location of choice. Studio Locations are charged extra. Packages include travel if within 30 minutes of Copenhagen – If outside of 30 minutes, standard mileage & reduced hourly rate will be billed for the difference. Download more information about our
+    normal: All production will be at your location of choice. Studio Locations are
+      charged extra. Packages include travel if within 30 minutes of Copenhagen –
+      If outside of 30 minutes, standard mileage & reduced hourly rate will be billed
+      for the difference. Download more information about our
     highlighted: Video Production Subscriptions.
 ApplyYourInterest:
   title: Apply your interest
   content:
-    para1: This session will include a breakdown of your current content, key insights and strategic advice that you can implement right away to your content plan, with no obligation to sign up.
-    para2: Simply book below and choose a time that suits you and we will send you the online meeting link.
+    para1: This session will include a breakdown of your current content, key insights
+      and strategic advice that you can implement right away to your content plan,
+      with no obligation to sign up.
+    para2: Simply book below and choose a time that suits you and we will send you
+      the online meeting link.
   bookMySpot:
     content:
       line1_normal: Secure my spot for a
       line1_highlighted: FREE
       line1_end: consultation
       line2: Click below - limited spaces available
-      line3: (Valued at 750 DKK)
+      line3: "(Valued at 750 DKK)"
     button:
       label: BOOK MY SPOT
       url: https://appt.link/4v-films/visionsession

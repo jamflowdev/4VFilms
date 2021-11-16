@@ -146,5 +146,23 @@ fields:
     - type: text
       name: url
       label: url
-pages:
-- data/digital_impact_accelerator.yml
+- type: field_group
+  name: digitalImpactMethod
+  label: digitalImpactMethod
+  fields:
+  - type: textarea
+    name: discriptionLine1
+    label: discriptionLine1
+  - type: text
+    name: discriptionLine2
+    label: discriptionLine2
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
