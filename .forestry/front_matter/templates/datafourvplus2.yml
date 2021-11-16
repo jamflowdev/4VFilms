@@ -1,0 +1,211 @@
+---
+label: DataFourvPlus2
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: file
+    name: BgImage
+    label: BgImage
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: subtitle
+    label: subtitle
+    fields:
+    - type: text
+      name: whiteText
+      label: whiteText
+    - type: text
+      name: highlighted
+      label: highlighted
+  - type: text
+    name: videoURL
+    label: videoURL
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: label
+      label: label
+- type: field_group
+  name: RightPlace
+  label: RightPlace
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: icons
+    label: icons
+    fields:
+    - type: text
+      name: content
+      label: content
+    - type: file
+      name: url
+      label: url
+- type: field_group
+  name: Features
+  label: Features
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: icons
+    label: icons
+    fields:
+    - type: text
+      name: content
+      label: content
+    - type: file
+      name: url
+      label: url
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: HowDoesItWork
+  label: HowDoesItWork
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: steps
+    label: steps
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+    - type: file
+      name: icon
+      label: icon
+- type: field_group
+  name: seeItToBeliveIt
+  label: seeItToBeliveIt
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: Slider
+    label: Slider
+    fields:
+    - type: file
+      name: Image
+      label: Image
+    - type: text
+      name: title
+      label: title
+- type: field_group
+  name: WhyFourVPlus
+  label: WhyFourVPlus
+  fields:
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: showreelTitle
+    label: showreelTitle
+  - type: text
+    name: videoURL
+    label: videoURL
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: Description
+  label: Description
+  fields:
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: normal
+      label: normal
+    - type: text
+      name: highlighted
+      label: highlighted
+- type: field_group
+  name: ApplyYourInterest
+  label: ApplyYourInterest
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: para1
+      label: para1
+    - type: text
+      name: para2
+      label: para2
+  - type: field_group
+    name: bookMySpot
+    label: bookMySpot
+    fields:
+    - type: field_group
+      name: content
+      label: content
+      fields:
+      - type: text
+        name: line1_normal
+        label: line1_normal
+      - type: text
+        name: line1_highlighted
+        label: line1_highlighted
+      - type: text
+        name: line1_end
+        label: line1_end
+      - type: text
+        name: line2
+        label: line2
+      - type: text
+        name: line3
+        label: line3
+    - type: field_group
+      name: button
+      label: button
+      fields:
+      - type: text
+        name: label
+        label: label
+      - type: text
+        name: url
+        label: url
