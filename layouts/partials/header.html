@@ -28,7 +28,9 @@
         {{ end }}
         {{ end }}
       </ul>
-      <a class="nav-link btn btn-orange" href="https://appt.link/4v-films/visionsession" target="_blank">LET'S TALK</a>
+{{ with .Site.Data.menu_button.button }}
+      <a class="nav-link btn btn-orange" href="{{ .url | absURL }}" target="_blank">{{ .label }}</a>
+{{ end }}
     </div>
   </nav>
 </header>
