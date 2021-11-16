@@ -145,5 +145,3 @@ fields:
     - type: text
       name: url
       label: url
-pages:
-- data/fourVPlusPage.yml
