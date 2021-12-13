@@ -1242,4 +1242,16 @@ main .list {
   bottom: 0;
 }
 
+.d-none-mobile {
+  display: block;
+  @include tablet {
+    display: none;
+  }
+}
+.d-none-desktop {
+  display: none;
+  @include tablet {
+    display: block;
+  }
+}
 

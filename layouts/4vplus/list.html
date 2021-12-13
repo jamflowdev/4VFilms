@@ -132,7 +132,20 @@
     </div>
     <!-- <div class="row"> -->
     <div class="row justify-content-center">
+      <div class="col-sm-12 high-quality-content text-center mt-3 d-none-desktop">
+        <div class="label ml-0 text-center">
+          <p class="text-primary label-bold font-primary-bold m-0">Minimum 3 months commitment</p>
+        </div>
+      </div>
       {{ range .pricingTable }}
+      {{ if eq .title "Golden" }}
+      <div class="col-sm-12 high-quality-content text-center mt-3 d-none-desktop">
+        <div class="label ml-0 text-center">
+          <p class="text-primary label-bold font-primary-bold m-0">No minimum commitment</p>
+        </div>
+      </div>
+      {{ else }}
+      {{ end }}
       <div class="col-md-4 col-sm-9 mt-3 plan-bronze pb-0">
         <div class="pricing-header bg-{{ .title | lower }} p-3 pb-0">
           <div class="bg-white p-4 text-center">
@@ -166,16 +179,14 @@
       {{ end }}
     </div>
     <div class="row my-5 high-quality-content">
-      <div class="col-sm-8 text-center mt-3">
+      <div class="col-sm-8 text-center mt-3 d-none-mobile">
         <div class="label ml-0 text-center">
           <p class="text-primary label-bold font-primary-bold m-0">Minimum 3 months commitment</p>
         </div>
       </div>
-      <div class="col-sm-4 text-center mt-3">
+      <div class="col-sm-4 text-center mt-3 d-none-mobile">
         <div class="label ml-0 text-center">
-          <p class="text-primary label-bold font-primary-bold m-0">
-            No minimum commitment
-          </p>
+          <p class="text-primary label-bold font-primary-bold m-0">No minimum commitment</p>
         </div>
       </div>
     </div>
