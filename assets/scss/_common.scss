@@ -1000,6 +1000,9 @@ main .list {
 .howDoesItWork {
   img {
     max-width: unset !important;
+    @include tablet {
+      width: 150%;
+    }
   }
 }
 
