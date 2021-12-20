@@ -1,8 +1,7 @@
----
 cta:
   title: If you want to talk to someone now, contact Patrick Bates on
-  contact_no: "+45 20 66 69 15"
-  Image: "/uploads/whatsapp-image-2021-06-07-at-08-46-52.jpeg"
+  contact_no: +45 20 66 69 15
+  Image: /uploads/whatsapp-image-2021-06-07-at-08-46-52.jpeg
   button:
     label: Book a free creative call
     link: https://appt.link/4v-films/visionsession

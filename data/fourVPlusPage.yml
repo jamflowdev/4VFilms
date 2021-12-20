@@ -1,6 +1,6 @@
 ---
 banner:
-  BgImage: "/images/banner/4v-plus-hero-bg.jpg"
+  BgImage: /images/banner/4v-plus-hero-bg.jpg
   title: Monthly content packages
   subtitle:
     whiteText: Starting from
@@ -13,22 +13,22 @@ RightPlace:
   title: You’re in the right place <br> If you’ve ever said…
   icons:
   - content: I don't have time to create consistent content
-    url: "/images/icons/No-Time-Icon.svg"
+    url: /images/icons/No-Time-Icon.svg
   - content: I don't see a return on investment
-    url: "/images/icons/ROI.svg"
+    url: /images/icons/ROI.svg
   - content: Video production is expensive
-    url: "/images/icons/camera-usd.svg"
+    url: /images/icons/camera-usd.svg
 Features:
   title: So, you can imagine having…
   icons:
   - content: Consistent content
-    url: "/images/icons/CONSISTENT-CONTENT.svg"
+    url: /images/icons/CONSISTENT-CONTENT.svg
   - content: A structured content plan for increasing roi
-    url: "/images/icons/Calender.svg"
+    url: /images/icons/Calender.svg
   - content: Affordable rates and a variety of packages
-    url: "/images/icons/Hand-Holding-USD.svg"
+    url: /images/icons/Hand-Holding-USD.svg
   - content: An experienced crew with top grade equipment
-    url: "/images/icons/camera-man.svg"
+    url: /images/icons/camera-man.svg
   button:
     label: Learn More
     url: https://appt.link/4v-films/visionsession
@@ -39,56 +39,56 @@ HowDoesItWork:
   - title: 'STEP 1:'
     content: Book your free consultation with us, and we will discuss which subscription
       fits your budget, brand and resources.
-    icon: "/images/icons/call-icon.svg"
+    icon: /images/icons/call-icon.svg
   - title: 'STEP 2:'
     content: If after your free consultation you’re interested in working with us,
       it is time to book a one-to-one strategy session. This consists of a detailed
       content plan, return on investment guide for your content, as well as assessing
       which 4V Plus package will suit you best.
-    icon: "/images/icons/person-talking.svg"
+    icon: /images/icons/person-talking.svg
   - title: 'STEP 3:'
     content: If we both feel 4V Plus would be a great fit for your brand, you will
       choose your package and you will be offered an exclusive spot in the 4V Family.
-    icon: "/images/icons/product-icon.svg"
+    icon: /images/icons/product-icon.svg
   - title: 'STEP 4:'
     content: We arrange a monthly vision session + payment deadline that fits your
       schedule – and your digital asset building journey continues.
-    icon: "/images/icons/file-edit.svg"
+    icon: /images/icons/file-edit.svg
 seeItToBeliveIt:
   title: See it to believe it
   subtitle: A quick idea of the many different types of content these packages can
     make for you, to elevate your online presence.
   Slider:
-  - Image: "/images/see-it-to-belive/Commercials.png"
+  - Image: /images/see-it-to-belive/Commercials.png
     title: Commercials
-  - Image: "/images/see-it-to-belive/Corporate-Films.png"
+  - Image: /images/see-it-to-belive/Corporate-Films.png
     title: Corporate Films
-  - Image: "/images/see-it-to-belive/Event-Coverage.png"
+  - Image: /images/see-it-to-belive/Event-Coverage.png
     title: Event Coverage
-  - Image: "/images/see-it-to-belive/Explainer-videos.png"
+  - Image: /images/see-it-to-belive/Explainer-videos.png
     title: Explainer videos
-  - Image: "/images/see-it-to-belive/Online-course.png"
+  - Image: /images/see-it-to-belive/Online-course.png
     title: Online course
-  - Image: "/images/see-it-to-belive/Personal-branding.png"
+  - Image: /images/see-it-to-belive/Personal-branding.png
     title: Personal branding
-  - Image: "/images/see-it-to-belive/Products.png"
+  - Image: /images/see-it-to-belive/Products.png
     title: Products
-  - Image: "/images/see-it-to-belive/SoMe-advert.png"
+  - Image: /images/see-it-to-belive/SoMe-advert.png
     title: SoMe advert
-  - Image: "/images/see-it-to-belive/Team-photos.png"
+  - Image: /images/see-it-to-belive/Team-photos.png
     title: Team photos
-  - Image: "/images/see-it-to-belive/tips-and-advice.png"
+  - Image: /images/see-it-to-belive/tips-and-advice.png
     title: Tips and Advice
-  - Image: "/images/see-it-to-belive/Training-Videos.png"
+  - Image: /images/see-it-to-belive/Training-Videos.png
     title: Training Videos
-  - Image: "/images/see-it-to-belive/Website.png"
+  - Image: /images/see-it-to-belive/Website.png
     title: Website
 WhyFourVPlus:
   subtitle: We work with your team to create a customised content plan based around
     your business, maximising your return on investment goals and deliver as many
     content pieces from one shoot per month as possible!
   showreelTitle: For a taste of the 4V quality, watch our showreel below!
-  videoURL: "https://player.vimeo.com/video/450030953"
+  videoURL: https://player.vimeo.com/video/450030953
   button:
     label: APPLY NOW
     url: https://appt.link/4v-films/visionsession
@@ -113,7 +113,7 @@ ApplyYourInterest:
       line1_highlighted: FREE
       line1_end: consultation
       line2: Click below - limited spaces available
-      line3: "(Valued at 750 DKK)"
+      line3: (Valued at 750 DKK)
     button:
       label: BOOK MY SPOT
       url: https://appt.link/4v-films/visionsession

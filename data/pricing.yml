@@ -1,7 +1,6 @@
----
 pricingTable:
 - title: Bronze
-  icon: "/images/icons/bronze-pricing-icon.png"
+  icon: /images/icons/bronze-pricing-icon.png
   subtitle: For brands needing a content boost.
   regularPrice: 5.675 DKK
   discountPrice: 1.950 DKK
@@ -14,7 +13,7 @@ pricingTable:
   - service: Selects + Colour correction
   - service: Raw files handed over/uploaded
 - title: Silver
-  icon: "/images/icons/silver-pricing-icon.png"
+  icon: /images/icons/silver-pricing-icon.png
   subtitle: For brands looking to outsource the complete production process.
   regularPrice: 8.042 DKK
   discountPrice: 4.950 DKK
@@ -31,7 +30,7 @@ pricingTable:
   - service: Raw files + final videos uploaded to online cloud
   - service: Multiple short videos or single longer form video
 - title: Golden
-  icon: "/images/icons/golden-pricing-icon.png"
+  icon: /images/icons/golden-pricing-icon.png
   subtitle: For brands who want the complete package of both content creation and
     SoMe management, strategy and growth.
   regularPrice: 17.108 DKK

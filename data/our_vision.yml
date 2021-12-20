@@ -1,7 +1,6 @@
----
 hero:
   title: Our Vision
-  BGImage: "/images/backgrounds/our-vision-bg.jpg"
+  BGImage: /images/backgrounds/our-vision-bg.jpg
 History:
   title: History
   content:
@@ -19,20 +18,20 @@ History:
   - Realising his unique skillset and passion for creating, 4V Films was born with
     the sole aim to completely transform small businesses, supply them with a wealth
     of digital assets, scale their online presence and rapidly grow their business.
-  imageURL: "/images/team/patrick.jpg"
+  imageURL: /images/team/patrick.jpg
   quote: I want to unlock small businesses potential by scaling their digital impact,
     so they can transform, grow and contribute to society with their unique product
     or service.
   author: Patrick Bates
 VisionAndMission:
   title: We are not a standard production company
-  bgImage: "/images/backgrounds/our-vision-bg-2.jpg"
+  bgImage: /images/backgrounds/our-vision-bg-2.jpg
   vision:
     title: Vision
     description:
     - We want to be the front runner in Scandinavia for rapidly transforming and scaling
       small businesses through our unique digital impact method.
-    imgURL: "/images/icons/vision-icon.svg"
+    imgURL: /images/icons/vision-icon.svg
   mission:
     title: Mission
     description:
@@ -41,7 +40,7 @@ VisionAndMission:
       people with their product or service. Our aim is to provide 50 small businesses
       with a strong digital impact by the end of 2022, through the [Digital Impact
       Accelerator](http://localhost:1313/digital_impact_accelerator/).
-    imgURL: "/images/icons/mission-icon.svg"
+    imgURL: /images/icons/mission-icon.svg
 features:
   title: What makes us
   highlighted: Different?

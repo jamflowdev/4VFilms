@@ -1,9 +1,8 @@
----
 hero:
   title: Our Projects
   description: We have worked with 15+ industries around the world and on a variety
     of different projects. Check out some of our recent projects below.
-  BGImage: "/uploads/filming.jpeg"
+  BGImage: /uploads/filming.jpeg
 clientsLogo:
   enable: true
   title: Who we've worked with
