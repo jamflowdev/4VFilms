@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-8">
-        <img src="{{ .Image | absURL }}" alt="" loading="lazy">
+        <div class="headshot" data-background="{{ .Image | absURL }}"></div>
         <h2 class="mt-5 text-center">{{ .title }} <span><a href="tel:{{ .contact_no }}">{{ .contact_no }}</a></span></h2>
         {{ with .button }}
         <a href="{{ .link | absURL }}" target="_blank" class="d-block mt-5 mx-auto btn btn-orange">{{.label}}</a>
