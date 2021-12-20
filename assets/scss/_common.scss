@@ -810,12 +810,12 @@ footer {
     }
   }
   .image-wrapper {
-    height: 290px;
+    height: 290px !important;
     border-radius: 4px 4px 0 0;
     background-position: center;
     background-size: cover;
     @include tablet {
-      height: 220px;
+      height: 220px !important;
     }
   }
   h4 {
@@ -1254,4 +1254,18 @@ main .list {
     display: block;
   }
 }
+.project-hero-py {
+  @include tablet {
+    padding: 70px 0 70px;
+  }
+}
 
+.headshot{
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
