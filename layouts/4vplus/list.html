@@ -23,7 +23,9 @@
       </div>
       <div class="col-md-6 col-sm-12 mt-sm-5">
         <div class="video">
-          <iframe height="460" width="100%" src="{{ .videoURL }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <!-- <iframe height="460" width="100%" src="{{ .videoURL }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ .videoURL }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .title }}"></iframe></div>
+          <!-- <iframe class="lazy" sandbox="allow-same-origin allow-scripts allow-popups" src="{{ .videoURL | absURL }}" loading="lazy" title="{{ .title }}" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
       </div>
     </div>
@@ -240,8 +242,8 @@
         <p>{{ .showreelTitle }}</p>
       </div>
       <div class="col-lg-12">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ .videoURL }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .subtitle }}"></iframe></div>
         <div class="video justify-content-bottom mt-4 align-items-center text-center d-flex flex-column">
-          <iframe height="460" src="https://player.vimeo.com/video/450030953" title="{{ .subtitle }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <a
             target="_blank"
             href="{{ .button.url | absURL }}"
