@@ -25,7 +25,7 @@
           <!-- <h5><span class="text-primary">Quality : </span><span class="text-white">Professional crew, gear and experience</span></h5>
           <h5><span class="text-primary">Value : </span><span class="text-white">Creating 150 content pieces around the 4 pillarsof value</span></h5>
           <h5><span class="text-primary">Consistency : </span><span  class="text-white">Scheduling and Publishing SoMe team for 6 months</span></h5> -->
-          <iframe class="mt-5" height="460" src="https://player.vimeo.com/video/548400478" title="{{ .subtitle }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ .videoURL }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .discriptionLine1 }}"></iframe></div>
           <a href="{{ .button.url | absURL }}" target="_blank" class="mt-5 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
         </div>
       </div>
@@ -95,9 +95,9 @@
       </div>
       <div class="col-sm-5 text-center video">
         <div>
-
-          <iframe height="315" src="{{ .videoURL }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-          <a href="{{ .button.url | absURL }}" target="_blank" class="mt-4 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ .videoURL }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .title }}"></iframe></div>
+          <!-- <iframe height="315" src="{{ .videoURL }}" title="{{ .title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   -->
+          <a href="{{ .button.url | absURL }}" target="_blank" class="mt-5 d-block mx-auto btn btn-orange">{{ .button.label }}</a>
         </div>
       </div>
     </div>
