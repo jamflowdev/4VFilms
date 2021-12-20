@@ -831,6 +831,9 @@ footer {
     transition: all 0.4s;
     text-transform: capitalize;
   }
+  .card-body {
+    min-height: 120px;
+  }
 }
 
 // End Card
