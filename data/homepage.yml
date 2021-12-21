@@ -25,7 +25,7 @@ service:
     logoURL: "/images/four-v-plus-service.svg"
     button:
       url: 4vplus
-      label: Monthly content
+      label: Ajay
   perfect_solution:
     title: The full digital solution
     subtitle: A complete digital transformation for small businesses following our
