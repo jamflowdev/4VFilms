@@ -36,7 +36,7 @@ service:
     logoURL: "/images/dis.png"
     button:
       url: "/digital_impact_accelerator/"
-      label: Package solution
+      label: Digital Impact Accelerator
   strategy_session:
     title: Welcome video
     subtitle: ''
@@ -45,7 +45,7 @@ service:
     logoURL: "/uploads/fip-logo-1.png"
     button:
       url: "/first-impressions-package/"
-      label: First Impressions Package
+      label: Welcome Video
 project:
   enable: true
   title: Recent Projects
