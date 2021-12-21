@@ -1,7 +1,8 @@
+---
 banner:
-  bgImage: /uploads/ShowreelBG.png
+  bgImage: "/uploads/ShowreelBG.png"
   title: We are Copenhagens leading video agency for small businesses
-  videoURL: /video/Showreel.mp4
+  videoURL: "/video/Showreel.mp4"
   button:
     url: https://appt.link/4v-films/visionsession
     label: Get a quote
@@ -14,14 +15,14 @@ vision:
 service:
   enable: true
   title: Services
-  BgImage: /uploads/untitled-design-2.png
+  BgImage: "/uploads/untitled-design-2.png"
   fourv_plus:
-    title: Monthly content
+    title: abcd
     subtitle: Our monthly Video/Photo content packages
     description: Great for brands who seek consistent, affordable professional Video/Photo
       Content.
-    imgURL: /images/backgrounds/services-bg-2.jpg
-    logoURL: /images/four-v-plus-service.svg
+    imgURL: "/images/backgrounds/services-bg-2.jpg"
+    logoURL: "/images/four-v-plus-service.svg"
     button:
       url: 4vplus
       label: Monthly content
@@ -31,19 +32,19 @@ service:
       digital impact method.
     description: Great for small businesses that want to transform their online presence
       rapidly and scale their brand.
-    imgURL: /images/backgrounds/services-bg-2.jpg
-    logoURL: /images/dis.png
+    imgURL: "/images/backgrounds/services-bg-2.jpg"
+    logoURL: "/images/dis.png"
     button:
-      url: /digital_impact_accelerator/
+      url: "/digital_impact_accelerator/"
       label: Package solution
   strategy_session:
     title: Welcome video
     subtitle: ''
     description: ''
-    imgURL: /images/backgrounds/services-bg-2.jpg
-    logoURL: /uploads/fip-logo-1.png
+    imgURL: "/images/backgrounds/services-bg-2.jpg"
+    logoURL: "/uploads/fip-logo-1.png"
     button:
-      url: /first-impressions-package/
+      url: "/first-impressions-package/"
       label: First Impressions Package
 project:
   enable: true
@@ -62,7 +63,7 @@ cta:
     link: https://4vfilms.scoreapp.com
   button2:
     label: Watch Me Now
-    link: #
+    link: ''
 pricing:
   enable: false
   title: ''
