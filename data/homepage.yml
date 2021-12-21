@@ -45,7 +45,7 @@ service:
     logoURL: "/uploads/fip-logo-1.png"
     button:
       url: "/first-impressions-package/"
-      label: First Impressions Package
+      label: Welcome Video
 project:
   enable: true
   title: Recent Projects
