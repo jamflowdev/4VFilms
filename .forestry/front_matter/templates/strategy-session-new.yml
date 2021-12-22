@@ -1,0 +1,100 @@
+---
+label: 'Strategy session new '
+hide_body: true
+fields:
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subTitle
+    label: subTitle
+  - type: file
+    name: BGImage
+    label: BGImage
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: lable
+      label: lable
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: content_strategy_session_section
+  label: content_strategy_session_section
+  fields:
+  - type: textarea
+    name: description
+    label: description
+  - type: text
+    name: videoURL
+    label: videoURL
+- type: field_group
+  name: online_session_section
+  label: online_session_section
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: session_value_list
+    label: session_value_list
+  - type: file
+    name: collage
+    label: collage
+- type: field_group
+  name: HowDoesItWork
+  label: HowDoesItWork
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: field_group_list
+    name: steps
+    label: steps
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: content
+      label: content
+    - type: file
+      name: icon
+      label: icon
+- type: field_group
+  name: strategy_sessions_queots
+  label: strategy_sessions_queots
+  fields:
+  - type: field_group_list
+    name: queots
+    label: queots
+    fields:
+    - type: textarea
+      name: title
+      label: title
+    - type: text
+      name: client_name
+      label: client_name
+    - type: file
+      name: client_picture
+      label: client_picture
+- type: field_group
+  name: book_now_cta
+  label: book_now_cta
+  fields:
+  - type: text
+    name: cta_title
+    label: cta_title
+  - type: text
+    name: cta_URL
+    label: cta_URL
