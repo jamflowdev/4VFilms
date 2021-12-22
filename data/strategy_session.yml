@@ -1,7 +1,8 @@
+---
 hero:
   title: First Impressions Package
   subTitle: The outstanding welcome video your business needs
-  BGImage: /uploads/fip-cover.jpg
+  BGImage: "/uploads/fip-cover.jpg"
   button:
     lable: Book a free call
     url: https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films
@@ -18,7 +19,7 @@ online_session_section:
   - Team interviews
   - Client testimonial interviews
   - Atmosphere shots
-  collage: /uploads/20210211_170843870_ios.jpg
+  collage: "/uploads/20210211_170843870_ios.jpg"
 HowDoesItWork:
   title: How does it work?
   subtitle: 'The process looks like this:'
@@ -26,19 +27,19 @@ HowDoesItWork:
   - title: 'Step 1:'
     content: Book a free call to discuss if this package fits your brand and current
       needs.
-    icon: /images/icons/call-icon.svg
+    icon: "/images/icons/call-icon.svg"
   - title: 'Step 2:'
     content: If after the call we feel it's a good fit, we will provide you with a
       script template and schedule your 2x30 minute script planning sessions.
-    icon: /images/icons/person-talking.svg
+    icon: "/images/icons/person-talking.svg"
   - title: 'Step 3:'
     content: Once the script is ready, we book the shooting day. We expect to use
       no more than 4-6 hours producing these interviews and shots at your location.
-    icon: /images/icons/product-icon.svg
+    icon: "/images/icons/product-icon.svg"
   - title: 'Step 4:'
     content: Our editing team will have the first draft delivered to you within 5
       days of the shoot.
-    icon: /images/icons/file-edit.svg
+    icon: "/images/icons/file-edit.svg"
 strategy_sessions_queots:
   queots:
   - title: I had a 90-minute strategy session with Patrick at 4v Films for my startup
@@ -47,11 +48,11 @@ strategy_sessions_queots:
       would warmly recommend this to any small business that are having issues with
       getting their online presence breakthrough
     client_name: Martin Jonson, Paradigm Exchange
-    client_picture: /images/strategy-session/Image3.jpeg
+    client_picture: "/images/strategy-session/Image3.jpeg"
   - title: The strategy session allowed my team to create a long term vision. Our
       plan became much more clearer and easier to execute! Thank you Patrick!
     client_name: Johan Fellman, Ideel Kaffe
-    client_picture: /images/strategy-session/Image5.jpeg
+    client_picture: "/images/strategy-session/Image5.jpeg"
 book_now_cta:
   cta_title: Book Now
   cta_URL: https://appt.link/4v-films/visionsession
