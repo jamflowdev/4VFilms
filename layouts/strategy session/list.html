@@ -7,8 +7,9 @@
       <div class="col-12 text-center">
         <h1 class="display-1 text-white font-weight-bold font-primary-bold">{{ .title | markdownify }}</h1>
         <h3 class="text-white">{{ .subTitle | markdownify}}</h3>
-        <a href="https://4vfilms.appointlet.com/s/30mintuesfree/patrick-bates-founder-of-4v-films" class="btn mt-5 mb-0 btn-orange text-center" target="_blank">Book a free call</a>
-
+        {{ with .button }}
+        <a href="{{ .url | absURL }}" class="btn mt-5 mb-0 btn-orange text-center" target="_blank">{{ .lable }}</a>
+        {{ end }}
       </div>
     </div>
   </div>
