@@ -45,6 +45,7 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/4v.svg" | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ "images/4v.svg" | absURL }} " type="image/x-icon">
+  <script src="https://www.google.com/recaptcha/api.js?render={{.Site.Params.google_recaptcha_site_key}}"></script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
