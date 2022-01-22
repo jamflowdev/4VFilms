@@ -52,12 +52,15 @@ weight = 4
 URL = "/projects/"
 name = "Projects"
 weight = 3
+
 [params]
 author = "Amjad Rathod"
 description = "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
 googleAnalitycsID = ""
 home = "Home"
 logo = "images/4V-FILMS-LOGO-BLUE.png"
+google_recaptcha_site_key ="6LfuZSweAAAAAJXGdcVGujqzpOdUQvMlYxGLcuxs"
+google_recaptcha_secret_key = "6LfuZSweAAAAAHq6wL7WAAOvRbSXFo3iH5gfDuyf"
 mapLatitude = "51.5223477"
 mapLongitude = "-0.1622023"
 mapMarker = "images/marker.png"
@@ -67,6 +70,8 @@ copyright = "Copyright &copy; 2019 a theme by [themefisher.com](https://themefis
 about = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, odit? Sapiente et temporibus qui corporis veritatis ipsa culpa, numquam id."
 [params.form]
 formAction = "#"
+
+
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -95,6 +100,8 @@ URL = "plugins/card-slider/js/card-slider-min.js"
 URL = "https://unpkg.com/aos@2.3.1/dist/aos.js"
 [[params.plugins.js]]
 URL = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js"
+[[params.plugins.js]]
+URL = "https://www.google.com/recaptcha/api.js"
 [params.preloader]
 enable = true
 [[params.social]]
