@@ -39,5 +39,3 @@ fields:
       - type: text
         name: name
         label: name
-pages:
-- data/testimonials.yml
