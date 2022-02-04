@@ -7,6 +7,11 @@ banner:
     working with us.
 queots:
   items:
+  - text: This is a new testimonial from forestry
+    video: https://player.vimeo.com/video/548402487
+    companyName: JAMFlow
+    author:
+      name: Amjad Rathod
   - text: It was extremely easy for us I would say. With only a few instructions we
       got Patrick to deliver exactly what we desired, and even more than we had hoped
       for
