@@ -1265,7 +1265,7 @@ main .list {
     padding: 70px 0 70px;
   }
 }
-
+.slick-slider { display: table; table-layout: fixed; width: 100%; }
 .headshot{
   height: 220px;
   width: 220px;
@@ -1276,18 +1276,13 @@ main .list {
   margin: 0 auto;
 }
 .hero-quote-slider{
-  .wrapper {
-    display: flex;
-    align-items: flex-start;
-
-  }
   h3{
     font-weight: normal;
+    font-size: 24px;
   }
   i{
     font-size: 20px;
-    margin-bottom: 10px;
     color: white;
-    margin: 0 10px;
+    margin: 0 5px;
   }
 }

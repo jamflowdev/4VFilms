@@ -203,12 +203,10 @@
   });
   $('.hero-quote-slider').slick({
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
     autoplay: true,
     dots: false,
-    speed: 1000,
     arrows: false,
+
   });
   
   
