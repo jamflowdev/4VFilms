@@ -13,9 +13,9 @@
           <!-- <h1 class="text-white hero-title">{{ .title }}</h1> -->
           <h4 class="page-subtitle text-white  mb-5">{{ .title }}</h4>
           <a class="nav-link btn btn-orange m-auto" href="#" id="btnOpenForm">{{ .button.label }}</a>
-          <div class="hero-quote-slider m-5">
+          <div class="hero-quote-slider">
             {{ range $.Site.Data.hero_quote_slider.queots.items}}
-            <div class="wrapper"><i class="ti-quote-left"></i><h3 class="text-white mb-5">{{ .text }}</h3><i class="ti-quote-right"></i></div>
+            <div class="wrapper"><h3 class="text-white mb-5"><i class="ti-quote-left"></i>{{ .text }}<i class="ti-quote-right"></i></h3></div>
             {{ end }}
           </div>
         </div>
