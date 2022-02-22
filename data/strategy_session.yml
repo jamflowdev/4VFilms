@@ -13,11 +13,11 @@ content_strategy_session_section:
     Made to be affordable, efficient and highly valuable, this package is a real game changer.
   videoURL: https://player.vimeo.com/video/641556182
 online_session_section:
-  title: 'Your 2-3 minute welcome video covers:'
+  title: 'Your package includes:'
   session_value_list:
-  - Founder interviews
-  - Team interviews
-  - Client testimonial interviews
+  - 1x Welcome video
+  - 3x Client Testimonials
+  - Up to 3 'Team Interview' videos
   - Atmosphere shots
   collage: "/uploads/20210211_170843870_ios.jpg"
 HowDoesItWork:
