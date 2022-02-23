@@ -1287,3 +1287,26 @@ main .list {
     margin: 0 5px;
   }
 }
+
+.thanks_page:before {
+  content: "";
+  position: absolute;
+  background: #2c33659e;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.thanks_page {
+  padding-top: 250px;
+  padding-bottom: 220px;
+  h1.thanks_cls{
+    font-family: gilroy-bold,sans-serif!important;
+    span {
+      color: #fd6b60;
+    }
+    .unbold_cls {
+      color: white !important;
+      font-weight: 100;
+  }
+  } 
+}
