@@ -6,4 +6,10 @@ title = "Total Auto - First Impressions Package - Main film"
 video_url = "https://player.vimeo.com/video/687862229"
 
 +++
-Total Auto lacked any strong video presence online and it was clear they were in deep need of the first impressions package. They needed material for marketing purposes to boost traffic to their website, but also content that educated people on who Total Auto really is. We made 7 videos, here is one of them. This is Total Auto,
+Total Auto lacked any strong video presence online and it was clear they were in deep need of the first impressions package.
+
+They needed material for marketing purposes to boost traffic to their website, but also content that educated people on who Total Auto really is.
+
+We made 7 videos, here is one of them. 
+
+This is Total Auto,
