@@ -10,6 +10,6 @@ Total Auto lacked any strong video presence online and it was clear they were in
 
 They needed material for marketing purposes to boost traffic to their website, but also content that educated people on who Total Auto really is.
 
-We made 7 videos, here is one of them. 
+We made 7 videos, here is one of them.
 
-This is Total Auto,
+This is Total Auto.
