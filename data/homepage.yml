@@ -15,7 +15,7 @@ vision:
 service:
   enable: true
   title: Services
-  BgImage: "/uploads/untitled-design-2.png"
+  BgImage: "/uploads/untitled-design-min.jpg"
   fourv_plus:
     title: Monthly content
     subtitle: Our monthly Video/Photo content packages
