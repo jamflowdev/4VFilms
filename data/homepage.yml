@@ -17,7 +17,7 @@ service:
   title: Services
   BgImage: "/uploads/untitled-design-4.jpg"
   fourv_plus:
-    title: Monthly content
+    title: Monthly Content
     subtitle: Our monthly Video/Photo content packages
     description: Great for brands who seek consistent, affordable professional Video/Photo
       Content.
@@ -27,7 +27,7 @@ service:
       url: 4vplus
       label: Monthly content
   perfect_solution:
-    title: 6 month accelerator
+    title: 6 Month Digital Accelerator
     subtitle: A complete digital transformation for small businesses following our
       digital impact method.
     description: Great for small businesses that want to transform their online presence
@@ -38,7 +38,7 @@ service:
       url: "/digital_impact_accelerator/"
       label: Digital Impact Accelerator
   strategy_session:
-    title: First Impressions Package
+    title: Brand Video Package
     subtitle: ''
     description: ''
     imgURL: "/images/backgrounds/services-bg-2.jpg"
