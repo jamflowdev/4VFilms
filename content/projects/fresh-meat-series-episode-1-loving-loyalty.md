@@ -14,6 +14,6 @@ Increase retention
 Enhance the ease of running a restaurant  
 and ultimately profits.
 
-In the video series FRESH MEAT � we're focusing on local restaurateurs.
+In the video series 'FRESH MEAT' we're focusing on local restaurateurs.
 
 Here is episode 1 featuring the amazing Asger from Curly Burger! 
