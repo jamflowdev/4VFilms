@@ -16,4 +16,4 @@ and ultimately profits.
 
 In the video series FRESH MEAT � we're focusing on local restaurateurs.
 
-Here is episode 1 featuring the amazing Asger from Curly Burger!
+Here is episode 1 featuring the amazing Asger from Curly Burger! 
