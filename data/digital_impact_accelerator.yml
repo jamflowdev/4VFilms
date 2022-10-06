@@ -46,9 +46,12 @@ pillars:
     label: Learn more
     url: https://appt.link/4v-films/visionsession
 impactAccelerator:
-  title: 'The Digital Impact Accelerator is perfect for small brands who are:'
+  title: 'The Digital Impact Accelerator is perfect for scale-ups who are:'
   listItems:
-  - Small, with a team of 8 or less.
+  - Is prepared to commit to 6 months of content, SoMe and marketing.
+  - Needs to improve their brand awareness and look
+  - 'Has a weak online presence '
+  - Small but growing, with a team of 5-8
   - Based in Copenhagen.
   - Finds creating content either expensive, time consuming or overwhelming.
   - Lacks both consistency and high-quality content.
@@ -93,7 +96,7 @@ whatDoesItMean:
       6 months, but for a fraction of the cost.
   bottomDiscription: Once you are In this position, you will have a Digital Impact.
   button:
-    label: Apply Now
+    label: Contact us for more information
     url: https://appt.link/4v-films/visionsession
 digitalImpactMethod:
   discriptionLine1: The Digital Impact Accelerator transforms a small businesses online
@@ -101,5 +104,5 @@ digitalImpactMethod:
   discriptionLine2: It’s 6 months of professional video and photo content + SoMe management,
     at an affordable price.
   button:
-    label: Apply Now
+    label: Contact us for more information
     url: https://appt.link/4v-films/visionsession
