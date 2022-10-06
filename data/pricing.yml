@@ -37,11 +37,10 @@ pricingTable:
   discountPrice: 11.955 DKK
   serviceList:
   - service: Monthly vision session
-  - service: Up to 8 hours filming or photography
   - service: Videographer or Photographer for 8 hours (incl. travelling)
-  - service: Production assistant
+  - service: Production assistant for 8 hours (incl. travelling)
   - service: Monthly SoMe reports
-  - service: Premium camera package
+  - service: Multiple premium camera packages
   - service: Premium lights package
   - service: Audio package
   - service: Up to 16 hours editing
