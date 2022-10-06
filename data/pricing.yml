@@ -14,13 +14,13 @@ pricingTable:
   - service: Raw files handed over/uploaded
 - title: Silver
   icon: "/images/icons/silver-pricing-icon.png"
-  subtitle: For brands looking to outsource the complete production process.
+  subtitle: For brands looking for regular, professional content ready to publish.
   regularPrice: 8.042 DKK
   discountPrice: 4.950 DKK
   serviceList:
   - service: Monthly vision session
   - service: Up to 4 hours filming or photography
-  - service: Videographer or photographer
+  - service: Videographer or photographer for 4 hours (incl. travelling)
   - service: Production assistant
   - service: Premium camera package
   - service: Premium lights package
