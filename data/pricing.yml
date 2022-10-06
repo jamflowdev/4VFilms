@@ -4,7 +4,7 @@ pricingTable:
   icon: "/images/icons/bronze-pricing-icon.png"
   subtitle: For brands needing a content boost.
   regularPrice: 5.675 DKK
-  discountPrice: 1.950 DKK
+  discountPrice: 3.495 DKK
   serviceList:
   - service: Monthly vision session
   - service: Videographer for 4 hours (incl. travelling)
@@ -29,7 +29,7 @@ pricingTable:
   - service: Selects, colour correction, music license, graphics
   - service: Raw files + final videos uploaded to online cloud
   - service: Multiple short videos or single longer form video
-- title: Golden
+- title: Gold
   icon: "/images/icons/golden-pricing-icon.png"
   subtitle: For brands who want the complete package of both content creation and
     SoMe management, strategy and growth.
@@ -38,7 +38,7 @@ pricingTable:
   serviceList:
   - service: Monthly vision session
   - service: Up to 8 hours filming or photography
-  - service: Videographer or Photographer
+  - service: Videographer or Photographer for 8 hours (incl. travelling)
   - service: Production assistant
   - service: Monthly SoMe reports
   - service: Premium camera package
