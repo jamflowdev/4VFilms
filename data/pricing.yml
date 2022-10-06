@@ -15,8 +15,8 @@ pricingTable:
 - title: Silver
   icon: "/images/icons/silver-pricing-icon.png"
   subtitle: For brands looking for regular, professional content ready to publish.
-  regularPrice: 8.042 DKK
-  discountPrice: 4.950 DKK
+  regularPrice: 11.550 DKK
+  discountPrice: 7.950 DKK
   serviceList:
   - service: Monthly vision session
   - service: Videographer or photographer for 4 hours (incl. travelling)
