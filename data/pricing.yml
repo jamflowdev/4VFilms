@@ -20,14 +20,13 @@ pricingTable:
   serviceList:
   - service: Monthly vision session
   - service: Videographer or photographer for 4 hours (incl. travelling)
-  - service: Production assistant or 4 hours (incl. travelling)
   - service: Premium camera package
   - service: Premium lights package
-  - service: Audio package
+  - service: Premium audio package
   - service: Up to 8 hours editing
   - service: Selects, colour correction, music license, graphics
   - service: Raw files + final videos uploaded to online cloud
-  - service: Multiple short videos or single longer form video
+  - service: 2-3 short videos or 1-2 long
 - title: Gold
   icon: "/images/icons/golden-pricing-icon.png"
   subtitle: For brands who want the complete package of both content creation and
