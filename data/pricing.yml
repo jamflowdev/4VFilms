@@ -42,11 +42,11 @@ pricingTable:
   - service: Monthly SoMe reports
   - service: Multiple premium camera packages
   - service: Premium lights package
-  - service: Audio package
+  - service: Premium audio package
   - service: Up to 16 hours editing
   - service: Selects, colour correction, music license, motion graphics
   - service: Raw files + final videos uploaded to online cloud
-  - service: Multiple short videos or single longer form video
+  - service: Up to 10 short videos, or 2-3 long
   - service: Social media management
   - service: 24/7 online support
 contentPackages:
