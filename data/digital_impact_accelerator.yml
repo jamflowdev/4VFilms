@@ -1,6 +1,7 @@
+---
 hero:
   title: Digital Impact Accelerator
-  BGImage: /images/banner/dia-bg.jpeg
+  BGImage: "/images/banner/dia-bg.jpeg"
 DigitalImpact:
   title: A Digital Impact
   subtitle: To dominate online and rapidly scale your brand, you need 3 key ingredients.
@@ -20,7 +21,7 @@ discription:
     of focused production days, online resources and vision sessions allow you develop
     a Digital Impact, within the context of running your business.
 pillars:
-  bgImage: /images/backgrounds/pillars-bg.jpg
+  bgImage: "/images/backgrounds/pillars-bg.jpg"
   title: The 4 Pillars
   subtitle: The 4 areas in your brand that create value.
   listItem:
@@ -56,7 +57,7 @@ impactAccelerator:
 whatDoIGet:
   title: What do I get?
   subtitle: 'Here’s a peak inside our accelerator package:'
-  bgImage: /images/backgrounds/what-do-i-get-bg.png
+  bgImage: "/images/backgrounds/what-do-i-get-bg.png"
   listItems:
   - Our globally experienced 4V crew, cinematic gear, lighting, and audio all at your
     disposal.
@@ -73,7 +74,7 @@ whatDoIGet:
   - 2–3-week complete turnaround
   button:
     label: FIND OUT MORE
-    url: #
+    url: "#"
 whatDoesItMean:
   title: In a nutshell
   listItems:
@@ -94,11 +95,11 @@ whatDoesItMean:
   button:
     label: Apply Now
     url: https://appt.link/4v-films/visionsession
-
 digitalImpactMethod:
-  discriptionLine1: The Digital Impact Accelerator transforms a small businesses online presence, following the digital impact method.
-  discriptionLine2: It’s 6 months of professional video and photo content + SoMe management, at an affordable price.
-  videoURL: https://player.vimeo.com/video/548400478
+  discriptionLine1: The Digital Impact Accelerator transforms a small businesses online
+    presence, following the digital impact method.
+  discriptionLine2: It’s 6 months of professional video and photo content + SoMe management,
+    at an affordable price.
   button:
     label: Apply Now
     url: https://appt.link/4v-films/visionsession
