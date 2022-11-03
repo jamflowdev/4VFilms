@@ -35,7 +35,7 @@ pillars:
       and leverage a deeper sense of purpose.
   - title: 'Product - '
     highlighted: What?
-    content: Creating content around what you offer and the solution you provide.
+    content: Creating content around what you offer and the solution you provide. 
       Take your customer on a journey and excite them.
   - title: 'Proof - '
     highlighted: How?
@@ -106,3 +106,4 @@ digitalImpactMethod:
   button:
     label: Contact us for more information
     url: https://appt.link/4v-films/visionsession
+  videoURL: https://player.vimeo.com/video/548400598
