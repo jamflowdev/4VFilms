@@ -7,10 +7,11 @@ hero:
     lable: 'Book your free first impression analysis '
     url: https://appt.link/4v-films/visionsession
 content_strategy_session_section:
-  description: |-
-    For small brands with limited video content and a small budget, this package is for you.
-
-    Made to be affordable, efficient and highly valuable, this package is a real game changer.
+  description: "For small to medium brands who need to step up their digital game.
+    \n\nThis package will transform how all stakeholders will view your business.
+    Everyone from investors to customers, the vast content created in this package
+    will make your brand more personal, relatable, professional and built trust.\n\nMade
+    to be affordable, efficient and highly valuable, this package is a real game changer. "
   videoURL: https://player.vimeo.com/video/641556182
 online_session_section:
   title: 'Your package includes:'
