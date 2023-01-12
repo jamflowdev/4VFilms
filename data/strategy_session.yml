@@ -1,10 +1,10 @@
 ---
 hero:
   title: First Impressions Package
-  subTitle: Up to 7 professional videos for your small business
+  subTitle: Drastically improve your digital first impression with this ultimate package.
   BGImage: "/uploads/fip-cover.jpg"
   button:
-    lable: Book a free call
+    lable: 'Book your free first impression analysis '
     url: https://appt.link/4v-films/visionsession
 content_strategy_session_section:
   description: |-
