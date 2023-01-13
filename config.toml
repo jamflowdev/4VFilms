@@ -56,7 +56,7 @@ weight = 3
 [params]
 author = "Amjad Rathod"
 description = "4V Films is a full service, video production house with a wealth of global experience and knowledge of different industries - based in Copenhagen."
-googleAnalitycsID = ""
+#googleAnalitycsID = ""
 home = "Home"
 logo = "images/4V-FILMS-LOGO-BLUE.png"
 google_recaptcha_site_key ="6LfuZSweAAAAAJXGdcVGujqzpOdUQvMlYxGLcuxs"
