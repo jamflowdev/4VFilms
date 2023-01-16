@@ -11,7 +11,7 @@ pricingTable:
   - service: Premium camera package
   - service: Audio package
   - service: Selects + Colour correction
-  - service: Raw files handed over/uploaded
+  - service: Content handed over/uploaded
 - title: Silver
   icon: "/images/icons/silver-pricing-icon.png"
   subtitle: For brands looking for regular, professional content ready to publish.
@@ -25,7 +25,7 @@ pricingTable:
   - service: Premium audio package
   - service: Up to 8 hours editing
   - service: Selects, colour correction, music license, graphics
-  - service: Raw files + final videos uploaded to online cloud
+  - service: Final videos uploaded to online cloud
   - service: 2-3 short videos or 1-2 long
 - title: Gold
   icon: "/images/icons/golden-pricing-icon.png"
@@ -43,7 +43,7 @@ pricingTable:
   - service: Premium audio package
   - service: Up to 16 hours editing
   - service: Selects, colour correction, music license, motion graphics
-  - service: Raw files + final videos uploaded to online cloud
+  - service: Final videos uploaded to online cloud
   - service: Up to 10 short videos, or 2-3 long
   - service: Content scheduling and publishing
   - service: 24/7 online support
