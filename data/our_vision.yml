@@ -31,16 +31,15 @@ VisionAndMission:
     title: Vision
     description:
     - We want to be the front runner in Scandinavia for rapidly transforming and scaling
-      small businesses through our unique digital impact method.
+      small digital brands through our transformational packages and services.
     imgURL: "/images/icons/vision-icon.svg"
   mission:
     title: Mission
     description:
     - We actively combine our wealth of global experience with our passion for creating
-      to transform small businesses. This transformation allows them to reach more
-      people with their product or service. Our aim is to provide 50 small businesses
-      with a strong digital impact by the end of 2022, through the [Digital Impact
-      Accelerator](http://localhost:1313/digital_impact_accelerator/).
+      to transform small brands. This transformation allows them to reach more people
+      with their product or service. Our aim is to provide 50 brands with a strong
+      digital impact by the end of 2023, primarily through the First Impressions Package.
     imgURL: "/images/icons/mission-icon.svg"
 features:
   title: What makes us
