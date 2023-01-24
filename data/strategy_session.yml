@@ -1,10 +1,10 @@
 ---
 hero:
   title: First Impressions Package
-  subTitle: 'The ultimate package making your brand more PERSONAL and SCALABLE. '
+  subTitle: 'Making digital brands more PERSONAL and SCALABLE. '
   BGImage: "/uploads/fip-cover.jpg"
   button:
-    lable: 'Book a free first impression analysis '
+    lable: Book a free first impression check
     url: https://appt.link/4v-films/visionsession
 content_strategy_session_section:
   description: "\nWe arm digital brands with specific assets they need to:\n\n\nMake
