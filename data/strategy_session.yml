@@ -38,25 +38,15 @@ HowDoesItWork:
       the package based on your needs and get the ball rolling.
     icon: "/images/icons/person-talking.svg"
   - title: 'Step 3:'
-    content: 'We will begin preparing the content together and book 1-2 days for shooting. '
+    content: 'We will begin preparing the production together and book 1-2 days into
+      the calendar for shooting. '
     icon: "/images/icons/product-icon.svg"
   - title: 'Step 4:'
-    content: Our editing team will have the first draft delivered to you within 14
-      days of the shoot.
+    content: After shooting, our editing team will have the first drafts delivered
+      to you within 14 days of filming.
     icon: "/images/icons/file-edit.svg"
 strategy_sessions_queots:
-  queots:
-  - title: I had a 90-minute strategy session with Patrick at 4v Films for my startup
-      Paradigm Exchange. This session helped us kickstart our content strategy with
-      loads of  ideas of what to post and how to make your content professional. I
-      would warmly recommend this to any small business that are having issues with
-      getting their online presence breakthrough
-    client_name: Martin Jonson, Paradigm Exchange
-    client_picture: "/images/strategy-session/Image3.jpeg"
-  - title: The strategy session allowed my team to create a long term vision. Our
-      plan became much more clearer and easier to execute! Thank you Patrick!
-    client_name: Johan Fellman, Ideel Kaffe
-    client_picture: "/images/strategy-session/Image5.jpeg"
+  queots: []
 book_now_cta:
   cta_title: Book Now
   cta_URL: https://appt.link/4v-films/visionsession
