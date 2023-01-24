@@ -13,12 +13,17 @@ content_strategy_session_section:
     investment \nBuild awareness\n\n"
   videoURL: https://player.vimeo.com/video/641556182
 online_session_section:
-  title: 'Your package includes:'
+  title: 'Your package includes up to 50 digital assets like:'
   session_value_list:
-  - Welcome video (creates awareness)
-  - Client Testimonials (creates credibility)
-  - Team Interviews (creates personality)
-  - Atmosphere shots
+  - Promo video
+  - Client testimonial videos
+  - Team videos
+  - Educational videos
+  - Website video
+  - Brand reels
+  - Team portraits
+  - Multiple formats
+  - Storyboards, Music licenses and Script support
   collage: "/uploads/20210211_170843870_ios.jpg"
 HowDoesItWork:
   title: How does it work?
